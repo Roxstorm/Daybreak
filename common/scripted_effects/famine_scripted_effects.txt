@@ -1,0 +1,79 @@
+calculate_famine_efficiency = {
+	set_temp_variable = { out = 100}
+
+	set_temp_variable = { f = THIS.num_of_civilian_factories }
+	set_temp_variable = { t = THIS.stability }
+	multiply_temp_variable = { t = 5 }
+	multiply_temp_variable = { t = f }
+	set_temp_variable = { s = THIS.num_owned_controlled_states }
+	set_temp_variable = { p = THIS.max_manpower_k }
+	divide_temp_variable = { p = 10 }
+	divide_temp_variable = { s = 10 }
+	multiply_temp_variable = { p = s }
+
+	if = {
+		limit = {
+			check_variable = {
+				THIS.stability > 0.3
+			}
+		}
+		set_temp_variable = { a = THIS.stability }
+		multiply_temp_variable = { a = 2 }
+		set_temp_variable = { b = 100 }
+		divide_temp_variable = { b = a }
+	}
+	else = {
+		set_temp_variable = { b = 100 }
+	}
+
+	add_to_temp_variable = { t = b }
+	divide_temp_variable = { p = t }
+
+	subtract_from_temp_variable = { out = p }
+
+	multiply_temp_variable = { out = 100 }
+	round_temp_variable = out
+	divide_temp_variable = { out = 100 }
+
+	clamp_temp_variable = { 
+		var = out
+		min = 0
+		max = 100
+	}
+
+	set_variable = { THIS.famine_max = out }
+	update_famine_eff = yes
+}
+
+update_famine_eff = {
+	set_variable = {
+		THIS.famine_eff = THIS.famine_max 
+	}
+	add_to_variable = {
+		THIS.famine_eff = THIS.famine_modifier_total
+	}
+	clamp_variable = { 
+		var = THIS.famine_eff
+		min = 0
+		max = THIS.famine_max 
+	}
+	set_variable = { THIS.famine_eff_r = THIS.famine_eff }
+	round_variable = THIS.famine_eff_r
+
+	set_variable = { THIS.famine_pop = THIS.famine_eff_r }
+	divide_variable = { THIS.famine_pop = 300 }
+	set_variable = { THIS.famine_pop_txt = THIS.famine_pop }
+	set_variable = { THIS.famine_pop_effect = THIS.famine_pop }
+	multiply_variable = { THIS.famine_pop_txt = 10 }
+	divide_variable = { THIS.famine_pop_effect = 10 }
+	if = {
+		limit = {
+			check_variable = {
+				THIS.famine_eff < 50
+			}
+		}
+		multiply_variable = { THIS.famine_pop = -1 }
+		multiply_variable = { THIS.famine_pop_effect = -1 }
+		multiply_variable = { THIS.famine_pop_txt = -1 }
+	}
+}

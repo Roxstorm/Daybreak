@@ -1,0 +1,17 @@
+version="1"
+tags={
+	"Alternative History"
+	"Map"
+	"National Focuses"
+}
+replace_path="common/bookmarks"
+replace_path="common/decisions"
+replace_path="common/decisions/categories"
+replace_path="common/ideas"
+replace_path="common/national_focus"
+replace_path="events"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="gfx/loadingscreens"
+name="Daybreak"
+supported_version="1.16.9"

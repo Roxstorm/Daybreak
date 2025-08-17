@@ -1,0 +1,42 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+famine_decisions = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	famine_deadline = {		#ID of the mission, must not contain spaces!
+
+		icon = GFX_decision_POL_organize_strike_two		#The left side icon to show for this mission.
+		days_mission_timeout = 90	#The amount of days remaining until the mission expires and enters remove phase.
+		is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission.
+		priority = 100
+
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
+			agriculture > needed_amount_post
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+
+		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
+			always = yes		
+		}
+
+		timeout_effect = {		#The effects to execute once the mission timer expires.
+			famine_worsen = yes
+			find_needed_agriculture = yes
+		}
+		
+		remove_effect = {		#The effects to execute once the mission expires/completes and enters the remove phase.
+			famine_improve = yes
+			find_needed_agriculture = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
+			factor = 0
+		}
+	}	
+}

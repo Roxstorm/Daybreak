@@ -1,0 +1,71 @@
+UFA_the_path_of_anarchism_cat = {
+    UFA_war_to_UKR_mission = {
+		allowed = { always = no }
+  	    available = {
+ 	        has_country_flag = UFA_stated_roat_to_unification
+ 	    }
+ 	    icon = mission_icon     # For GFX_decision_mission_icon
+ 	    is_good = no
+ 	    war_with_on_timeout = UKR
+ 	    days_mission_timeout = 14
+ 	    selectable_mission = yes
+ 	    complete_effect = {
+	    	declare_war_on = {
+				target = UKR
+				type = civil_war
+			}
+	    }
+ 	    timeout_effect = {
+  	        declare_war_on = {
+				target = UKR
+				type = civil_war
+			}
+    	}
+	}
+	UFA_war_to_KHR_mission = {
+		allowed = { always = no }
+  	    available = {
+ 	        has_country_flag = UFA_stated_roat_to_unification
+ 	    }
+ 	    icon = mission_icon     # For GFX_decision_mission_icon
+ 	    is_good = no
+ 	    war_with_on_timeout = KHR
+ 	    days_mission_timeout = 40
+ 	    selectable_mission = yes
+ 	    complete_effect = {
+	    	declare_war_on = {
+				target = KHR
+				type = civil_war
+			}
+	    }
+ 	    timeout_effect = {
+  	        declare_war_on = {
+				target = KHR
+				type = civil_war
+			}
+    	}
+	}
+	UFA_war_to_EUK_mission = {
+		allowed = { always = no }
+  	    available = {
+ 	        has_country_flag = UFA_stated_roat_to_unification
+ 	    }
+ 	    icon = mission_icon     # For GFX_decision_mission_icon
+ 	    is_good = no
+ 	    war_with_on_timeout = EUK
+ 	    days_mission_timeout = 80
+ 	    selectable_mission = yes
+ 	    complete_effect = {
+	    	declare_war_on = {
+				target = EUK
+				type = civil_war
+			}
+	    }
+ 	    timeout_effect = {
+  	        declare_war_on = {
+				target = EUK
+				type = civil_war
+			}
+    	}
+	}
+}

@@ -1,0 +1,22 @@
+unite_ukraine_cat = {
+	allowed = {
+		OR = {
+			original_tag = UKR
+			original_tag = KHR
+			original_tag = EUK
+			original_tag = UFA
+		}
+	}
+	visible = {
+		is_in_array = { global.ukrainian_countries = THIS }
+		NOT = { has_country_flag = ukraine_united }
+	}
+}
+UFA_the_path_of_anarchism_cat = {
+	allowed = {
+		original_tag = UFA
+	}
+	visible = {
+		has_country_flag = UFA_stated_roat_to_unification
+	}
+}

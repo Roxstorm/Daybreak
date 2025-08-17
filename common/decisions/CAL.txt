@@ -1,0 +1,162 @@
+compton_mausoleum_category = {
+	CAL_bury_the_body_of_darlington_hoopes = {
+
+		icon = GFX_decision_generic_document_building
+
+		available = {
+			has_government = communism
+			original_tag = CAL
+			CAL = {
+			owns_state = 368
+			}
+		}
+		
+		visible = {
+			original_tag = CAL
+		}
+
+		days_re_enable = 0
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision darlington_hoopes_buried"
+			set_country_flag = BODY_BURIED_DARLINGTON
+		}
+	}
+	CAL_bury_william_foster = { 
+
+		icon = GFX_decision_generic_document_socialism
+
+		available = {
+			has_government = communism
+			original_tag = CAL
+			CAL = {
+			owns_state = 1138
+			}
+		}
+		
+		visible = {
+			original_tag = CAL
+		}
+
+		days_re_enable = 0
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_lenin_mausoleum"
+			if = {
+				limit = { has_government = socialism }
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.05
+				}
+			}
+			else = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+			add_ideas = CAL_foster_buried
+			set_country_flag = WILLIAM_Z_FOSTER_BURY
+		}
+	}
+	CAL_bury_richard_durham = {
+
+		icon = GFX_decision_generic_political_discourse
+		
+		available = {
+			has_government = communism
+			original_tag = CAL
+			CAL = {
+			owns_state = 395
+			}
+		}
+		
+		visible = {
+			original_tag = CAL
+		}
+
+		days_re_enable = 0
+
+		cost = 35
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CAL_bury_durham"
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_stability = 0.05
+			set_country_flag = DURHAM_BURIED_EVENT
+		}
+	}
+	CAL_bury_gus_hall = {
+
+		icon = GFX_decision_generic_ignite_civil_war
+
+		available = {
+			OR = {
+				has_government = communism
+				AND = {
+					original_tag = CAL
+				}
+			}
+		}
+
+		visible = {
+			original_tag = CAL
+		}
+
+		days_re_enable = 0
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CAL_buried_gus_hall"
+			add_popularity = {
+				ideology = communism
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.02
+			}
+			every_other_country = {
+				limit = {
+					OR = {
+						has_government = communism
+						has_government = socialism
+					}
+				}
+				add_opinion_modifier = { target = ROOT modifier = CAL_buried_hall_early }
+			}
+			set_global_flag = GUS_HALL_BURIED
+			add_timed_idea = { idea = CAL_father_of_nation_buried_early days = 120 }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	GER_gregor_gysi = {
+		name = "Gregor Gysi"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Gregor.Gysi.png"
+			}
+		}
+		country_leader={
+			ideology = leninism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

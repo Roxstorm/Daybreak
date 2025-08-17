@@ -1,0 +1,624 @@
+﻿add_namespace = america
+add_namespace = america_overall
+
+# bush dead
+news_event = {
+	id = america.1
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1988.4.20
+		date < 1988.5.20
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { UOA = { news_event = { id = america.2 } } }
+		}
+	}
+	
+	option = {
+		name = america.1.a
+	}
+}
+
+# Bush Is Dead!!
+news_event = {
+	id = america.2
+	title = america.2.t
+	desc = america.2.desc
+	picture = GFX_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = Bush_Jr_Load
+	}
+	
+	option = {
+		name = america.2.a
+	}
+}
+
+news_event = {
+	id = america.3
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1988.6.20
+		date < 1988.7.20
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { ILI = { news_event = { id = america_overall.1 } } }
+		}
+	}
+	
+	option = {
+		name = america.3.a
+	}
+}
+
+# demilitarization zone
+country_event = {
+	id = america_overall.1
+	title = america_overall.1.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			396 = {
+			set_demilitarized_zone = yes
+			}
+			country_event = {
+				id = america_overall.2
+				days = 10
+			}	
+		}	
+	}
+}
+
+# Indiana V Ilinois!
+country_event = {
+	id = america_overall.2
+	title = america_overall.2.t
+	desc = america_overall.2.d
+	picture = ilinoiswarbegins
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			ILI = {
+				news_event = { id = america_overall.3 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = america_overall.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+#
+news_event = {
+	id = america_overall.3
+	title = america_overall.3.t
+	desc = america_overall.3.d
+	picture = GFX_news_event_war_in_indiana
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = ilinoiswarstrigger
+	}
+	
+	option = {
+		name = america_overall.3.a
+	}
+}
+
+# territories lost
+country_event = {
+	id = america_overall.4
+	title = america_overall.4.t
+	desc = america_overall.4.d
+	picture = suck
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+           has_global_flag = ilinoiswarstrigger
+	}
+	
+	immediate = {
+		hidden_effect = {
+			IDN = { 
+				load_oob = IDN_1988
+				set_cosmetic_tag = IDN_independence_democratic
+				transfer_state = 396
+				transfer_state = 1186
+				transfer_state = 1187
+				add_timed_idea = {
+				idea = IDN_fight_for_your_independence
+				days = 270
+				}
+			}
+			country_event = {
+				id = america_overall.5
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = america_overall.4.a
+	}
+}
+
+news_event = {
+	id = america_overall.5
+	title = america_overall.5.t
+	desc = america_overall.5.desc
+	picture = GFX_news_illinois_news_total_war
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			ILI = {
+				declare_war_on = {
+					target = IDN
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	option = {
+		name = america_overall.5.a
+	}
+}
+
+# michigander coup
+news_event = {
+	id = america.4
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1989.7.20
+		date < 1989.8.20
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { MIC = { news_event = { id = america.5 } } }
+		}
+	}
+	
+	option = {
+		name = america.4.a
+	}
+}
+
+#Coup in Michigan
+news_event = {
+	id = america.5
+	title = america.5.t
+	desc = america.5.desc
+	picture = GFX_news_event_016
+	hidden = yes
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		50 = { MIC = { news_event = { id = america.603} } }
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1989.7.20"
+			election_frequency = 48
+		}
+		set_political_party = {
+			ideology = neutrality
+			popularity = 50
+		}
+	}
+	
+	option = {
+		name = america.5.a
+	}
+}
+
+country_event = {
+	id = america.603
+	title = america.603.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		50 = { MIC = { news_event = { id = america.604} } }
+		ONT = {
+			declare_war_on = {
+				target = MIC
+				type = annex_everything
+			}
+		}
+	}
+}
+
+#Ontario Intervenes
+news_event = {
+	id = america.604
+	title = america.604.t
+	desc = america.604.desc
+	picture = GFX_news_event_017
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.604.a
+	}
+}
+
+country_event = {
+	id = america.8
+	title = america.8.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1990.1.12
+		date < 1990.2.7
+	}
+	
+	immediate = {
+		CUS = {
+			declare_war_on = {
+				target = MTO
+				type = annex_everything
+			news_event = { id = america.9 days = 1 }
+	   }
+ 	 }
+  }
+}
+#the CUSS takes montana!
+news_event = {
+	id = america.9
+	title = america.9.t
+	desc = america.9.d
+	picture = GFX_news_event_030
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = future_war_in_america_one
+	}
+	
+	option = {
+		name = america.9.a
+	}
+}
+
+# New Mexico Reunifies
+country_event = {
+	id = america.607
+	title = america.607.t
+	desc = america.607.desc
+	picture = GFX_news_event_newmexicosunification
+	
+	fire_only_once = yes
+	
+	major = no
+	
+	trigger = {
+	RCC = { is_ai = yes }
+		date > 1989.9.20
+		date < 1989.10.20
+	}
+	
+	immediate = {
+		RCC = {
+			annex_country = { target = RTS transfer_troops = yes }
+			RCC = { change_tag_from = RTS }
+			set_cosmetic_tag = RCC_new_mexico
+			news_event = { id = america.608 days = 1 }
+		}
+	}
+	
+	option = {
+		name = america.607.a
+	}
+}
+
+news_event = {
+	id = america.608
+	title = america.608.t
+	desc = america.608.d
+	picture = GFX_news_event_035
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.608.a
+	}
+}
+
+country_event = {
+	id = america.609
+	title = america.609.t
+	hidden = yes
+
+	fire_only_once = yes
+
+	trigger = {
+	AMS = { is_ai = yes }
+		date > 1990.5.12
+		date < 1990.6.7
+	}
+	
+	immediate = {
+		AMS = {
+			random_list = {
+				60 = { news_event = { id = america.610 } }  # 60% chance
+				40 = { news_event = { id = america.611 } }  # 40% chance
+			}
+		}
+	}
+}
+
+country_event = {
+	id = america.611
+	title = america.611.t
+	desc = america.611.desc
+	picture = GFX_news_event_newamericanrepublic
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		AMS = {
+			annex_country = { target = MIL transfer_troops = yes }
+			AMS = { change_tag_from = MIL }
+			news_event = { id = america.613 days = 1 }
+		}
+		MIL = {
+			every_owned_state = {
+				add_core_of = AMS
+			}
+		}
+	}
+	
+	option = {
+		name = america.607.a
+	}
+}
+
+country_event = {
+	id = america.610
+	title = america.610.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		MIL = {
+			declare_war_on = {
+				target = AMS
+				type = annex_everything
+			news_event = { id = america.612 days = 1 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = america.612
+	title = america.612.t
+	desc = america.612.d
+	picture = GFX_news_event_036
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.612.a
+	}
+}
+
+news_event = {
+	id = america.613
+	title = america.613.t
+	desc = america.613.d
+	picture = GFX_news_event_037
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.613.a
+	}
+}
+
+country_event = {
+	id = america.605
+	title = america.605.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1989.9.12
+		date < 1989.10.7
+	}
+	
+	immediate = {
+		ILI = {
+			declare_war_on = {
+				target = NPL
+				type = annex_everything
+			news_event = { id = america.606 days = 1 }
+			}
+		}
+	}
+}
+
+news_event = {
+	id = america.606
+	title = america.606.t
+	desc = america.606.desc
+	picture = GFX_news_event_022
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.606.a
+	}
+}
+
+country_event = {
+	id = america.614
+	title = america.614.t
+	hidden = yes
+
+	fire_only_once = yes
+
+	trigger = {
+	DAK = { is_ai = yes }
+		date > 1990.8.12
+		date < 1990.9.12
+	}
+	
+	immediate = {
+		DAK = {
+			random_list = {
+				70 = { news_event = { id = america.615 } }
+				30 = { news_event = { id = america.616 } }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = america.615
+	title = america.615.t
+	desc = america.615.desc
+	hidden = yes
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		CUS = {
+			annex_country = { target = DAK transfer_troops = yes }
+			news_event = { id = america.617 days = 1 }
+		}
+		DAK = {
+			every_owned_state = {
+				add_core_of = CUS
+			}
+		}
+	}
+	
+	option = {
+		name = america.607.a
+	}
+}
+
+country_event = {
+	id = america.616
+	title = america.616.t
+	desc = america.616.desc
+	hidden = yes
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		AMS = {
+			annex_country = { target = DAK transfer_troops = yes }
+			news_event = { id = america.618 days = 1 }
+		}
+		DAK = {
+			every_owned_state = {
+				add_core_of = AMS
+			}
+		}
+	}
+	
+	option = {
+		name = america.607.a
+	}
+}
+
+news_event = {
+	id = america.617
+	title = america.617.t
+	desc = america.617.desc
+	picture = GFX_news_event_dakota_joins_CUS
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.617.a
+	}
+}
+
+news_event = {
+	id = america.618
+	title = america.618.t
+	desc = america.618.desc
+	picture = GFX_news_event_dakota_joins_AMS
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = america.618.a
+	}
+}

@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { THIS.famine_eff = 100}
+				calculate_famine_efficiency = yes
+				add_dynamic_modifier = {
+					modifier = famine_modifier
+				}
+			}
+		}
+	}
+}

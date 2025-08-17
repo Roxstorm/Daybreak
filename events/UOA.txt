@@ -1,0 +1,709 @@
+﻿add_namespace = UOA_government
+add_namespace = UOA_nixon
+add_namespace = UOA_news
+
+country_event = {
+	id = UOA_government.6
+	title = UOA_government.6.t
+	desc = UOA_government.6.d
+	picture = GFX_report_event_uoa_successor
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+	
+	
+	option = {
+		name = usa_primary_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+			if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_country_flag = UOA_biden_is_chosen
+			}
+		}
+	}
+	option = {
+		name = usa_primary_events.1.b
+		ai_chance = {
+			factor = 100
+		}
+			if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_country_flag = UOA_bush_is_chosen
+			}
+		}
+	}
+}
+country_event = {
+	id = UOA_government.7
+	title = UOA_government.7.t
+	desc = UOA_government.7.d
+	picture = GFX_report_event_uoa_successor_bush
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+	
+	
+	option = {
+		name = UOA_government.7.a
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_party_name = { ideology = democratic long_name = "Democrat-Republican Unity Party" name = "D-R (Federalist)" }
+			load_focus_tree = { tree = uoa_bush}
+			news_event = { id = UOA_news.1 days = 1 }
+				retire_country_leader = yes
+				promote_character = {
+				character = UOA_george_bush
+   				ideology = conserv
+				}
+			}
+		}
+	}	
+}
+country_event = {
+	id = UOA_government.8
+	title = UOA_government.8.t
+	desc = UOA_government.8.d
+	picture = GFX_report_event_uoa_successor_biden
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+	
+	
+	option = {
+		name = UOA_government.8.a
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_party_name = { ideology = democratic long_name = "Democrat-Republican Unity Party" name = "D-R (Democrat)" }
+			load_focus_tree = { tree = uoa_biden}
+			news_event = { id = UOA_news.2 days = 1 }
+			set_politics = {
+				ruling_party = social_liberal
+				elections_allowed = yes
+			}
+				promote_character = {
+				character = UOA_uoa_joe_biden
+   				ideology = social_liberal_0
+				}
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = UOA_government.16
+	title = UOA_government.16.t
+	hidden = yes
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	immediate = {
+		UOA = {
+			set_country_flag = UOA_nixon_reclaimed_south
+			transfer_state = 362
+			transfer_state = 363
+			transfer_state = 1175
+			news_event = { id = UOA_news.3 days = 1 }
+		}
+	}
+}
+
+####NIXON FOCUS TREE 1988-1990###
+
+country_event = {
+	id = UOA_nixon.21
+	title = UOA_nixon.21.t
+	desc = UOA_nixon.21.d
+	picture = GFX_report_event_nixon_chooses
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = { #Nixon Stays!
+		name = UOA_nixon.21.a
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			load_focus_tree = { tree = UOA_nixon_stays}
+			news_event = { id = UOA_news.1 days = 1 }
+				}
+			}
+		}
+	option = { #Nixon Steps Down
+		name = UOA_nixon.21.b
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_party_name = { ideology = democratic long_name = "Democrat-Republican Party" name = "DRP" }
+			load_focus_tree = { tree = democratic_processes_one}
+			news_event = { id = UOA_news.2 days = 1 }
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "John V. Tunney"
+					desc = "DESC_TUNNEY_LEADER"
+					picture = "gfx/leaders/USA/john.tunney.png"
+					expire = "1966.1.1"
+					ideology = controlled_democracy
+					traits = {
+						
+					}
+				}
+			}
+		}
+	}
+	option = { #Coup the damn crook!
+		name = UOA_nixon.21.c
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				UOA = { exists = yes }
+			}
+			UOA = {
+			set_party_name = { ideology = democratic long_name = "Federalists" name = "FED" }
+			load_focus_tree = { tree = UOA_republican_coup}
+			news_event = { id = UOA_news.3 days = 1 }
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "John B. Anderson"
+					desc = "DESC_JOHNANDERSON_LEADER"
+					picture = "gfx/leaders/usa/john.anderson.png"
+					expire = "1966.1.1"
+					ideology = american_conservatism
+					traits = {
+						
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #american rebuilding first
+	id = UOA_nixon.1
+	title = UOA_nixon.1.t
+	desc = UOA_nixon.1.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.1.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { 
+	id = UOA_nixon.3
+	title = UOA_nixon.3.t
+	desc = UOA_nixon.3.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.3.a
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_liberal_influence_var = 5}
+		custom_effect_tooltip = liberal_influence_increase
+		add_ideas = { UOA_rebuilding_philadelpha }
+	}
+	option = {
+		name = UOA_nixon.3.b
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_conservative_influence_var = 5}
+		custom_effect_tooltip = conservative_influence_increase
+		add_ideas = { UOA_rebuilding_philadelpha_lesser }
+	}
+}
+
+country_event = { 
+	id = UOA_nixon.4
+	title = UOA_nixon.4.t
+	desc = UOA_nixon.4.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.4.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Reconstruct the Economy
+	id = UOA_nixon.5
+	title = UOA_nixon.5.t
+	desc = UOA_nixon.5.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.5.a
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_liberal_influence_var = 5}
+		custom_effect_tooltip = liberal_influence_increase
+		add_ideas = { UOA_boosting_economy_full }
+	}
+	option = {
+		name = UOA_nixon.5.b
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_conservative_influence_var = 5}
+		custom_effect_tooltip = conservative_influence_increase
+		add_ideas = { UOA_boosting_economy_slightly }
+	}
+}
+
+country_event = { 
+	id = UOA_nixon.6
+	title = UOA_nixon.6.t
+	desc = UOA_nixon.6.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.6.a
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_liberal_influence_var = 5}
+		custom_effect_tooltip = liberal_influence_increase
+		add_ideas = { UOA_enlisting_some_corp_help }
+	}
+	option = {
+		name = UOA_nixon.6.b
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_conservative_influence_var = 5}
+		custom_effect_tooltip = conservative_influence_increase
+		add_ideas = { UOA_enlisting_corp_help }
+	}
+}
+
+country_event = { 
+	id = UOA_nixon.7
+	title = UOA_nixon.7.t
+	desc = UOA_nixon.7.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.7.a
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_liberal_influence_var = 5}
+		custom_effect_tooltip = liberal_influence_increase
+	}
+	option = {
+		name = UOA_nixon.7.b
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_conservative_influence_var = 5}
+		custom_effect_tooltip = conservative_influence_increase
+	}
+}
+
+country_event = { #Restart International Trade
+	id = UOA_nixon.8
+	title = UOA_nixon.8.t
+	desc = UOA_nixon.8.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.8.a
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_liberal_influence_var = 5}
+		custom_effect_tooltip = liberal_influence_increase
+	}
+	option = {
+		name = UOA_nixon.8.b
+		ai_chance = {
+			factor = 100
+		}
+		add_to_variable = {uoa_conservative_influence_var = 5}
+		custom_effect_tooltip = conservative_influence_increase
+	}
+}
+
+country_event = { #Invest in Allies
+	id = UOA_nixon.9
+	title = UOA_nixon.9.t
+	desc = UOA_nixon.9.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.9.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { 
+	id = UOA_nixon.10
+	title = UOA_nixon.10.t
+	desc = UOA_nixon.10.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.10.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = {
+	id = UOA_nixon.11
+	title = UOA_nixon.11.t
+	desc = UOA_nixon.11.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.11.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = {
+	id = UOA_nixon.12
+	title = UOA_nixon.12.t
+	desc = UOA_nixon.12.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.12.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = {
+	id = UOA_nixon.13
+	title = UOA_nixon.13.t
+	desc = UOA_nixon.13.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.13.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Fortify The Border
+	id = UOA_nixon.14
+	title = UOA_nixon.14.t
+	desc = UOA_nixon.14.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.14.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Patrolling the Channel
+	id = UOA_nixon.15
+	title = UOA_nixon.15.t
+	desc = UOA_nixon.15.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.15.a
+		ai_chance = {
+			factor = 100
+		}
+		UBM = {
+		transfer_state = 696
+		}
+		UOA = {
+		puppet = UBM
+		}
+	}
+}
+
+country_event = { #New Commander
+	id = UOA_nixon.16
+	title = UOA_nixon.16.t
+	desc = UOA_nixon.16.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+	
+	option = {
+		name = UOA_nixon.16.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Recruit the Traitors
+	id = UOA_nixon.17
+	title = UOA_nixon.17.t
+	desc = UOA_nixon.17.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.17.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Reward Veterans
+	id = UOA_nixon.18
+	title = UOA_nixon.18.t
+	desc = UOA_nixon.18.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+	
+	option = {
+		name = UOA_nixon.18.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Money A Plenty!
+	id = UOA_nixon.19
+	title = UOA_nixon.19.t
+	desc = UOA_nixon.19.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		 name = UOA_nixon.19.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = { #Prepare the Second Reclamation War!
+	id = UOA_nixon.20
+	title = UOA_nixon.20.t
+	desc = UOA_nixon.20.d
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	option = {
+		name = UOA_nixon.20.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+country_event = {
+	id = UOA_nixon.22
+	title = UOA_nixon.22.t
+	desc = UOA_nixon.22.desc
+	picture = GFX_event_the_great_rebuilding
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = no
+
+	
+	option = {
+		name = UOA_nixon.22.a
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}

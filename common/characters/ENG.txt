@@ -1,0 +1,15 @@
+characters = {
+	ENG_nick_clegg = {
+		name = "Nick Clegg"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Nick.Clegg.png"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

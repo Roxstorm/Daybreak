@@ -1,0 +1,15 @@
+characters = {
+	FRA_nicholas_sarkozy = {
+		name = "Nicholas Sarkozy"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Nicholas.Sarkozy.png"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

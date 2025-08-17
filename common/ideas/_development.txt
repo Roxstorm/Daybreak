@@ -1,0 +1,670 @@
+ideas = {
+
+	national_unity = {
+		law = yes
+		use_list_view = yes
+
+		lowest_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.6
+				war_support_factor = -0.6
+				political_power_factor = -0.6
+				surrender_limit = -0.3
+				drift_defence_factor = -0.3
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		lower_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.4
+				political_power_factor = -0.4
+				surrender_limit = -0.2
+				drift_defence_factor = -0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		low_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				political_power_factor = -0.2
+				surrender_limit = -0.1
+				drift_defence_factor = -0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		neutral_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_factor = -0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		high_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_factor = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		higher_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				political_power_factor = 0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		highest_unity = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				political_power_factor = 0.15
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	education = {
+		law = yes
+		use_list_view = yes
+
+		lowest_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.8
+				land_doctrine_cost = -0.4
+				air_doctrine_cost = -0.4
+				naval_doctrine_cost = -0.4
+				scientist_research_bonus_factor = -0.4				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		lower_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.6
+				land_doctrine_cost = -0.3
+				air_doctrine_cost = -0.3
+				naval_doctrine_cost = -0.3
+				scientist_research_bonus_factor = -0.3				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		low_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.4
+				land_doctrine_cost = -0.2
+				air_doctrine_cost = -0.2
+				naval_doctrine_cost = -0.2
+				scientist_research_bonus_factor = -0.2				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		high_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.2
+				land_doctrine_cost = -0.1
+				air_doctrine_cost = -0.1
+				naval_doctrine_cost = -0.1
+				scientist_research_bonus_factor = -0.1				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		higher_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+				land_doctrine_cost = 0.05
+				air_doctrine_cost = 0.05
+				naval_doctrine_cost = 0.05
+				scientist_research_bonus_factor = 0.05				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		highest_education = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+				land_doctrine_cost = 0.1
+				air_doctrine_cost = 0.1
+				naval_doctrine_cost = 0.1
+				scientist_research_bonus_factor = 0.1			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	army_professionalism = {
+		law = yes
+		use_list_view = yes
+
+		lowest_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = -0.6
+				army_defence_factor = -0.6
+				army_attack_factor = -0.6			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		lower_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = -0.4
+				army_defence_factor = -0.4
+				army_attack_factor = -0.4			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		low_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = -0.2
+				army_defence_factor = -0.2
+				army_attack_factor = -0.2			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		high_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = -0.1
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		higher_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = 0.05
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		highest_army = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1				
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	construction = {
+		law = yes
+		use_list_view = yes
+
+		lowest_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.4
+				production_factory_efficiency_gain_factor = -0.4
+				production_factory_max_efficiency_factor = -0.4
+				production_factory_start_efficiency_factor = -0.4 
+				line_change_production_efficiency_factor = -0.4
+				industry_repair_factor = -0.4
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		lower_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.3
+				production_factory_max_efficiency_factor = -0.3
+				production_factory_start_efficiency_factor = -0.3 
+				line_change_production_efficiency_factor = -0.3
+				industry_repair_factor = -0.3
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		low_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_start_efficiency_factor = -0.2 
+				line_change_production_efficiency_factor = -0.2
+				industry_repair_factor = -0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		high_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_start_efficiency_factor = -0.1 
+				line_change_production_efficiency_factor = -0.1
+				industry_repair_factor = -0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		higher_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05 
+				line_change_production_efficiency_factor = 0.05
+				industry_repair_factor = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		highest_construction = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1 
+				line_change_production_efficiency_factor = 0.1
+				industry_repair_factor = 0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	poverty = {
+		law = yes
+		use_list_view = yes
+
+		lowest_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_factor = -0.2
+				resistance_growth = 0.4
+				compliance_growth = -0.4
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		lower_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.15
+				resistance_growth = 0.3
+				compliance_growth = -0.3
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		low_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.1
+				resistance_growth = 0.2
+				compliance_growth = -0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		high_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.05
+				resistance_growth = 0.1
+				compliance_growth = -0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		higher_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = 0.05
+				resistance_growth = -0.05
+				compliance_growth = 0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		highest_poverty = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				stability_factor = 0.1
+				resistance_growth = -0.1
+				compliance_growth = 0.1
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	legitimacy_status = {
+		law = yes
+		use_list_view = yes
+
+		warlord_state = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				supply_consumption_factor = -0.4
+				war_support_factor = 0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		regional_government = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				supply_consumption_factor = -0.4
+				war_support_factor = 0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		superrregional_government = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				supply_consumption_factor = -0.4
+				war_support_factor = 0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		unified_government = {
+
+
+			available = { always = no }
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+				supply_consumption_factor = -0.4
+				war_support_factor = 0.2
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+}

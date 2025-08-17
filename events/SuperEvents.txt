@@ -1,0 +1,151 @@
+add_namespace = super
+
+country_event = {	#ReunificationOfTheUSSR
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = kunaevhasreunifiedussr
+	}
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = KunaevReunification
+		set_global_flag = Super_Event_Visible
+		play_song = "super_kunaevreunification"
+	}
+}
+
+country_event = {	#The South Burns
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = Southdescendsintowar
+	}
+
+	option = {
+		name = super.1.a
+		
+        set_global_flag = SouthernPeaceCollapse
+		set_global_flag = Super_Event_Visible
+		play_song = "super_southernpeacecollapse"
+	}
+}
+
+country_event = {	#ReunificationOfTheUS - Biden
+	id = super.3
+	title = super.3.t
+	desc = super.3.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = usreunifiedBiden
+	}
+
+	option = {
+		name = super.3.a
+		
+        set_global_flag = AmericanReunificationBiden
+		set_global_flag = Super_Event_Visible
+		play_song = "super_bidenistreunification"
+	}
+}
+
+country_event = {	#ReunificationOfTheUS - DRNA
+	id = super.4
+	title = super.4.t
+	desc = super.4.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = usreunifiedDRNA
+	}
+
+	option = {
+		name = super.4.a
+		
+        set_global_flag = AmericanReunificationCommunist
+		set_global_flag = Super_Event_Visible
+		play_song = "super_communistusreunification"
+	}
+}
+
+country_event = {	#ReunificationOfTheUS - Confederates
+	id = super.5
+	title = super.5.t
+	desc = super.5.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = usreunifiedConfederate
+	}
+
+	option = {
+		name = super.5.a
+		
+        set_global_flag = ConfederateReunification
+		set_global_flag = Super_Event_Visible
+		play_song = "super_confederatereunification"
+	}
+}
+
+country_event = {	#ReunificationOfTheUS - Hussite
+	id = super.6
+	title = super.6.t
+	desc = super.6.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+           has_global_flag = usreunifiedHussite
+	}
+
+	option = {
+		name = super.6.a
+		
+        set_global_flag = HussieReunification
+		set_global_flag = Super_Event_Visible
+		play_song = "super_hussiereunification"
+	}
+}

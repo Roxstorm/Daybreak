@@ -1,0 +1,99 @@
+add_namespace = junctionhu
+
+country_event = {
+	id = junctionhu.1
+	title = junctionhu.1.t
+	desc = junctionhu.1.d
+	picture = GFX_report_event_communists_cheer
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GJN
+		date > 1994.6.8
+		date < 1994.8.18
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { GJN = { news_event = { id = junctionhu.2} } }
+		}
+		GJN = {
+			retire_ideology_leader = neutrality
+			create_country_leader = {
+				name = "Andrew Hussie"
+				desc = ""
+				picture = "gfx/leaders/USA/Andrew.Hussie.png"
+				expire = "1966.1.1"
+				ideology = oligarchism
+				traits = {
+					social_revolutionary revolutionary_author
+				}
+			}
+			country_event = {
+				id = junctionhu.3
+				days = 20
+			}
+		}
+	}
+	
+	option = {
+		name = junctionhu.1.b
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+news_event = {
+	id = junctionhu.2
+	title = junctionhu.2.t
+	desc = junctionhu.2.desc
+	picture = GFX_news_event_hussietakeover
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = junctionhu.2.a
+	}
+}
+
+country_event = {
+	id = junctionhu.320
+	title = junctionhu.320.t
+	desc = junctionhu.320.d
+	picture = GFX_report_event_communists_cheer
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = GJN
+		date > 2000.1.8
+		date < 2000.2.18
+	}
+	
+	immediate = {
+		GJN = {
+			retire_ideology_leader = neutrality
+			create_country_leader = {
+				name = "Andrew Hussie "
+				desc = "DESC_HUSSIE2000"
+				picture = "gfx/leaders/USA/Andrew.Hussie.Older.png"
+				expire = "1966.1.1"
+				ideology = oligarchism
+				traits = {
+					social_revolutionary revolutionary_author
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = junctionhu.320.b
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

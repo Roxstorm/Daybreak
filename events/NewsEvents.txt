@@ -1,0 +1,93 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# rise of tomfoolery gangs trigger
+news_event = {
+	id = news.1
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1988.1.26
+		date < 1988.3.26
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { MIC = { news_event = { id = news.2 } } }
+		}
+	}
+	
+	option = {
+		name = news.1.a
+	}
+}
+
+# Rise of Tomfoolery Gangs
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.desc
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = MICHIGANDER_BEGINNING
+	}
+	
+	option = {
+		name = news.2.a
+	}
+}
+
+# massacre in indianapolis
+news_event = {
+	id = news.3
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1988.3.26
+		date < 1988.4.26
+	}
+	
+	immediate = {
+		random_list = {
+			50 = { ILI = { news_event = { id = news.4 } } }
+		}
+	}
+	
+	option = {
+		name = news.3.a
+	}
+}
+
+# Massacre In Indianapolis
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.desc
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = ILINOIS_BEGINNING
+	}
+	
+	option = {
+		name = news.4.a
+	}
+}
+
+

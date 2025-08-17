@@ -1,0 +1,15 @@
+characters = {
+	CAN_tom_mulclair = {
+		name = "Tom Mulclair"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Tom.Mulclair.png"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	PRC_xi_jinping = {
+		name = "Xi Jinping"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Xi.Jinping.png"
+			}
+		}
+		country_leader={
+			ideology = maoist
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

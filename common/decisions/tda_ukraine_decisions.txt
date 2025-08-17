@@ -1,0 +1,54 @@
+unite_ukraine_cat = {
+	united_ukraine_decision = {
+        allowed = {
+            OR = {
+				original_tag = UKR
+				original_tag = KHR
+				original_tag = EUK
+				original_tag = UFA
+			}
+        }
+		available = {
+			has_war = no
+			is_subject = no
+			has_united_ukraine = yes
+            NOT = { has_country_flag = ukraine_united_cf }
+		}
+        icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		complete_effect = {
+            clr_global_flag = ukrainian_civil_war_gf
+            if = {
+                limit = {
+                    original_tag = UKR
+                }
+                custom_effect_tooltip = UKR_united_ukraine_decision_tt
+                set_country_flag = ukraine_united_cf
+                hidden_effect = {
+                    country_event = {
+                        id = UKR_main.1
+                        days = 1
+                        random_hours = 24
+                    }
+                    set_cosmetic_tag = UKR_united_ukraine_ct
+                }
+                else_if = {
+                    limit = {
+                        original_tag = UFA
+                    }
+                    custom_effect_tooltip = UFA_united_ukraine_decision_tt
+                    set_country_flag = ukraine_united_cf
+                    remove_ideas = UFA_foggy_anarchy
+                    hidden_effect = {
+                        country_event = {
+                            id = UFA_main.2
+                            days = 1
+                            random_hours = 24
+                        }
+                        set_cosmetic_tag = UFA_united_ukraine_ct
+                    }
+                }
+            }
+        }
+    }
+}

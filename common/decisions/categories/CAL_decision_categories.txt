@@ -1,0 +1,13 @@
+compton_mausoleum_category = {
+	icon = GFX_decision_category_generic_communism
+	picture = GFX_decision_image_CAL_mausoleum_category
+
+	allowed = {
+		has_government = communism
+		original_tag = CAL
+	}
+	visible = {
+		has_government = communism
+		original_tag = CAL
+	}
+}

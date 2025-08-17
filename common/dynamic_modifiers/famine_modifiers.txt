@@ -1,0 +1,9 @@
+famine_modifier= {
+	enable = {
+		always = yes
+	}
+	monthly_population = THIS.famine_pop_effect
+	industrial_capacity_factory = THIS.famine_pop_effect
+	political_power_gain = THIS.famine_pop
+	war_support_factor = THIS.famine_pop_effect
+}

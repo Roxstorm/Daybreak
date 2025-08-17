@@ -1,0 +1,89 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_global_flag = ukrainian_civil_war_gf
+			EUK = {
+				add_to_array = {
+					array = global.ukrainian_countries
+					value = THIS.id
+				}
+			}
+			UKR = {
+				add_to_array = {
+					array = global.ukrainian_countries
+					value = THIS.id
+				}
+			}
+			UFA = {
+				add_to_array = {
+					array = global.ukrainian_countries
+					value = THIS.id
+				}
+			}
+			KHR = {
+				add_to_array = {
+					array = global.ukrainian_countries
+					value = THIS.id
+				}
+			}
+		}
+	}
+ ######     ###    ########  #### ######## ##     ## ##          ###    ######## ####  #######  ##    ## 
+##    ##   ## ##   ##     ##  ##     ##    ##     ## ##         ## ##      ##     ##  ##     ## ###   ## 
+##        ##   ##  ##     ##  ##     ##    ##     ## ##        ##   ##     ##     ##  ##     ## ####  ## 
+##       ##     ## ########   ##     ##    ##     ## ##       ##     ##    ##     ##  ##     ## ## ## ## 
+##       ######### ##         ##     ##    ##     ## ##       #########    ##     ##  ##     ## ##  #### 
+##    ## ##     ## ##         ##     ##    ##     ## ##       ##     ##    ##     ##  ##     ## ##   ### 
+ ######  ##     ## ##        ####    ##     #######  ######## ##     ##    ##    ####  #######  ##    ## 
+	on_capitulation = { 
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = ukrainian_civil_war_gf
+					ROOT = { 
+						is_in_array = { global.ukrainian_countries = THIS }
+					}
+					FROM = {
+						is_in_array = { global.ukrainian_countries = THIS }
+					}
+				}
+				ROOT = { white_peace = FROM }
+				#every_state = {
+				#	limit = { is_owned_and_controlled_by = ROOT }
+				#	transfer_state_to = FROM
+				#}
+				FROM = { annex_country = { target = ROOT } }
+				remove_from_array = {
+    				array = global.ukrainian_countries
+    				index = THIS.id
+				}
+				every_state = {
+					limit = { is_core_of = ROOT }
+					remove_core_of = ROOT
+					add_core_of = FROM
+				}
+			}	
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = ukrainian_civil_war_gf
+					all_of_scopes = {
+						array = global.ukrainian_countries^0
+						exists = yes
+					}
+					ROOT = { 
+						is_in_array = { global.ukrainian_countries = THIS }
+					}
+					FROM = {
+						is_in_array = { global.ukrainian_countries = THIS }
+					}
+				}
+				FROM = { annex_country = { target = CRI } }
+				clr_global_flag = ukrainian_civil_war_gf
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+ukraine_civil_war_ai = {
+	allowed = {
+		is_in_array = { global.ukrainian_countries = THIS }
+	}
+	enable = {
+		is_in_array = { global.ukrainian_countries = THIS }
+	}
+	abort = {
+		NOT = { has_global_flag = ukrainian_civil_war_gf }
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "global.ukrainian_countries"
+		value = 300
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "global.ukrainian_countries"
+		value = 300
+	}
+}

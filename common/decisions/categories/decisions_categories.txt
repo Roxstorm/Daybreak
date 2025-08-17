@@ -1,0 +1,29 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+#####################################################################################################################
+famine_decisions = {		#ID of category
+	priority = 10		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_decision_category_eng_concessions_to_the_trade_unions	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	
+	allowed = {
+		has_global_flag = famine_of_69
+	}
+
+	picture = GFX_decision_cat_picture_famine_decisions
+
+	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	}
+}
+warlord_decisions = {		#ID of category
+	priority = 9		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_decision_category_generic_arms_trade	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	
+	allowed = {
+		always = yes
+	}
+
+	picture = GFX_decision_cat_picture_warlord_decisions
+	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	}
+}

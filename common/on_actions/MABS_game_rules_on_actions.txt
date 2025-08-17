@@ -1,0 +1,112 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			FRA = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = colonial_admin
+							option = Remove_Colonial
+						}
+					}
+					annex_country = {
+						target = IVO
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TOG
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = GAB
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = CMR
+						transfer_troops = yes
+					}
+				}
+			}
+			ENG = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = colonial_admin
+							option = Remove_Colonial
+						}
+					}
+					annex_country = {
+						target = SUD
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+		effect = {
+			FRA = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = colonial_admin
+							option = Remove_Morecolonys
+						}
+					}
+					annex_country = {
+						target = IVO
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TOG
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = GAB
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = CMR
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MOR
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = TUN
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = VIN
+						transfer_troops = yes
+					}
+				}
+			}
+			ENG = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = colonial_admin
+							option = Remove_Morecolonys
+						}
+					}
+					annex_country = {
+						target = SUD
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = EGY
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PAL
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = JOR
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+	}
+}

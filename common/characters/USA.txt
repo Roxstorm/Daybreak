@@ -1,0 +1,15 @@
+characters = {
+	USA_wesley_clark = {
+		name = "Wesley Clark"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Wesley.Clark.png"
+			}
+		}
+		country_leader={
+			ideology = populism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+}

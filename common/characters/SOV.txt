@@ -1,0 +1,15 @@
+characters = {
+	SOV_sergey_ivanov = {
+		name="Sergey Ivanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Sergey.Ivanov.png"
+			}
+		}
+		country_leader={
+			ideology = leninism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+}

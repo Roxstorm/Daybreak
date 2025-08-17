@@ -1,0 +1,13 @@
+on_actions = {
+	### SIBERIA ###
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					has_country_flag = siberian_country_flag
+				}
+				add_ideas = siberia_siberian_cold
+			}
+		}
+	}
+}
