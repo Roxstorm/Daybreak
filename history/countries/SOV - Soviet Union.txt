@@ -132,6 +132,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
 	else = {
 		puppet = GER
 		puppet = HUN
@@ -140,6 +145,7 @@ if = {
 		puppet = SLO
 		puppet = ROM
 		puppet = BUL
+		puppet = AFG
 	}
 }
 set_research_slots = 2
