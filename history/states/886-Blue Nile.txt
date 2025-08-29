@@ -1,19 +1,29 @@
-state = {
-	id = 886
-	name = "STATE_886"
-	manpower = 661102
-	state_category = pastoral
+state={
+	id=886
+	name="STATE_886"
+
+	manpower=661102
+	
 	history = {
-		owner = SUD
+		owner = BJF
+		add_core_of = SSU
 		add_core_of = SUD
+		add_core_of = SLA
+		add_core_of = JEE
+		add_core_of = ILR
+		add_core_of = JWR
+		add_core_of = BJF
+		add_core_of = SPL
 		buildings = {
 			infrastructure = 1
 		}
+
 	}
-	provinces = {
-		1914 4918 10743 10784 12862 12887 
+
+	provinces={
+		2088 4918 10743 10784 12862 
 	}
-	
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+
+	state_category=pastoral
+	local_supplies=0.000
 }

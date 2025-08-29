@@ -1112,5 +1112,37 @@ KUR = {
 	color_ui = rgb { 255 153 0 }	
 }
 
+SPL = {
+    color = rgb { 92 125 173 }
+    color_ui = rgb { 100 145 190 }
+}
 
+SLA = {
+    color = rgb { 201 56 56 }
+    color_ui = rgb { 220 80 80 }
+}
 
+JEE = {
+    color = rgb { 66 88 54 }
+    color_ui = rgb { 90 115 70 }
+}
+
+ILR = {
+    color = rgb { 27 54 33 }
+    color_ui = rgb { 50 85 55 }
+}
+
+JWR = {
+    color = rgb { 161 128 64 }
+    color_ui = rgb { 190 150 80 }
+}
+
+BJF = {
+    color = rgb { 179 93 38 }
+    color_ui = rgb { 210 120 55 }
+}
+
+SSU = {
+    color = rgb { 118 105 87 }
+    color_ui = rgb { 140 125 100 }
+}

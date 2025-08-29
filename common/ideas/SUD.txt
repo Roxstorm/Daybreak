@@ -1,0 +1,82 @@
+ideas = {
+	country = {
+	
+		UOA_nixons_extended_stay = {
+			picture = uoa_nixons_extended_stay
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 3
+			}
+		}
+		
+		UOA_years_of_strife = {
+			picture = idk
+			removal_cost = -1
+			allowed = {
+				original_tag = UOA
+			}
+			modifier = {
+				stability_weekly = -0.05	
+				weekly_manpower = -400
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		UOA_slow_recovery = {
+			picture = UOA_slow_recovery
+		
+			available = {
+				original_tag = UOA
+			}
+		
+			allowed = {
+				original_tag = UOA
+			}
+		
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+				war_support_factor = -0.2
+				#neutrality_drift = -0.02
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SFC_aid_from_federal_government = {
+		
+		allowed = {
+				always = no
+			}
+
+		allowed_civil_war = {
+				
+			}
+			
+		removal_cost = -1
+
+		picture = "generic_DOC_support_icon"
+			
+		modifier = {
+				consumer_goods_factor = -0.08
+				industrial_capacity_factory = 0.03
+				production_speed_factor = 0.05
+				weekly_manpower = 10
+			}
+		}
+	}
+}

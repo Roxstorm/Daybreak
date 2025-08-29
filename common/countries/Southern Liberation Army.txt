@@ -1,0 +1,5 @@
+
+color = { 201 56 56 }
+graphical_culture = middle_east_gfx
+graphical_culture_2d = middle_east_2d
+

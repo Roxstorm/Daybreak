@@ -1,9 +1,11 @@
 state={
-	id=885
-	name = "STATE_885" # Bahr al Ghazal
-	state_category = pastoral
+	id=1017
+	name="STATE_1017"
+
+	state_category = wasteland
+	
 	history = {
-		owner = SSU
+		owner = SPL
 		add_core_of = SSU
 		add_core_of = SUD
 		add_core_of = SLA
@@ -18,10 +20,10 @@ state={
 
 	}
 
-	provinces = {
-		1953 7996 10764 10908 
+	provinces={
+		4033 8052 10827 12744 
 	}
-	manpower = 550000
+	manpower = 302020
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -6,8 +6,15 @@ state={
 	state_category = wasteland
 	
 	history = {
-		owner = SUD
+		owner = JWR
+		add_core_of = SSU
 		add_core_of = SUD
+		add_core_of = SLA
+		add_core_of = JEE
+		add_core_of = ILR
+		add_core_of = JWR
+		add_core_of = BJF
+		add_core_of = SPL
 		buildings = {
 			infrastructure = 1
 		}

@@ -1,27 +1,38 @@
-state = {
-	id = 883
-	name = "STATE_883"
-	manpower = 511402
-	state_category = rural
-
-	history = {
-		owner = SUD
-		add_core_of = SUD
-		victory_points = {
-			12725 1 
-		}
-		buildings = {
-			infrastructure = 1
-			12725 = {
-				naval_base = 3
-			}
-		}
-	}
-
-	provinces = {
-		1977 2003 2088 10902 12725 
+state={
+	id=883
+	name="STATE_883"
+	manpower = 38592
+	resources={
+		oil=1 # was: 2
+		tungsten = 3 #maganese
+		steel = 3 #Maganese
+		
 	}
 	
-	buildings_max_level_factor = 1.000
-	local_supplies = 0.000
+	state_category = town
+
+	history={
+		owner = SUD
+		
+		victory_points = {
+			12725 1 
+		}		
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			12725 = {
+				naval_base = 8
+			}
+		}
+
+		add_core_of = SUD
+	}
+	provinces={
+		1977 2003 2046 7989 10902 12725 
+	}
+
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
