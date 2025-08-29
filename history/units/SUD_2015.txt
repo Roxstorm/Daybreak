@@ -55,25 +55,7 @@ units = {
     }
     division = {
         name = "US Volunteer Infantry Brigade"
-        location = 2003
-        division_template = "US Infantry Division"
-        start_experience_factor = 0.6
-    }
-    division = {
-        name = "US Volunteer Infantry Brigade"
-        location = 2046
-        division_template = "US Infantry Division"
-        start_experience_factor = 0.6
-    }
-    division = {
-        name = "US Volunteer Infantry Brigade"
         location = 12725
-        division_template = "US Infantry Division"
-        start_experience_factor = 0.6
-    }
-    division = {
-        name = "US Volunteer Infantry Brigade"
-        location = 7925
         division_template = "US Infantry Division"
         start_experience_factor = 0.6
     }

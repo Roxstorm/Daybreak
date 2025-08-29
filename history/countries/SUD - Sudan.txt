@@ -122,6 +122,8 @@ set_popularities = {
 }
 
 add_ideas = {
+SUD_war_on_terror
+SUD_aid_from_federal_government
 }
 
 create_country_leader = {
