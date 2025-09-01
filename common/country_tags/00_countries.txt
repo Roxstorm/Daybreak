@@ -338,6 +338,8 @@ FSA = "countries/Federation of South Arabia.txt"
 ASY = "countries/Assyria.txt"
 BHR = "countries/Bahrain.txt"
 IMO = "countries/Omani Imamate.txt"
+
+#DAYBREAK#
 BLC = "countries/Balochistan.txt"
 BJF = "countries/Beja Congress.txt"
 SPL = "countries/SPLM.txt"
@@ -346,4 +348,5 @@ SSU = "countries/South Sudan.txt"
 JEE = "countries/Justice and Equality Movement.txt"
 ILR = "countries/National Islamic Resistance.txt"
 JWR = "countries/Janjaweed Remnants.txt"
+NKR = "countries/North Korea.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

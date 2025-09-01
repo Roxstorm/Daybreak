@@ -1146,3 +1146,8 @@ SSU = {
     color = rgb { 118 105 87 }
     color_ui = rgb { 140 125 100 }
 }
+
+NKR = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
