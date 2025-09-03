@@ -1,6 +1,22 @@
 state={
 	id=103
 	name="STATE_103"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+
+		victory_points = {
+			591 1 
+		}
+
+	}
+
 	provinces={
 		591 984 3601 6611 11901 13252 
 	}
