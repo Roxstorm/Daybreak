@@ -1,6 +1,6 @@
-capital = 2
+capital = 42
 
-oob = "ITA_2015"
+oob = "RHI_2015"
 
 set_technology = {
 	infantry_weapons = 1
@@ -50,24 +50,24 @@ if = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "2015.2.3"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 0
-	communism = 50
-	democratic = 25
-	neutrality = 25
+	fascism = 30
+	communism = 20
+	democratic = 50
+	neutrality = 0
 }
 
 create_country_leader = {
-	name = "Mario Galesi"
+	name = "Björn Höcke"
 	desc = ""
-	picture = gfx/leaders/ITA/Mario.Galesi.png
+	picture = gfx/leaders/RHI/Bjorn.Hocke.png
 	expire = "1960.1.1"
-	ideology = leninism
+	ideology = conservatism
 	traits = {
 		
 	}
