@@ -202,6 +202,11 @@ if = {
 #}
 
 add_ideas = {
+USA_the_war_on_terror
+USA_the_cold_war
+USA_a_house_divided
+USA_the_eagles_fraying_wings
+USA_empire_of_mind
 }
 
 
