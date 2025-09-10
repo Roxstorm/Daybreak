@@ -6,7 +6,6 @@ state={
 	}
 	history={
 		owner = LEB
-		controller = FPN
 
 		buildings = {
 			infrastructure = 2
