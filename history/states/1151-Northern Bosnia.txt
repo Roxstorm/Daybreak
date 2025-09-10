@@ -1,0 +1,31 @@
+state={
+	id=1151
+	name="STATE_1151"
+	provinces={
+		3985 6614 6957 9586  
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		
+		set_demilitarized_zone = yes
+		force_enable_resistance = {
+		occupier = YUG
+		occupied = BOS
+		}
+		start_resistance = yes
+		set_compliance = 20
+		set_resistance = 30
+		
+	}
+
+	manpower = 1148610
+	state_category = town
+
+	local_supplies=0.0 
+}

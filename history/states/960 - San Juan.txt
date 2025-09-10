@@ -1,9 +1,9 @@
 state = {
 	id = 960
 	name = "STATE_960"
-	manpower = 881311
+	manpower = 1762622
 	
-	state_category = rural
+	state_category = town
 
 	history = {
 
@@ -11,15 +11,15 @@ state = {
 		add_core_of = ARG
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 
 		victory_points = {
-			2136 2 
+			2136 5
 		}
 
 		victory_points = {
-			12978 1 
+			12978 3
 		}
 
 	}

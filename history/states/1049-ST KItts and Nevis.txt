@@ -1,0 +1,28 @@
+state={
+	id=1049
+	name="STATE_1049"
+	provinces={
+		13391 
+	}
+	history={
+		owner = KAN
+		add_core_of = KAN
+		buildings = {
+			infrastructure = 2
+			13391 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13391 1
+		}
+	}
+	
+	
+	
+	
+	manpower=41000
+	state_category = small_island
+
+	local_supplies=4.0 
+}

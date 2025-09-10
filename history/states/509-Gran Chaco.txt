@@ -1,13 +1,13 @@
 state = {
 	id = 509
 	name = "STATE_509" # Chaco Australis
-	manpower = 704241
+	manpower = 1408482
 	
-	state_category = rural
+	state_category = town
 	
 	resources = {
 		tungsten = 30 # was: 46, then 35
-		steel = 4 # was: 8, then 6
+		steel = 14 # was: 8, then 6
 	}
 
 	history = {
@@ -16,12 +16,12 @@ state = {
 		add_core_of = ARG
 
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 3
 		}
 
 		victory_points = {
-			2106 1 
+			2106 5
 		}
 		
 	}

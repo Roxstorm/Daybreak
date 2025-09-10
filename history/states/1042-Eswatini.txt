@@ -1,0 +1,21 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		7900 
+	}
+	history={
+		owner = SAF
+		add_core_of = ESW
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			arms_factory = 1
+		
+		}
+	}
+
+	manpower = 901300
+    state_category = town
+	local_supplies=0.0 
+}

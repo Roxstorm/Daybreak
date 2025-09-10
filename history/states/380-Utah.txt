@@ -1,9 +1,9 @@
 state= {
 	id=380
 	name="STATE_380"
-	manpower = 507846
+	manpower = 1722850
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		tungsten=76 # was: 106
@@ -12,16 +12,16 @@ state= {
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = USA
 		victory_points = {
-			4865 1 
+			4865 5
 		}
 	}
 	provinces={
-		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153
+		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153 13543 13549 13553 13548 13557 13558 13552 13559 13556
 	}
 
 	local_supplies=0.0 

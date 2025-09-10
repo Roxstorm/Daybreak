@@ -1,7 +1,7 @@
 state = {
 	id = 388
 	name = "STATE_388"
-	manpower = 537605
+	manpower = 799065
 	state_category = rural
 
 	resources = {
@@ -20,6 +20,11 @@ state = {
 		victory_points = {
 			4860 1 # Great Falls
 		}
+		
+		victory_points = {
+			7779 5 # Great Falls
+		}
+		
 
 		# Hungry Horse Dam
 		#1854 = { dam = 1 }

@@ -1,12 +1,12 @@
 state = {
 	id = 479
 	name = "STATE_479"
-	manpower = 1032988
+	manpower = 2474975
 	
-	state_category = town
+	state_category = city
 
 	resources = {
-		oil = 9
+		oil = 20
 		#steel=2 moved to Guerrero
 	}
 	
@@ -17,8 +17,13 @@ state = {
 		add_core_of = RIG
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
+		}
+		
+		
+		victory_points = {
+			10769 5
 		}
 		
 		victory_points = {
@@ -31,7 +36,7 @@ state = {
 	}
 
 	provinces = {
-		1952 2083 4956 5015 5021 12721 13088 
+	 5015 13088 10769  13508 13497  
 	}
 	local_supplies = 0.0 
 }

@@ -2,8 +2,8 @@ state = {
 	id = 523
 	name = "STATE_523"
 
-	manpower = 718000 # was 1077000
-	state_category = "rural"
+	manpower = 1830000  # was 1077000
+	state_category = "city"
 
 	history = {
 
@@ -21,15 +21,15 @@ state = {
 		}
 
 		victory_points = {
-			4329 3 # Port Moresby
+			4329 10 # Port Moresby
 		}
 
 		victory_points = {
-			1283 1 # Daru
+			1283 3 # Daru
 		}
 
 		victory_points = {
-			10260 1 # Alotau
+			10260 5 # Alotau
 		}
 
 	}

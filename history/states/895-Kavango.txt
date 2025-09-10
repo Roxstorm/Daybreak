@@ -2,13 +2,15 @@
 state={
 	id=895
 	name="STATE_895"
-	manpower = 92400
-	state_category = pastoral
+	manpower = 349683
+	state_category = rural
 
 	history={
 		owner = NMB
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 		

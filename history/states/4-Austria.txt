@@ -1,13 +1,15 @@
 state = {
 	id = 4
 	name = "STATE_4"
-	manpower = 2297983 # was 2595983
+	
 
 	resources = {
 		oil = 2 
 	}
 	
-	state_category = large_city
+	provinces = {
+	11666 14126
+	}
 	
 	history = {
 
@@ -18,9 +20,6 @@ state = {
 			11666 30 
 		}
 
-		victory_points = {
-			732 15
-		}
 
 		buildings = {
 			infrastructure = 4
@@ -30,24 +29,15 @@ state = {
             11666 = {
                 landmark_hofburg_palace = {
                     level = 1
-                    allowed = {
-                        has_dlc = "Gotterdammerung"
-                    }
                 }
             }
 		}
 
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
-		}
-
 	}
 
-	provinces = {
-		704 732 3718 6552 6690 6723 6739 9527 11651 11666 
-	}
-
+	
+	
+	state_category = metropolis
+    manpower = 1539848 # was 2595983
 	local_supplies = 0.0 
 }

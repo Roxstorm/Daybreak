@@ -6,15 +6,12 @@ state={
 	}
 	history={
 		owner = RAJ
-		add_core_of = RJP
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 1
 			4915 = {
                 landmark_taj_mahal = {
                     level = 1
-                    allowed = {
-                        has_dlc = "Graveyard of Empires"
-                    }
                 }
 			}
 		}
@@ -23,9 +20,8 @@ state={
 		}
 
 	}
-	state_category = rural
-	manpower=11786000
+	manpower=35593720
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=9.000
 }

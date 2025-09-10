@@ -1,0 +1,31 @@
+state={
+	id=1033
+	name="STATE_1033"
+	provinces={
+		1237 4247 12120 
+	}
+	history={
+		owner = VNT
+		add_core_of = VNT
+		victory_points = {
+			12120 1
+		}
+		buildings = {
+			infrastructure = 2
+			1237 = {
+				naval_base = 1
+
+			}
+			4247 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	 
+	manpower=140000 
+	buildings_max_level_factor=1.000
+	state_category = small_island
+	local_supplies=0.0 
+}

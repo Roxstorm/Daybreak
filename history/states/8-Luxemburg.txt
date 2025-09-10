@@ -2,11 +2,11 @@ state = {
 	id = 8
 	name = "STATE_8"
 	
-	state_category = town
+	state_category = city
 	
-	manpower = 294748
+	manpower = 381850
 	resources = {
-		steel = 14 # was: 5
+		steel = 28 # was: 5
 	}
 
 	history = {
@@ -16,17 +16,17 @@ state = {
 
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 3
 		}
 		victory_points = { 
-			6583 25 # Luxembourg City
+			6583 15 # Luxembourg City
 		}
 		
 	}
 
 	provinces = {
-		6583 13375
+		6583 13375 14105 14104
 	}
 
 	local_supplies = 0.0 

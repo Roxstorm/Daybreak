@@ -1,0 +1,26 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		4946 7921 8003 10853 10871 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+		victory_points = {
+			7921 10
+		}
+		
+	}
+	
+	manpower = 1257367
+	
+	state_category = town
+	
+
+	local_supplies=6.0 
+}
+

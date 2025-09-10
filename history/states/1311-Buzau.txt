@@ -1,0 +1,22 @@
+state={
+	id=1311
+	name="STATE_1311"
+	provinces={
+		674 6677 9651 11603 11636 
+	}
+	history = {
+	owner = ROM
+	add_core_of = ROM
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	
+	manpower=983044
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

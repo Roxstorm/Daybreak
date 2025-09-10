@@ -24,7 +24,6 @@ state={
 			}
 
 		}
-		add_core_of = OCC
 		add_core_of = FRA
 
 	}
@@ -32,7 +31,7 @@ state={
 	provinces={
 		6621 6762 6777 9737 11565 
 	}
-	manpower=1140400
+	manpower=3140400
 	buildings_max_level_factor=1.000
 	state_category=city
 

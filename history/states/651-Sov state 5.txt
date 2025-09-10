@@ -2,7 +2,7 @@
 state = {
 	id=651
 	name = "STATE_651" # Ufa
-	manpower = 2552075
+	manpower = 4552075
 
 	state_category = city
 
@@ -14,10 +14,10 @@ state = {
 
 		}
 		victory_points = {
-			1278 5
+			1278 10
 		}
 		victory_points = {
-			4354 1 
+			4354 5 
 		}
 		add_core_of = SOV
 		add_core_of = BSK

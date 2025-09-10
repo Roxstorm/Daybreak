@@ -1,0 +1,20 @@
+state={
+	id=1220
+	name="STATE_1220"
+	provinces={
+		12167 13602 13603 
+	}
+		history = {
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	manpower=200000 #7375000
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

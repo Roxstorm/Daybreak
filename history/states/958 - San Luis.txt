@@ -1,9 +1,9 @@
 state = {
 	id = 958
 	name = "STATE_958"
-	manpower = 602403
+	manpower = 1204806
 	
-	state_category = rural
+	state_category = town
 
 	history = {
 
@@ -11,7 +11,9 @@ state = {
 		add_core_of = ARG
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 
 			# Minister Pistarini Reservoir
 			5152 = { dam = 1 }

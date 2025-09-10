@@ -1,0 +1,21 @@
+state={
+	id=1210
+	name="STATE_1210"
+	provinces={
+		1507 7356 10496 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+	}
+	
+	manpower = 501000	#4312000
+	state_category = town	
+	local_supplies=0.0 
+}

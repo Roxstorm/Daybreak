@@ -1,0 +1,26 @@
+state={
+	id=1295
+	name="STATE_1295"
+	provinces={
+		3689 9668 
+	}
+	
+	history = {
+	owner = ROM
+	add_core_of = ROM
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+		
+	}
+	
+	manpower=763905
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

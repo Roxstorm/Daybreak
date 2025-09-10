@@ -1,0 +1,25 @@
+state={
+	id=1064
+	name="STATE_1064"
+	provinces={
+		8017 13379 13480 
+	}
+	history={
+		owner = HON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			
+			8017 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HON
+
+	}
+
+	state_category = large_town
+    manpower=2945000 
+	local_supplies=0.0 
+}

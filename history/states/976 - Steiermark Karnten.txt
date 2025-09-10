@@ -1,14 +1,14 @@
 state = {
 	id = 976
 	name = "STATE_976"
-	manpower = 1500000
-	
-	state_category = city
 	
 	resources = {
 		steel = 15 # was: 8
 		aluminium = 1 # was: 1
 	}
+	provinces = {
+	 9648 9646 653 6687  9679 14119
+	}                   
 
 	history = {
 
@@ -21,21 +21,18 @@ state = {
 		}
 
 		victory_points = {
-			9648 15 
+			9648 5 
 		}
 
-		victory_points = {
-			3673 10
-		}
 
-		victory_points = {
-			11612 10
-		}
 	}
 
-	provinces = {
-		653 3673 3674 6687 9646 9648 9650 9679 11612 
-	}
+	
+	
+	manpower = 1184720
+	
+	state_category = city
+	
 
 	local_supplies = 0.0 
 }

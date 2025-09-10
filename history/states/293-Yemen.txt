@@ -2,9 +2,9 @@
 state={
 	id=293
 	name="STATE_293"
-	manpower = 2489500
+	manpower = 13889500
 	
-	state_category = rural
+	state_category = city
 	
 	resources={
 		oil=1 # was: 1
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		1920 1973 4924 10752 10840 
+		1920 1973 4924 10752 10840 13599 13601 13607 13609 13611 13614 13616 13620 13626 13627 13628 13632 13638 
 	}
 
 	local_supplies=0.0 

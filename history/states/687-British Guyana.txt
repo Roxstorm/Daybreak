@@ -1,7 +1,7 @@
 state={
 	id=687
 	name="STATE_687"
-	manpower = 909000
+	manpower = 750000
 	
 	state_category = pastoral
 	
@@ -12,8 +12,9 @@ state={
 	history={
 		add_core_of = GYA
 		owner = GYA
+		add_claim_by = VEN
 		victory_points = {
-			4982 10
+			4982 1
 		}
 		buildings = {
 			infrastructure = 1

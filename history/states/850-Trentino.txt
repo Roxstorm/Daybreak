@@ -7,21 +7,28 @@ state = {
 	state_category = town
 
 	history = {
-		victory_points = { #Trento
-			9598 1
+		
+		victory_points = {
+			6626 15
 		}
+
+		
 		owner = ITA
 		buildings = {
 			infrastructure = 2 #was 3 before split
+			
+			6626 = {
+				naval_base = 5
+			}
+			
+			
 		}
 		add_core_of = ITA
-		add_core_of = LBV
-		add_claim_by = AUS
 	}
 
 	provinces = {
-		6631 9598 
-	}
+		9613 628 6626
+	}   
 
 	local_supplies = 0.0 
 }

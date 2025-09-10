@@ -1,0 +1,23 @@
+state={
+	id=1028
+	name="STATE_1028"
+	provinces={
+		2008 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MEX
+		victory_points = {
+			2008 10
+		}
+	}
+	
+	manpower = 4010062
+	
+	state_category = city
+
+	local_supplies=0.0 
+}

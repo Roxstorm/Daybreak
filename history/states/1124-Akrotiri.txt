@@ -1,0 +1,24 @@
+state={
+	id=1124
+	name="STATE_1124"
+	provinces={
+		13695 
+	}
+	history= {
+		owner = ENG
+		add_claim_by = CYP
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			
+			13695 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	manpower = 8103
+	state_category = town
+	local_supplies=0.0 
+}

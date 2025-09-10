@@ -41,14 +41,13 @@ state = {
 
 		}
 		add_core_of = ITA
-		add_core_of = TTS
 
 	}
 
 	provinces = {
-		1009 1156 3857 4014 4159 7059 7147 10074 12047 13256 
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 13256 13791 13790 
 	}
-	manpower = 3836571
+	manpower = 4836571
 	buildings_max_level_factor = 1.000
 	state_category = city
 	local_supplies = 0.000

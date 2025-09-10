@@ -1,0 +1,26 @@
+state={
+	id=1176
+	name="STATE_1176"
+	provinces={
+	 4140 6904 9776 13933 13935 13938 
+	}
+	manpower = 28269812
+	
+	state_category = large_city
+
+	history={
+		owner = PRC
+		add_claim_by = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		
+		}
+		
+
+	}
+
+
+	local_supplies=1.0 
+}

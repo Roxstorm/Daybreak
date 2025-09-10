@@ -1,20 +1,32 @@
-state={
+state = {
 	id=884
-	name="STATE_884"
+	name = "STATE_884"  # Upper Nile 
+	manpower = 1040121
 	state_category = pastoral
+
 	history = {
 		owner = SSU
+		add_core_of = BJF
+		add_core_of = SPL
+		add_core_of = SLA
 		add_core_of = SSU
+		add_core_of = JEE
+		add_core_of = ILR
+		add_core_of = JWR
+		add_core_of = SUD
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+
 		}
 
 	}
-	provinces={
-		2096 10859 10877 
+
+	provinces = {
+		2096 10859 10877 12800 13867 13859 13848 13850 13855 13851 13856 12744
 	}
-	manpower=1040121
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

@@ -1,0 +1,21 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		2011 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+	}
+
+	
+	manpower = 1044200
+	
+	state_category = town
+
+	local_supplies=0.0 
+}

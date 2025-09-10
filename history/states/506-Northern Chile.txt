@@ -1,7 +1,7 @@
 state = {
 	id = 506
 	name = "STATE_506" # Antofagasta
-	manpower = 423605
+	manpower = 1047210
 	
 	state_category = town
 
@@ -13,7 +13,6 @@ state = {
 
 		owner = CHL
 		add_core_of = CHL
-		add_claim_by = BOL
 
 		buildings = {
 			infrastructure = 3

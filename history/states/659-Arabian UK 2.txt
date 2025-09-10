@@ -2,9 +2,9 @@ state={
 	id=659
 	name="STATE_659"
 	provinces={
-		2029 4976 12821 12894 13079 
+		2029 4976 12821 12894 13079 13606 13608 13612 13615 13621 13625 13631 13634 13637 13639 13641 13643 
 	}
-	manpower=871202
+	manpower=2585484
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
@@ -12,6 +12,7 @@ state={
 	history = {
 		owner = YEM
 		add_core_of = YEM
+		add_claim_by = YEM
 		buildings = {
 			infrastructure = 1
 			air_base = 1

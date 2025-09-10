@@ -1,0 +1,20 @@
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		10842 13453 
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GUA
+
+	}
+	
+	state_category = town
+    manpower = 3970000
+	local_supplies=0.0 
+}

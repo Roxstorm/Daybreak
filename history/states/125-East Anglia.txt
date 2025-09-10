@@ -1,7 +1,7 @@
 state = {
 	id = 125
 	name = "STATE_125"
-	manpower = 1363174
+	manpower = 2563174
 	
 	state_category = city
 
@@ -29,13 +29,18 @@ state = {
 			271 = {
 				naval_base = 3
 			}
+			
+			11374 = {
+				naval_base = 10
+			}
+			
 
 		}
 		
 	}
 
 	provinces = {
-		221 271 296 322 3287 11221 11253 
+		221 271 322 3287 11221 11253 11374 14146 14151
 	}
 
 	local_supplies = 0.0 

@@ -2,20 +2,21 @@ state = {
 	id = 999
 	name = "STATE_999"
 	
-	state_category = rural
-	manpower = 1567516
+	state_category = large_town
+	manpower = 3965815
 	
 	history = {
 		owner = BRM
 		add_core_of = BRM
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 2
 		}
 	}
 
 	provinces = {
-		1170 1566 1607 2061 4210 4654 7603 7647 10920 12317 12363 
+		1170 1566 1607 2061 4210 4654 7603 7647 10920 12317 12363 13658
 	}
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000

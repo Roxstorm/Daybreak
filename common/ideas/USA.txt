@@ -15,7 +15,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability = -0.10
+				weekly_stability = -0.10
 				civilian_factories = -0.05
 				division_attrition = +0.10
 				army_experience_gain = +0.05
@@ -56,8 +56,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability = -0.15
-				political_power_cost = +0.15
+				weekly_stability = -0.015
+				political_power_cost = +0.015
 			}
 		}
 		USA_the_eagles_fraying_wings = {
@@ -75,7 +75,7 @@ ideas = {
 			
 			modifier = {
 				stability = -0.05
-				trade_opinion_factor = -10%
+				trade_opinion_factor = -2%
 				drift_defence_factor = -0.05
 			}
 		}
@@ -94,7 +94,7 @@ ideas = {
 			
 			modifier = {
 				weekly_stability = +0.5%
-				trade_opinion_factor = +10%
+				trade_opinion_factor = +3%
 			}
 		}
 	}

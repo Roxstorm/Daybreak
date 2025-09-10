@@ -1,0 +1,34 @@
+state={
+	id=1265
+	name="STATE_1265"
+	provinces={
+		14014 14016 
+	}
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		
+		
+		LEB = {
+		set_province_controller = 14016
+		
+		}
+		
+		add_core_of = LEB
+		add_core_of = FPN
+		add_core_of = HEZ
+		add_core_of = AML
+	}
+
+
+	
+		manpower = 292000
+	
+	state_category = town
+	
+
+	local_supplies=0.0 
+}

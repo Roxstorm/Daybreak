@@ -1,7 +1,7 @@
 state = {
 	id = 971
 	name = "STATE_971" # Northern Dobruja
-	manpower = 490000
+	manpower = 990000
 	resources = {
 	}
 
@@ -11,7 +11,6 @@ state = {
 
 		owner = ROM
 		add_core_of = ROM
-		add_claim_by = BUL
 
 		victory_points = { 
 			657 3 

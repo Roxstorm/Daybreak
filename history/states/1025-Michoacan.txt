@@ -1,0 +1,31 @@
+state={
+	id=1025
+	name="STATE_1025"
+	provinces={
+		4887 8032 10832 12755 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8032 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = MEX
+		victory_points = {
+			4887 3
+		}
+		victory_points = {
+			8032 1
+		}
+	}
+	
+	manpower = 3407738
+	
+	state_category = large_town
+	
+
+	local_supplies=0.0 
+}

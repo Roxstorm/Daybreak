@@ -8,19 +8,18 @@ state={
 			7376 10
 		}
 		buildings = {
-			infrastructure = 1
-			7432 = {
-				naval_base = 1
-			}
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
 
 		}
 	}
 	provinces={
-		1324 1353 1620 4251 4302 4330 4359 4596 4639 5236 7319 7376 7404 7432 7645 10134 10177 10204 10289 10317 10467 12167 12191 12260 12288 12447 12460 12475 
+		7376 
 	}
-	manpower=5245000
+	manpower=1300000 #7375000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=metropolis
 
 	local_supplies=0.0 
 }

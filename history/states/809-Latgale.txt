@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
 		victory_points = {
 			310 3 #Daugavpils
 		}
@@ -23,7 +24,7 @@ state={
 	provinces={
 		265 3255 3525 6222 6342 11358 
 	}
-	manpower=215500
+	manpower=293942
 	buildings_max_level_factor=1.000
 	state_category=town
 }

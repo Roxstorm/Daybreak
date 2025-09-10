@@ -6,12 +6,16 @@ state={
 		owner = GAB
 		add_core_of = GAB
 		victory_points = {
-			5139 10 
+			5139 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			
+			
 			5139 = {
-				naval_base = 1
+				naval_base = 3
 
 			}
 
@@ -22,9 +26,9 @@ state={
 	provinces={
 		5139 8207 10948 13210 
 	}
-	manpower=409752
+	manpower=983734 
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 
 	local_supplies=1.0 
 }

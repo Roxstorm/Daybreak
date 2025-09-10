@@ -1,19 +1,10 @@
-state=
-{
+state={
 	id=319
 	name="STATE_319"
-	manpower = 1256000
-	
-	state_category = town
-	
-	resources={
-		chromium=1 # was: 1
-	}
-	history=
-	{
+	history={
 		owner = DOM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
@@ -25,14 +16,13 @@ state=
 		victory_points = {
 			7660 5 
 		}
-		victory_points = {
-			4598 1 
-		}
 
 	}
 	provinces={
-		4598 7632 7660 10484
+		7660 13408
 	}
-
-	local_supplies=0.0 
+	
+	manpower = 1634000  	
+	state_category = city
+	local_supplies=1.0 
 }

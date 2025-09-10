@@ -1,0 +1,30 @@
+state={
+	id=1268
+	name="STATE_1268"
+	provinces={
+		14013 14015 
+	}
+	history={
+		owner = LEB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+		add_core_of = LEB
+		add_core_of = FPN
+		add_core_of = HEZ
+		add_core_of = AML
+		
+		
+	}
+
+
+	
+		manpower = 250932
+	
+	state_category = rural
+	
+
+	local_supplies=0.0 
+}

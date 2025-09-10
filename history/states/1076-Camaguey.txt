@@ -1,0 +1,22 @@
+state={
+	id=1076
+	name="STATE_1076"
+	provinces={
+		13455 13458 13459 13463 13467 
+	}
+	history= {
+		owner = CUB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CUB
+
+	}
+	
+	manpower = 850000
+    state_category = town
+	local_supplies=0.0 
+}
+

@@ -1,0 +1,27 @@
+state={
+	id=1134
+	name="STATE_1134"
+	provinces={
+		1207 4084 
+	}
+	history = {
+
+		owner = MOR
+		add_core_of = MOR
+		
+		victory_points = {
+			1207 2
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	
+	manpower = 1600000
+	
+	state_category = town
+
+	local_supplies = 0.0 
+}

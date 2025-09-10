@@ -1,16 +1,16 @@
 state={
 	id=729
 	name="STATE_729"
-	manpower = 8157805
+	manpower = 334805
 	
-	state_category = enclave
+	state_category = city
 	
 	history={
-		owner = PRC
+		owner = POR
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			4189 30 
+			4189 5
 		}
 		buildings = {
 			infrastructure = 3

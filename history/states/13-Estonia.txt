@@ -8,8 +8,9 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
 		victory_points = {
-			3174 10 #Voru
+			3174 5 #Voru
 		}
 		buildings = {
 			infrastructure = 3
@@ -27,7 +28,7 @@ state={
 	}
 
 	local_supplies=6.0 
-	manpower=423070
+	manpower=587644
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

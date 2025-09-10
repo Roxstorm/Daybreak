@@ -2,10 +2,10 @@
 state={
 	id=1002
 	name="STATE_1002" 
-	manpower = 221318
+	manpower = 796744
 	resources={
 	}
-	state_category = rural
+	state_category = town
 	
 
 	history={

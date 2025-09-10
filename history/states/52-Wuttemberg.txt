@@ -1,7 +1,7 @@
 state = {
 	id = 52
 	name = "STATE_52"
-	manpower = 2679413
+	manpower = 7453365
 	resources = {
 		aluminium = 18 # was: 30
 	}
@@ -12,13 +12,13 @@ state = {
 
 		owner = GER
 		add_core_of = GER
-		add_core_of = BAY
+		
 
 		victory_points = {
-			692 20 # Munich
+			692 25 # Munich
 		}
 		victory_points = {
-			708 3 # Augsburg
+			708 5 # Augsburg
 		}
 
 		buildings = {
@@ -28,11 +28,6 @@ state = {
 			air_base = 6
 		}
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-			}
-		}
 	}
 
 	provinces = {

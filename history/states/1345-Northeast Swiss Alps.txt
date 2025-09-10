@@ -1,0 +1,18 @@
+state={
+	id=1345
+	name="STATE_1345"
+	provinces={
+		661 11601 11604 
+	}
+	manpower = 767296
+	state_category = large_town
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = SWI
+	}
+	local_supplies=0.0 
+}

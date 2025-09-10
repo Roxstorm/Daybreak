@@ -2,15 +2,15 @@
 state={
 	id=321
 	name="STATE_321"
-	manpower = 533952
+	manpower =  1169793
 
-	state_category = enclave
+	state_category = city
 
 	history={
 		owner = RAJ
 		add_core_of = RAJ
 		victory_points = {
-			1273 10 
+			1273 5
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

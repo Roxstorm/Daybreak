@@ -2,7 +2,7 @@
 state = {
 	id = 139
 	name = "STATE_139"
-	manpower = 390366
+	manpower = 690366
 	state_category = rural
 	resources = {
 		steel = 4
@@ -12,10 +12,10 @@ state = {
 		owner = SWE
 		add_core_of = SWE
 		victory_points = {
-			9329 1
+			9329 3
 		}
 		victory_points = {
-			299 2
+			299 5
 		}
 		victory_points = {
 			211 1

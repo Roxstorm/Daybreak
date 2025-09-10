@@ -1,8 +1,12 @@
 state={
 	id=898
 	name="STATE_898"
-	manpower = 498718
-	state_category = wasteland
+	manpower = 1302152
+	state_category = rural
+	resources={
+		steel=12
+		
+	}
 
 	history={
 		owner = MLI
@@ -10,6 +14,7 @@ state={
 		
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
 

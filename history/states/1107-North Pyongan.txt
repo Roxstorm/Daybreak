@@ -1,0 +1,27 @@
+state={
+	id=1107
+	name="STATE_1107"
+	provinces={
+		912 9918 11835 13752 13754 
+	}
+		resources={
+		steel=18 
+	}
+	
+	history={
+		owner = NKR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			
+		}
+
+		add_core_of = DPK
+		add_claim_by = KOR
+	}
+	
+	manpower = 2901600
+	state_category = town
+	local_supplies=0.0 
+}

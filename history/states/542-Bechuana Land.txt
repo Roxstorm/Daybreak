@@ -2,22 +2,26 @@
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
+	manpower = 1304000
 	
-	state_category = wasteland
+	state_category = rural
 	
 	resources={
 		chromium=90 # was: 168
+		tungsten=36
 	}
 
 	history={
 		owner = BOT
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex=1
+			arms_factory=1
+			
 		}
 		add_core_of = BOT
 		victory_points = {
-			8214 10
+			8214 5
 		}
 
 	}

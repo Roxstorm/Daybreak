@@ -2,17 +2,17 @@
 state={
 	id=434
 	name="STATE_434"
-	manpower = 200000
+	manpower = 604000
 	
-	state_category = wasteland
+	state_category = pastoral
 	resources={
-		 tungsten=49 # was: 54
+		 tungsten=56 # was: 54
 	}
 
 	history={
 		owner = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 
 	}

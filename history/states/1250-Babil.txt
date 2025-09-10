@@ -1,0 +1,33 @@
+state={
+	id=1250
+	name="STATE_1250"
+	provinces={
+		7994 13954 
+	}
+		history={
+		
+		victory_points = {
+			7994 1 # Karbala 
+		}
+		
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+			
+			industrial_complex = 1
+			arms_factory = 2
+			#dockyard
+			
+			
+		}
+		add_core_of = IRQ
+	}
+	
+	
+	
+	manpower = 1174000
+	
+	state_category = city
+
+	local_supplies=0.0 
+}

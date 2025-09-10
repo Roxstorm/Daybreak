@@ -2,9 +2,9 @@
 state={
 	id=590
 	name="STATE_590" # Akmolinsk
-	manpower = 980533
+	manpower = 2755297
 	
-	state_category = pastoral
+	state_category = city
 
 	history={
 		owner = SOV

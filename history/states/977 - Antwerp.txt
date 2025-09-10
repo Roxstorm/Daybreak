@@ -1,13 +1,16 @@
 state = {
 	id = 977
 	name = "STATE_977" # Antwerpen
-	manpower = 1800000
+	
+	provinces = {
+		6598 9574 13068 11419 14113
+	}
 
 	#resources = {
 	#	steel = 10 # was: 48 then 10
 	#}
 	
-	state_category = metropolis
+	
 
 	history = {
 
@@ -34,9 +37,10 @@ state = {
 	
 	}
 
-	provinces = {
-		6598 9574 13068 11419
-	}
+	
+	
+	manpower = 1800000
+	state_category = metropolis
 
 	local_supplies = 0.0 
 }

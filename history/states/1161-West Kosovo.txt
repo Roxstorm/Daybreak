@@ -1,0 +1,41 @@
+state={
+	id=1161
+	name="STATE_1161"
+	provinces={
+		9849 
+	}
+	history = {
+		victory_points = {
+			6940 3 
+		}
+		victory_points = {
+			9849 2 
+		}
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = YUG
+		add_core_of = KOS
+		add_claim_by = SER
+		add_claim_by = ALB
+		
+		force_enable_resistance = {
+		occupier = YUG
+		occupied = KOS
+		}
+		start_resistance = yes
+		set_compliance = 20
+		set_resistance = 40
+		
+
+	}
+
+	manpower = 701300  
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

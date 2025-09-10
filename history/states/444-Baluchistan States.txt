@@ -7,17 +7,17 @@ state={
 	resources={
 		oil=3
 	}
-	manpower=364000
+	manpower=13364000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 	history={
 		add_core_of = PAK
-		add_core_of = BLC
 		owner = PAK
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 		}
 
 	}

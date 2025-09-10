@@ -1,0 +1,30 @@
+state={
+	id=1298
+	name="STATE_1298"
+	provinces={
+		711 9670 9685 
+	}
+	history = {
+	owner = ROM
+	add_core_of = ROM
+		add_core_of = TRA
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+
+		victory_points = {
+			9670 1 
+		}
+		
+	
+	
+	}
+	
+	manpower=652700
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

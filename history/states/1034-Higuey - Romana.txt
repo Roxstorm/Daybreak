@@ -1,0 +1,19 @@
+state={
+	id=1034
+	name="STATE_1034"
+	provinces={
+		13411 13418 
+	}
+	history={
+		owner = DOM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = DOM
+
+	}
+	
+	manpower = 726000 	
+	state_category = town
+	local_supplies=1.0 
+}

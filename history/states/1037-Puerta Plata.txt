@@ -1,0 +1,28 @@
+state={
+	id=1037
+	name="STATE_1037"
+	provinces={
+		4598 
+	}
+	history={
+		owner = DOM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
+			4598 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DOM
+		victory_points = {
+			4598 1 
+		}
+
+	}
+	
+	manpower = 715000 	
+	state_category = city
+	local_supplies=1.0 
+}

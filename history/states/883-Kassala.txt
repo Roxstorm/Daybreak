@@ -1,38 +1,37 @@
-state={
-	id=883
-	name="STATE_883"
-	manpower = 38592
-	resources={
-		oil=1 # was: 2
-		tungsten = 3 #maganese
-		steel = 3 #Maganese
-		
-	}
-	
-	state_category = town
+state = {
+	id = 883
+	name = "STATE_883"
+	manpower = 3022804
+	state_category = large_town
 
-	history={
-		owner = SUD
-		
+	history = {
+		owner = BJF
+		add_core_of = BJF
+		add_core_of = SPL
+		add_core_of = SLA
+		add_core_of = SSU
+		add_core_of = JEE
+		add_core_of = ILR
+		add_core_of = JWR
+		add_core_of = SUD
 		victory_points = {
-			12725 1 
-		}		
+			12725 5
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 1
-			air_base = 6
+			arms_factory = 1
+			dockyard = 2
+			
 			12725 = {
-				naval_base = 8
+				naval_base = 3
 			}
 		}
-
-		add_core_of = SUD
 	}
-	provinces={
-		1977 2003 2046 7989 10902 12725 
+	provinces = {
+		1977 2003 2088 10902 12725 13654 7989 4138 7987
 	}
-
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

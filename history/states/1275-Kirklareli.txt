@@ -1,0 +1,19 @@
+state={
+	id=1275
+	name="STATE_1275"
+	provinces={
+		922 14038 
+	}
+	history= {
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = TUR
+
+	}
+	state_category = town
+    manpower = 463947
+	local_supplies=0.0 
+}

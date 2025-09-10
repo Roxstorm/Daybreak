@@ -1,0 +1,29 @@
+state={
+	id=1332
+	name="STATE_1332"
+	provinces={
+		6418 6592 7857 9555 
+	}
+		history = {
+			
+			victory_points = { 6418 5 }
+		
+			
+		owner = CZE
+		add_core_of = CZE
+
+		buildings = {
+
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+
+	}
+	
+	state_category = town
+	manpower = 614640 
+	local_supplies = 0.0 
+
+}

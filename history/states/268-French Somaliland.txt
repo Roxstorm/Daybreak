@@ -1,21 +1,22 @@
 state={
 	id=268
 	name="STATE_268"
-	manpower = 85232
+	manpower = 579538 
 
 
-	state_category = enclave
+	state_category = city
 
 	history={
 		owner = DJI
 		add_core_of = DJI
-		add_core_of = AFA
-		add_core_of = SOM
+		add_claim_by = SOM
 		victory_points = {
-			8124 1
+			8124 10
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 2
 			8124 = {
 				naval_base = 2

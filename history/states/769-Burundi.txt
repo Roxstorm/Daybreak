@@ -2,22 +2,14 @@ state = {
 	id = 769
 	name = "STATE_769" # Burundi
 	
-	state_category = pastoral
-	manpower = 2145731
+	state_category = large_town
+	manpower = 5545731
 
 	history = {
 
 		owner = BRD
 
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_burundian_separatism_modifier
-			}	
-		}
+		
 		
 		add_core_of = BRD
 

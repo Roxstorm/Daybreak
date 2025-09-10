@@ -1,0 +1,24 @@
+state={
+	id=1146
+	name="STATE_1146"
+	provinces={
+		2064 7216 10869 10907 12099 12733 12816 
+	}
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+
+		add_core_of = EGY
+
+	}
+
+	
+	manpower = 18539
+	
+	state_category = wasteland
+	
+	impassable = no
+	local_supplies=0.0 
+}

@@ -7,21 +7,21 @@ state={
 		owner = SAU
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 3
 		}
 		victory_points = {
-			12727 5 
+			12727 10 
 		}
 		add_core_of = SAU
 
 	}
 
 	provinces={
-		5024 5093 7995 8004 8060 12727 12813 12870 
+		 5093 7995 8004 8060 12727 12813 12870 10923
 	}
-	manpower=1000000
+	manpower=4560000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 	local_supplies=0.000
 }

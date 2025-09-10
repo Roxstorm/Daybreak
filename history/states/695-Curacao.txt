@@ -1,9 +1,9 @@
 state = {
 	id = 695
 	name = "STATE_695"
-	manpower = 76299
+	manpower = 145400 
 	
-	state_category = rural
+	state_category = town
 
 	resources = {
 		oil = 35 # was: 126
@@ -11,11 +11,11 @@ state = {
 
 	history = {
 		
-		owner = HOL
+		owner = CRC
 		add_core_of = CRC
 
 		victory_points = {
-			153 1 # Willemstad
+			153 5 # Willemstad
 		}
 
 		buildings = {
@@ -23,21 +23,13 @@ state = {
 			infrastructure = 2
 			153 = {
 				naval_base = 1
-				coastal_bunker = 2
 			}
 		}
 
-		1939.1.1 = {
-			buildings = {
-				# From "Expand Curacao Oil Refieries"
-				industrial_complex = 1
-				synthetic_refinery = 1
-			}
-		}
 	}
 
 	provinces = {
-		153 
+		153 13912
 	}
 
 	local_supplies = 0.0 

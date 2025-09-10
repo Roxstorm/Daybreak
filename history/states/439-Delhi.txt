@@ -4,15 +4,15 @@ state={
 	provinces={
 		 2032 2086 10794 11955  
 	}
-	manpower=636246
+	manpower=32923993
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 	local_supplies=1.000
 	history={
 		owner = RAJ
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 3
 			air_base = 4
 		}
 		add_core_of = RAJ

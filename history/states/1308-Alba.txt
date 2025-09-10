@@ -1,0 +1,19 @@
+state={
+	id=1308
+	name="STATE_1308"
+	provinces={
+		693 3694 
+	}
+	history = {
+	owner = ROM
+	add_core_of = ROM
+	buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	manpower=350606
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

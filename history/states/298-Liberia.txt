@@ -1,19 +1,18 @@
-state=
-{
+state={
 	id=298
 	name="STATE_298"
-	manpower = 745000
+	manpower = 2245000
 	
-	state_category = rural
+	state_category = town
 	resources={
-		rubber=6 # was: 7
+		rubber=12 # was: 7
 	}	
 	
 
 	history= {
 		owner = LIB
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 			7959 = {
@@ -21,7 +20,7 @@ state=
 			}
 		}
 		victory_points = {
-			7959 3
+			7959 5
 		}
 		add_core_of = LIB
 	}

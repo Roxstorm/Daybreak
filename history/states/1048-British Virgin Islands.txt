@@ -1,0 +1,27 @@
+state={
+	id=1048
+	name="STATE_1048"
+	provinces={
+		13414 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			13414 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13414 1
+		}
+	}
+	
+	
+	
+	
+	manpower=17000
+	state_category = small_island
+
+	local_supplies=4.0 
+}

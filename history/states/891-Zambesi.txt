@@ -1,11 +1,12 @@
 state = {
 	id = 891
 	name = "STATE_891"
-	manpower = 640000
-	state_category = pastoral
+	manpower = 1835776
+	state_category = rural
 	
 	resources = {
-		rubber = 1.000
+		rubber = 10.000
+		chromium=8
 	}
 
 	history = {
@@ -14,7 +15,10 @@ state = {
 		add_core_of = ANG
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			
 		}
 		
 	}

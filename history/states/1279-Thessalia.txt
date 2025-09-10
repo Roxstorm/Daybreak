@@ -1,0 +1,32 @@
+state={
+	id=1279
+	name="STATE_1279"
+	provinces={
+		863 3864 3973 6930 11786 
+	}
+	
+	history={
+		owner = GRE
+		victory_points = {
+			3973 3
+		}
+		victory_points = {
+			863 1
+		}
+		victory_points = {
+			3864 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = GRE
+
+	}
+	
+	manpower=750000
+	state_category = town
+
+	local_supplies=0.0 
+}

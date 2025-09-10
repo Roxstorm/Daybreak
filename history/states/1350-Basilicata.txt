@@ -1,0 +1,22 @@
+state={
+	id=1350
+	name="STATE_1350"
+	provinces={
+		3958 3968 6972 9856 
+	}
+	
+	history = {
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+		}
+		add_core_of = ITA
+	}
+
+	
+	state_category = large_town
+    manpower = 2750000 # (Campania 3697k + Basilicato 543k )  # was 5333611 before Puglia state was added
+	local_supplies = 0.0 
+}

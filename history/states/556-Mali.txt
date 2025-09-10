@@ -2,17 +2,23 @@
 state={
 	id=556
 	name="STATE_556"
-	manpower = 1662391
-	state_category=rural
+	manpower = 4340502
+	state_category=city
+
+	resources={
+		rubber=2
+	}
 
 	history={
 		owner = MLI
 		add_core_of = MLI
 		victory_points = {
-			4927 1 
+			4927 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
 
 		}
 

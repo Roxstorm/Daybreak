@@ -6,7 +6,7 @@ state = {
 		steel=9 # was: 0
 	}
 	
-	state_category = rural
+	state_category = town
 
 	history = {
 
@@ -27,7 +27,7 @@ state = {
 	}
 
 	provinces = {
-		3488 6537 9418 9444 11407
+		3488 6537 9418 9444 11407 14107 14106
 	}
 
 	local_supplies = 14.0 

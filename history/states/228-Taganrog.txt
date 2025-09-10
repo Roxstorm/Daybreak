@@ -2,9 +2,9 @@
 state={
 	id=228
 	name="STATE_228" # Voroshilovgrad
-	manpower = 2167411
+	manpower = 2875000
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = SOV
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		523 547 570 6505 6519 9446 9461 9476 11487 11513 
+		523 547 570 6505 6519 9446 9461 9476 11487 11513 13774 13773
 	}
 
 	local_supplies=0.0 

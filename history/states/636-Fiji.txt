@@ -2,7 +2,7 @@
 state={
 	id=636
 	name="STATE_636"
-	manpower = 180000
+	manpower = 715000
 	
 	state_category = small_island
 
@@ -11,9 +11,16 @@ state={
 		add_core_of = FIJ
 		buildings = {
 			infrastructure = 2
+			dockyard = 2
+			industrial_complex = 2
 			4286 = {
 				naval_base = 1
 			}
+			
+			12159 = {
+				naval_base = 1
+			}
+			
 		}
 		
 		victory_points = {

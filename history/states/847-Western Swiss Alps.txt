@@ -2,8 +2,8 @@
 state={
 	id=847
 	name="STATE_847"
-	manpower = 178429
-	state_category = pastoral
+	manpower = 478429
+	state_category = town
 	resources={
 	}
 	history={
@@ -15,7 +15,7 @@ state={
 		add_core_of = SWI
 	}
 	provinces={
-		636 9587 3612 9618  
+		636 9587 3612 9618 11590
 	}
 	local_supplies=0.0 
 }

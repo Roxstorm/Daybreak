@@ -1,0 +1,28 @@
+state={
+	id=1169
+	name="STATE_1169"
+	provinces={
+		7091 10073 11964 
+	}
+	
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = EGY
+
+	}
+	
+	manpower=14998970
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+
+
+
+

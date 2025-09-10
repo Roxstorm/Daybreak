@@ -2,12 +2,12 @@
 state={
 	id=493
 	name="STATE_493"
-	manpower = 2826781
+	manpower = 13226781
 	resources={
 		oil=15 # was: 20
 	}
 	
-	state_category = town
+	state_category = large_city
 
 	history={
 		owner = COL

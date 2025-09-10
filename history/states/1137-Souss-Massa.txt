@@ -1,0 +1,27 @@
+state={
+	id=1137
+	name="STATE_1137"
+	provinces={
+		1989 4022 7203 
+	}
+	history = {
+
+		owner = MOR
+		add_core_of = MOR
+
+		victory_points = {
+			7203 5 # Marrakesh
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	manpower = 2000000
+	
+	state_category = large_town
+
+
+	local_supplies = 0.0 
+}

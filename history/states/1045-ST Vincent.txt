@@ -1,0 +1,25 @@
+state={
+	id=1045
+	name="STATE_1045"
+	provinces={
+		379 
+	}
+	history={
+		owner = VAG
+		add_core_of = VAG
+		buildings = {
+			infrastructure = 2
+			379 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			379 1
+		}
+	}
+	
+	manpower=111000
+	state_category = small_island
+
+	local_supplies=4.0 
+}

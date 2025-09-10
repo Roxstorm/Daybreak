@@ -2,41 +2,31 @@ state = {
 	id = 538
 	name = "STATE_538"
 	resources = {
-		rubber = 5.000
+		rubber = 15.000
+		chromium = 15
+		steel = 20
 	}
 
-	state_category = pastoral
-	manpower = 1693974
+	state_category = large_town
+	manpower = 5945848
 
 	history = {
 
 		owner = COG
 		add_core_of = COG
 
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = COG
-			add_dynamic_modifier = {
-				modifier = COG_state_loyal_to_free_congo_modifier
-			}
-		}
 
 		victory_points = {
-			988 2 # Coquilhatville
+			988 5 # Coquilhatville
 		}
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			
 		}
 
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 1
-				industrial_complex = 1
-			}
-		}
 
 	}
 

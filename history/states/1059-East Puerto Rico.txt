@@ -1,0 +1,22 @@
+state={
+	id=1059
+	name="STATE_1059"
+	provinces={
+		13401 13402 13412 
+	}
+	history={
+		add_core_of = PUE
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	
+	manpower = 1003913
+	
+	state_category = town
+
+	local_supplies=0.0 
+}

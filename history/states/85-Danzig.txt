@@ -1,7 +1,7 @@
 state = {
 	id = 85
 	name = "STATE_85"
-	manpower = 366730
+	manpower = 466730
 	
 	state_category = city
 
@@ -9,13 +9,11 @@ state = {
 
 		owner = POL
 		add_core_of = POL
-		add_core_of = DNZ
-		add_core_of = KSH
-		add_claim_by = PRE
 
 		victory_points = {
-			362 15 # Danzig
+			362 10 # Danzig
 		}
+		
 		
 		buildings = {
 			infrastructure = 3
@@ -27,13 +25,10 @@ state = {
 			}
 		}
 		
-		1938.3.12 = {
-			add_claim_by = GER
-		}
 	}
 
 	provinces = {
-		362
+		362 13846 3380 389 3324
 	}
 
 	local_supplies = 0.0 

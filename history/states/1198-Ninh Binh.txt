@@ -1,0 +1,26 @@
+state={
+	id=1198
+	name="STATE_1198"
+	provinces={
+		1185 
+	}
+	history={
+		add_core_of = VIN
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			
+				1185 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=5215000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

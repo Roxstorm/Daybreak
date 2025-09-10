@@ -1,13 +1,15 @@
 state={
 	id=905
 	name="STATE_905"
-	manpower = 1017600
-	state_category = pastoral
+	manpower = 5479360
+	state_category = large_town
 
 	history={
 		owner = KEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 			5210 = {
 				naval_base = 2
 
@@ -15,7 +17,7 @@ state={
 		}
 
 		victory_points = {
-			5210 1 
+			5210 5
 		}
 		add_core_of = KEN
 

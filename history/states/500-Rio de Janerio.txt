@@ -2,9 +2,9 @@
 state={
 	id=500
 	name="STATE_500"
-	manpower = 6665500
+	manpower = 27663575
 	
-	state_category = large_city
+	state_category = metropolis
 	
 	history={
 		owner = BRA
@@ -12,16 +12,13 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 6
 			dockyard = 2
 			air_base = 7
 			10980 = {
 				naval_base = 7
                 landmark_cristo_redentor = {
                     level = 1
-                    allowed = {
-                        has_dlc = "Gotterdammerung"
-                    }
                 }
 			}
 		}

@@ -1,13 +1,11 @@
 state={
-	id=694
+	id=694 #Guadeloupe & Martinique
 	name="STATE_694"
-	manpower = 444290
-
-	state_category = rural
+	
 
 	history={
-		add_core_of = GDL
-		owner = GDL
+		add_core_of = FRA
+		owner = FRA
 		victory_points = {
 			9377 1
 		}
@@ -24,8 +22,12 @@ state={
 	}
 	
 	provinces={
-		177 9377 13084 
+		177 9377 
 	}
+
+	manpower = 813000
+
+	state_category = rural
 
 	local_supplies=3.0 
 }

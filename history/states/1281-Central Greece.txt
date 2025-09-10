@@ -1,0 +1,41 @@
+state={
+	id=1281
+	name="STATE_1281"
+	provinces={
+		976 1109 3988 7127 11895 13792 
+	}
+		resources={
+		steel=13 # was: 4
+		chromium=12 # was: 22
+		aluminium=40 # was: 58
+		tungsten = 16 # was: 20
+	}
+	
+	
+
+	history={
+		owner = GRE
+		victory_points = {
+			976 1
+		}
+		victory_points = {
+			7127 3
+		}
+		victory_points = {
+			3988 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = GRE
+
+	}
+	
+	manpower=600000
+	state_category = town
+
+	local_supplies=0.0 
+}

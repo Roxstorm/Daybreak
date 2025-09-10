@@ -1,0 +1,23 @@
+state={
+	id=1346
+	name="STATE_1346"
+	provinces={
+		6666 9622 13124 
+	}
+	manpower = 833648
+	resources={
+		aluminium=18
+	}
+	state_category = city
+	history={
+		owner = SWI
+		victory_points = { 6666 10 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = SWI
+	}
+	local_supplies=0.0 
+}

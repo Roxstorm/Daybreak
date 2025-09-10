@@ -1,0 +1,20 @@
+state={
+	id=1073
+	name="STATE_1073"
+	provinces={
+		7451 13475 13477 13478 13481  
+	}
+	history= {
+		owner = CUB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = CUB
+
+	}
+	
+	manpower = 1050000
+    state_category = town
+	local_supplies=0.0 
+}

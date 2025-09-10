@@ -1,0 +1,22 @@
+state={
+	id=1321
+	name="STATE_1321"
+	provinces={
+		716 3731 6716 9690 
+	}
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+	}
+
+	
+	
+	state_category = town
+	manpower = 810111
+	local_supplies=0.0 
+}

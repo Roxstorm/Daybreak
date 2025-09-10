@@ -1,0 +1,26 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		6221 6351 6489 11471 14132 14136 
+	}
+	
+	
+	resources={
+		steel=9 # was: 16
+	}
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = ENG
+	}
+
+	manpower = 2800615
+    state_category = city
+	local_supplies=0.0 
+}

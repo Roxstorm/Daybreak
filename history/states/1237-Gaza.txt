@@ -1,0 +1,42 @@
+state={
+	id=1237
+	name="STATE_1237"
+	provinces={
+		4088 
+	}
+	history = {
+
+		owner = PAL
+		add_core_of = ISR
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+			4088 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			4088 5 # Haifa
+		}
+		
+		force_enable_resistance = {
+		occupier = ISR
+		occupied = PAL
+		}
+		start_resistance = yes
+		set_compliance = 15
+		set_resistance = 85
+		
+		
+	}
+	
+	manpower = 742000
+	
+	state_category = city
+
+
+	local_supplies = 0.0 
+}

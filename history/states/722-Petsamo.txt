@@ -3,30 +3,28 @@ state={
 	name="STATE_722" #PETSAMO
 	manpower = 2371
 
-	state_category = enclave
+	state_category = pastoral
 
 	history={
-		owner = SOV
+		owner = FIN
 
-		victory_points = { #Petsamo
-			9140 1
-		}
+	
 
 		buildings = {
 			infrastructure = 1 #MM: Was 2
-			9140 = {
-				naval_base = 1
-			}
+		
 		}
 		add_core_of = FIN
-		add_core_of = SOV
 		add_core_of = SMI
 
 	}
 	
 	provinces={
-		6012 6183 9140 11142 
-	}
-
+		6146 193 9169 13115 13114 13109 9061 9181 3030 6210 3185 3068 6156
+		                                                         
+		
+		
+	}   
+        
 	local_supplies=0.0 
 }

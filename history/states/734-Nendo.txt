@@ -1,12 +1,12 @@
 state={
 	id=734
 	name="STATE_734"
-	manpower = 5167
+	manpower = 6000 
 	state_category = tiny_island
 
 	history={
-		owner = TAH
-		add_core_of = TAH
+		owner = SOL
+		add_core_of = SOL
 		buildings = {
 			infrastructure = 2
 			7390 = {

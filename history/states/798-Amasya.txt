@@ -4,20 +4,21 @@ state={
 	provinces={
 		919 3807 3862 3964 11826 11844 
 	}
-	manpower = 531172
+	manpower = 1765615
 	
-	state_category = rural
+	state_category = large_city
 
 	history= {
 		owner = TUR
 		victory_points = {
-			3862 3
+			3862 5
 		}
 		victory_points = {
-			919 5
+			919 10
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = TUR
 	}

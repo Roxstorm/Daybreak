@@ -1,16 +1,16 @@
 state = {
 	id = 73
 	name = "STATE_73"
-	manpower = 854300
+	manpower = 1258000
 	
-	state_category = rural
+	state_category = large_town
 	
 	history = {
 		
 		owner = SOV
 
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3		
 		}
 
 		victory_points = {
@@ -24,21 +24,10 @@ state = {
 		victory_points = {
 			11691 2 # Uzhhorod
 		}
-
-		add_core_of = CZE
-		add_core_of = SLO
+		add_core_of = SOV
 		add_core_of = UKR
 		
-		# This should isntead be reclaimable through Hungarian focuses with ww
-		IF = {
-			limit = {
-				NOT = {
-					has_dlc = "Gotterdammerung"
-				}
-			}
-			add_claim_by = HUN
-		}
-
+	
 	}
 
 	provinces = {

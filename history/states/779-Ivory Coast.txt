@@ -2,22 +2,29 @@
 state={
 	id=779
 	name="STATE_779" # Ivory Coast
-	manpower = 3850734
+	manpower = 12850734
 	
-	state_category = pastoral
+	state_category = city
 	history={
 		owner = IVO
 		add_core_of = IVO
 		victory_points = {
-			10803 10
+			10803 15
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2 
+			arms_factory = 1
 			10803 = {
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}
+	
+	resources={
+		oil=16
+	}
+	
 
 	provinces={
 		5013 5070 8065 8122 10762 10803

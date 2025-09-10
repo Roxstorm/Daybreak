@@ -1,0 +1,24 @@
+state={
+	id=1130
+	name="STATE_1130"
+	provinces={
+		13800 
+	}
+	history={
+		add_core_of = ADR
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		
+		victory_points = {
+			13800 10
+		}
+		
+	}
+	manpower=52597  
+	buildings_max_level_factor=1
+	state_category="city"
+
+	local_supplies=0.0 
+}

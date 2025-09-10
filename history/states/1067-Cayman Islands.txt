@@ -1,0 +1,26 @@
+state={
+	id=1067
+	name="STATE_1067"
+	provinces={
+		13433  13439
+	}
+	history={
+		add_claim_by = JAM
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			13433 = {
+				naval_base = 1
+			}
+			
+			13439 = {
+				naval_base = 1
+			}
+			
+		}
+	}
+
+	manpower = 25000
+    state_category = small_island
+	local_supplies=2.0 
+}

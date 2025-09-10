@@ -1,0 +1,21 @@
+state={
+	id=1243
+	name="STATE_1243"
+	provinces={
+		1074 14004 
+	}
+		history={
+		owner = SYR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SYR	
+
+	}
+
+	manpower = 743478
+	
+	state_category = large_town
+
+	local_supplies=2.0 
+}

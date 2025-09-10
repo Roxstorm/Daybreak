@@ -1,15 +1,14 @@
 state = {
 	id = 959
 	name = "STATE_959"
-	manpower = 781311
+	manpower = 1562622
 	
-	state_category = rural
+	state_category = town
 
 	history = {
 
 		owner = ARG
 		add_core_of = ARG
-		add_claim_by = BOL
 
 		buildings = {
 			infrastructure = 1
@@ -17,11 +16,11 @@ state = {
 		}
 
 		victory_points = {
-			2224 2 
+			2224 5
 		}
 
 		victory_points = {
-			11001 1 
+			11001 3
 		}
 
 	}

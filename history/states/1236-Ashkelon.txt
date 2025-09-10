@@ -1,0 +1,28 @@
+state={
+	id=1236
+	name="STATE_1236"
+	provinces={
+		13681 13683 
+	}
+	history = {
+
+		owner = ISR
+		add_core_of = ISR
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			13681 5 # Haifa
+		}
+		
+	}
+	
+	manpower = 343000
+	
+	state_category = town
+
+
+	local_supplies = 0.0 
+}

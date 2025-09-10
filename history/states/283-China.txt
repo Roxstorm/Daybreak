@@ -7,8 +7,8 @@ state = {
 
 	history = {
 		owner = PRC
-		add_core_of = XSM
-		add_core_of = CHI
+		
+		add_claim_by = CHI
 		add_core_of = PRC
 
 		buildings = {
@@ -17,29 +17,14 @@ state = {
 		}
 
 		victory_points = {
-			2022 3 #Was in 12732, but is now here
-		}
-
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
+			2022 5 #Was in 12732, but is now here
 		}
 	}
 
 	provinces = {
-		531 556 1630 1647 1933 1985 2022 3745 4313 5025 6638 7397 7911 12797 12882 
-	}
-	manpower = 3705400
+		531 556 1630 1647 1933 2022 6638 7911 12797 517 4939  7511 5057  12776 12882 7397 4313 13925 13931
+	}                                                                                    
+	manpower = 10856822                                                                   
 	buildings_max_level_factor = 1.000
 	state_category = rural
 

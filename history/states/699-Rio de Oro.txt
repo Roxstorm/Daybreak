@@ -1,12 +1,12 @@
 state={
 	id=699
 	name="STATE_699"
-	manpower = 21056
+	manpower = 261056
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
-		owner = WES
+		owner = MOR
 		add_core_of = WES
 		buildings = {
 			infrastructure = 1
@@ -20,7 +20,7 @@ state={
 	}
 	
 	provinces={
-		4920 5012 7979 8038 8111 10875
+		4920 5012 7979 8038 8111 10875 13799
 	}
 
 	local_supplies=0.0 

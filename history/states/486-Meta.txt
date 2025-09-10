@@ -2,9 +2,9 @@
 state={
 	id=486
 	name="STATE_486"
-	manpower = 213160
+	manpower = 2213160
 	
-	state_category = pastoral
+	state_category = large_town
 
 	history={
 		owner = COL

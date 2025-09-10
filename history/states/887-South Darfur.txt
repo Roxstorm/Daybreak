@@ -2,28 +2,30 @@ state={
 	id=887
 	name="STATE_887"
 
-	manpower = 302020
-	state_category = wasteland
+	manpower = 8320020
+	state_category = rural
 	
 	history = {
-		owner = JWR
-		add_core_of = SSU
-		add_core_of = SUD
+		owner = JEE
+		add_core_of = BJF
+		add_core_of = SPL
 		add_core_of = SLA
+		add_core_of = SSU
 		add_core_of = JEE
 		add_core_of = ILR
 		add_core_of = JWR
-		add_core_of = BJF
-		add_core_of = SPL
+		add_core_of = SUD
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 
 	}
 
 	provinces={
-		1960 5060 10857 
-	}
+		1960 5060 8103 10739 8052 13863 13860
+	}                  
 	
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000

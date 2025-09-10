@@ -2,21 +2,19 @@ state = {
 	id = 762
 	name = "STATE_762"
 	
-	manpower = 1000000
+	manpower = 4800000
 
 	resources = {
 		steel = 19 # was: 60
 		aluminium = 7 # was: 20
 	}
 
-	state_category = city
+	state_category = metropolis
 
 	history = {
 		
 		owner = POL
 		add_core_of = POL
-		add_core_of = SIL
-		add_claim_by = PRE
 
 		victory_points = {
 			6464 5 # Katovice
@@ -30,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		506 6464
+		 6464 506  13842 13205 3586 
 	}
 
 	local_supplies = 0.0 

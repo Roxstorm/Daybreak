@@ -2,7 +2,7 @@
 state={
 	id=346
 	name="STATE_346"
-	manpower = 849453
+	manpower = 2823581
 	
 	state_category = rural
 
@@ -10,23 +10,25 @@ state={
 		owner = TUR
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 5
 		}
 		
 		victory_points = {
-			9861 5
+			9861 15
 		}
 		victory_points = {
-			6807 3
+			6807 10
 		}
 		victory_points = {
-			784 1
+			784 5
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		784 869 940 3788 3876 6807 6894 9755 9763 9811 9861 11792 11860 13122 
+		784 869 940 3788 3876 6807 6894 9755 9763 9811 9861 11792 11860 13122 7143
 	}
 
 	local_supplies=0.0 

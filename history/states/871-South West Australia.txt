@@ -6,13 +6,13 @@ state={
 	}
 	history = {
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		owner = AST
 		add_core_of = AST
 	}
 	state_category = pastoral
-	manpower=50000
+	manpower=320000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

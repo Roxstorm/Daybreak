@@ -2,14 +2,15 @@
 state={
 	id=418
 	name="STATE_418"
-	manpower = 332362
+	manpower = 1696503
 	
-	state_category = wasteland
+	state_category = town
 
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		victory_points = {
 			8093 1 

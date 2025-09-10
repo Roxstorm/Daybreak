@@ -6,16 +6,18 @@ state = {
 		tungsten = 92.000
 	}
 	
-	manpower = 2107805
+	manpower = 5332746
 	
-	state_category = rural
+	state_category = large_town
 	
 	history = {
 		owner = BRM
 		add_core_of = BRM
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 

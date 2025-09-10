@@ -2,9 +2,9 @@
 state={
 	id=221
 	name="STATE_221"
-	manpower = 2227520
+	manpower = 2910000
 	
-	state_category = city
+	state_category = large_city
 	
 	resources={
 		steel=33 # was: 56
@@ -18,16 +18,11 @@ state={
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 5
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
 	}
 
 	provinces={

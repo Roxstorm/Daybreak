@@ -2,25 +2,24 @@
 state={
 	id=419
 	name="STATE_419"
-	manpower = 715857
+	manpower = 2577085
 	resources = {
 	}
 	
-	state_category = rural
+	state_category = town
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
 		}
 		victory_points = {
-			7604 1 
+			7604 2 
 		}
 		victory_points = {
-			1822 2 
+			1822 5
 		}
 		add_core_of = PER
-		add_core_of = KUR
-		add_core_of = AZR
 	}
 
 	provinces={

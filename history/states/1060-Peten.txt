@@ -1,0 +1,26 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		4991 13389 
+	}
+	
+	
+	resources={
+		chromium=9 # was: 6
+	}
+	
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GUA
+
+	}
+	
+	state_category = pastoral
+	manpower=366000 
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

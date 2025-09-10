@@ -2,9 +2,9 @@
 state={
 	id=420
 	name="STATE_420"
-	manpower = 1314948
+	manpower = 3577085
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
 		owner = PER
@@ -16,9 +16,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			
 		}
 		add_core_of = PER
-		add_core_of = AZR
 	}
 
 	provinces={

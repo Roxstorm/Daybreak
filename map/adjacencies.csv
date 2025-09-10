@@ -6,6 +6,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
 2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
+13154;13157;sea;749;-1;-1;-1;-1;GREAT_LAKES;Great-lakes1
+8642;13157;sea;4345;-1;-1;-1;-1;GREAT_LAKES;Great-lakes2
+13159;13201;sea;5205;-1;-1;-1;-1;GREAT_LAKES;Great-lakes3
+1434;2332;sea;3151;-1;-1;-1;-1;WHITE_SEA_CANAL;WHITE_SEA_CANAL1
+2332;2356;sea;11153;-1;-1;-1;-1;WHITE_SEA_CANAL;WHITE_SEA_CANAL2
+13194;209;sea;11212;-1;-1;-1;-1;WHITE_SEA_CANAL;WHITE_SEA_CANAL3
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;sea;2408;-1;-1;-1;-1;;Sjaelland-Fyn

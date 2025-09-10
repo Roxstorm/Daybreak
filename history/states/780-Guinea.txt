@@ -2,17 +2,22 @@
 state={
 	id=780
 	name="STATE_780" # Guinea
-	manpower = 195041
+	manpower = 6435041
 	
-	state_category = pastoral
+	resources={
+		steel=24
+	}
+	
+	state_category = city
 	history={
-		owner = GNA
+		owner = GNA 
 		add_core_of = GNA
 		victory_points = {
-			1909 1 
+			1909 15
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2 
 			1909 = {
 				naval_base = 1
 			}

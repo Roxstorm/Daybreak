@@ -3,27 +3,23 @@ state = {
 	name = "STATE_147" #SALLA
 	manpower = 4630
 	
-	state_category = enclave
+	state_category = rural
 	
 	history = {	
-		owner = SOV
+		owner = FIN
 
 		buildings = {
 			infrastructure = 1 
 		}
 
 		add_core_of = FIN
-		add_core_of = KAR
-		add_core_of = SMI
 		
-		victory_points = { #Salla
-			197 1
-		}
+		
 
 	}
 
 	provinces = {
-		197 9158 11085 	
+			6212 11121 195 11132 132 6081
 	}
 
 	local_supplies = 0.0 

@@ -1,20 +1,20 @@
 state = {
 	id = 909
 	name = "STATE_909"
-	manpower = 152520
-	state_category = rural
+	manpower = 1715792
+	state_category = large_city
 	
 	history = {
 
 		owner = GER
 		add_core_of = GER
-		add_core_of = SHL
-		add_core_of = PRE
+	
+		
 
 		victory_points = {
-			317 3  # Flensburg
+			9347 20 # Hamburg
 		}
-
+	
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -23,7 +23,7 @@ state = {
 	}
 
 	provinces = {
-		317 3231 11366
+	 9347
  	}
 
 	local_supplies = 0.0 

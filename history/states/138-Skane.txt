@@ -2,7 +2,7 @@
 state = {
 	id = 138
 	name = "STATE_138"
-	manpower = 1047701
+	manpower = 1467701
 	
 	state_category = city
 
@@ -10,13 +10,13 @@ state = {
 		owner = SWE
 
 		victory_points = {
-			9279 5 # Malmö
+			9279 20 # Malmö
 		}
 		victory_points = {
-			11215 1 # Karlskrona
+			11215 5 # Karlskrona
 		}
 		victory_points = {
-			6345 1 # Helsingborg
+			6345 5 # Helsingborg
 		}
 
 		buildings = {

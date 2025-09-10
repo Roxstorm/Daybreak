@@ -2,15 +2,15 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 82535
+	manpower = 542370
 	
-	state_category = wasteland
+	state_category = city
 
 	history={
 		owner = LBA
 		
 		victory_points = {
-			11954 3 
+			11954 10 
 		}
 		buildings = {
 			infrastructure = 2

@@ -1,12 +1,12 @@
 state = {
 	id = 658
 	name = "STATE_658"
-	manpower = 1870200
+	manpower = 1898200
 	resources = {
-		oil = 5 # was: 6
+		oil = 72 # was: 6
 	}
 	
-	state_category = pastoral
+	state_category = metropolis
 
 
 	history = {
@@ -15,11 +15,11 @@ state = {
 		add_core_of = UAE
 
 		victory_points = {
-			7960 25 # Abu Dhabi
+			7960 10 # Abu Dhabi
 		}
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			7960 = {
 				naval_base = 3
 			}
@@ -28,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		2048 7960 8108 10904 
+		2048 7960 8108 10904 13665 13659 13656
 	}
 
 	local_supplies = 4.0 

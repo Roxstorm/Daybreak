@@ -2,16 +2,20 @@ state={
 	id=701
 	name="STATE_701"
 
+	resources={
+		oil=6
+	}
+
 	history={
 		owner = GAM
 		add_core_of = GAM
 		victory_points = {
-			4989 1 
+			4989 5
 		}
 		buildings = {
 			infrastructure = 2
 			4989 = {
-				naval_base = 1
+				naval_base = 2
 
 			}
 
@@ -22,9 +26,9 @@ state={
 	provinces={
 		4989 13213 
 	}
-	manpower=199520
+	manpower=1059520
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=town
 
 	local_supplies=0.0 
 }

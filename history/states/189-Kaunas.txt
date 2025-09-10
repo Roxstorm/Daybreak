@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
 		victory_points = {
 			9483 3
 		}
@@ -22,6 +23,7 @@ state={
 			}
 
 		}
+		
 		add_core_of = LIT
 
 	}
@@ -31,7 +33,7 @@ state={
 	}
 
 	local_supplies=0.0 
-	manpower=697100
+	manpower=431708
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,0 +1,20 @@
+state={
+	id=1055
+	name="STATE_1055"
+	provinces={
+		13436 13561 
+	}
+	history={
+		owner = HAI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = HAI
+
+	}
+	
+	manpower = 1095000   	
+	state_category = town
+	local_supplies=1.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=1192
+	name="STATE_1192"
+	provinces={
+		11909 11936 10129
+	}
+	history={
+		add_core_of = VIN
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+	manpower=2211000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,24 @@
+state={
+	id=1128
+	name="STATE_1128"
+	provinces={
+		13797 
+	}
+		history={
+		add_core_of = VCT
+		owner = ITA
+		buildings = {
+			infrastructure = 4
+		}
+		
+		victory_points = {
+			13797 15 
+		}
+		
+	}
+	manpower=726 
+	buildings_max_level_factor=1
+	state_category=city
+
+	local_supplies=0.0 
+}

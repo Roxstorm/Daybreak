@@ -1,9 +1,9 @@
 state={
 	id=676
 	name="STATE_676"
-	manpower = 1182741
-	
-	state_category = town
+	provinces={
+		10106 14000 13992 10804 1938 1600 3916
+	}
 	
 	resources={
 		oil = 8 # was: 10
@@ -12,25 +12,28 @@ state={
 	history={
 		owner = IRQ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			
+			industrial_complex = 2
+			arms_factory = 2
+			#dockyard
+			
+			
 		}
 		victory_points = {
-			10106 5 
+			10106 10
 		}
 		victory_points = {
-			3916 3 
-		}
-		victory_points = {
-			6826 1
+			3916 5
 		}
 		add_core_of = IRQ
-		add_core_of = KUR
-		add_core_of = ASY
 	}
 	
-	provinces={
-		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
-	}
+	
+	
+	manpower = 1564000
+	
+	state_category = city
 
 	local_supplies=0.0 
 }

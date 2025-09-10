@@ -1,0 +1,40 @@
+state={
+	id=1018
+	name="STATE_1018"
+	provinces={
+		2060 12721 12835 13512 13514
+	}
+	
+	resources = {
+		oil = 5
+		steel=32
+	}
+	
+	history = {
+
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = RIG
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			12835 10
+		}
+		victory_points = {
+			2060 3
+		}
+
+	}
+
+	manpower = 3827826
+	
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies = 0.0 
+}
+	

@@ -2,7 +2,7 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 231000
+	manpower = 183076 
 	
 	state_category = pastoral
 	history=
@@ -10,7 +10,7 @@ state=
 		add_core_of = BLZ
 		owner = BLZ
 		victory_points = {
-			2077 10 
+			2077 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -19,7 +19,7 @@ state=
 			}
 		}
 	}
-	provinces= { 2077 }
+	provinces= { 2077 13384 }
 
 	local_supplies=0.0 
 }

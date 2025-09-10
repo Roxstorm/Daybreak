@@ -2,13 +2,13 @@
 state={
 	id=804
 	name="STATE_804"
-	manpower =547200
+	manpower = 207095 
 	
 	
 	state_category = town
 	
 	resources={
-		aluminium=7 # was: 10
+		aluminium=20 # was: 10
 	}
 
 	history={
@@ -21,12 +21,20 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		add_core_of = HRZ
+		
 		set_demilitarized_zone = yes
+		force_enable_resistance = {
+		occupier = YUG
+		occupied = BOS
+		}
+		start_resistance = yes
+		set_compliance = 20
+		set_resistance = 30
+		
 	}
 
 	provinces={
-		953 6942 9894 11845 
+		 6942 9894 13885
 	}
 
 	local_supplies=0.0 

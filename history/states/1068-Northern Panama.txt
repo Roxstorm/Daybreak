@@ -1,0 +1,28 @@
+state={
+	id=1068
+	name="STATE_1068"
+	provinces={
+		1633 4611 4624 13562 13563 13564 13565 
+	}
+	
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2 
+			4611 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = PAN
+		victory_points = {
+			4611 1
+		}
+
+	}
+	
+	state_category = large_town
+    manpower = 1310000 
+	local_supplies=0.0 
+}

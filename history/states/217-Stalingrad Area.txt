@@ -1,9 +1,9 @@
 state = {
 	id = 217
 	name = "STATE_217"
-	manpower = 1135070
+	manpower = 4135070
 	
-	state_category = city
+	state_category = metropolis
 
 	history = {
 
@@ -17,7 +17,7 @@ state = {
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 3
 			air_base = 1
 
 			# 22nd Congress of the CPSU Stalingrad Hydroelectric Power Station
@@ -25,11 +25,6 @@ state = {
 
 		}
 		
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
 	}
 
 	provinces = {

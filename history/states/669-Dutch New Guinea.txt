@@ -1,9 +1,9 @@
 state={
 	id=669
 	name="STATE_669"
-	manpower = 314300
+	manpower = 1233627
 
-	state_category = pastoral
+	state_category = large_town
 
 	history= {
 		owner = INS

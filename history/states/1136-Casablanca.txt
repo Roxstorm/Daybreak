@@ -1,0 +1,31 @@
+state={
+	id=1136
+	name="STATE_1136"
+	provinces={
+		1079 7069 10023 
+	}
+	history = {
+
+		owner = MOR
+		add_core_of = MOR
+
+		victory_points = {
+			7069 10 # Casablanca
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 4
+			7069 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	manpower = 3800000
+	
+	state_category = large_city
+
+	local_supplies = 0.0 
+}

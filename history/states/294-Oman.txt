@@ -1,12 +1,12 @@
 state = {
 	id = 294
 	name = "STATE_294"
-	manpower = 369000
+	manpower = 969000
 	
-	state_category = rural
+	state_category = city
 	
 	resources = {
-		oil = 1 # was: 2
+		oil = 86 # was: 2
 	}
 
 	history = {
@@ -15,16 +15,16 @@ state = {
 		add_core_of = OMA
 
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1 
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3 
 			10760 = {
 				naval_base = 3
 			}
 		}
 
 		victory_points = {
-			10760 3 # Muscat
+			10760 5 # Muscat
 		}
 		
 	}

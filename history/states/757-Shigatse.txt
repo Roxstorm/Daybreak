@@ -2,11 +2,11 @@ state={
 	id=757
 	name="STATE_757"
 	provinces={
-		1991 2014 2098 4900 5033 8121 12807 
+		1991 2014 2098 4900 5033 8121 12807 2093
 	}
-	manpower=1000000
+	manpower=2930000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = large_town
 	history={
 		owner = PRC
 		buildings = {
@@ -17,6 +17,8 @@ state={
 		victory_points = {
 			5033 5 
 		}
+		add_claim_by = CHI
+		add_core_of = PRC
 		add_core_of = TIB
 
 	}

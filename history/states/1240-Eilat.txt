@@ -1,0 +1,33 @@
+state={
+	id=1240
+	name="STATE_1240"
+	provinces={
+		1015 
+	}
+	history = {
+
+		owner = PAL
+		add_core_of = ISR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 2
+			1015 = {
+				naval_base = 1
+			}
+			
+		}
+		victory_points = {
+			1015 3 # Haifa
+		}
+		
+	}
+	
+	manpower = 511000
+	
+	state_category = large_town
+
+
+	local_supplies = 0.0 
+}

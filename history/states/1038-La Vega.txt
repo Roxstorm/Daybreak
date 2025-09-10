@@ -1,0 +1,26 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		13416 13426 13427 13431 13484 13415
+	}
+	
+		
+	resources={
+		chromium=13
+		steel=14
+	}
+	
+	history={
+		owner = DOM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = DOM
+
+	}
+	
+	manpower = 1056000 	
+	state_category = rural
+	local_supplies=1.0 
+}

@@ -2,8 +2,8 @@ state = {
 	id = 979
 	name = "STATE_979"
 
-	manpower = 359000
-	state_category = "rural"
+	manpower = 1650000 
+	state_category = "town"
 
 	history = {
 

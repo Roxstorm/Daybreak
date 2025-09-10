@@ -2,7 +2,7 @@
 state={
 	id=348
 	name="STATE_348" # Kayseri
-	manpower = 858452
+	manpower = 2853494
 	resources = { chromium = 32 }
 	
 	state_category = rural
@@ -12,8 +12,19 @@ state={
 		victory_points = {
 			3870 5 
 		}
+		
+		
+		victory_points = {
+			11746 10
+		}
+		
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			
+			11746 = {
+				naval_base = 3
+			}
 
 		}
 		add_core_of = TUR
@@ -21,7 +32,7 @@ state={
 	}
 
 	provinces={
-		886 921 961 3870 3921 6888 6956 6977 9830 
+		886 921 961 3870 3921 6888 6956 6977 9830 11746 14024
 	}
 
 	local_supplies=6.0 

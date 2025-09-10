@@ -1,18 +1,17 @@
 state = {
 	id = 68
 	name = "STATE_68"
-	manpower = 1250840
+	manpower = 1100000
 	resources = {
 		aluminium = 15 # was: 24
 	}
 
-	state_category = city
+	state_category = town
 
 	history = {
 
 		owner = POL
-		add_core_of = GER
-		add_core_of = PRE
+		add_core_of = POL
 
 		victory_points = {
 			3473 1 # Küstrin
@@ -26,7 +25,7 @@ state = {
 	}
 
 	provinces = {
-		444 537 3473 3572 6236 9387 11478 
+		3473 444 11478 6236 537 9387 3438 3572 9470
 	}
 
 	local_supplies = 0.0 

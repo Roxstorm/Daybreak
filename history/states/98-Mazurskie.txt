@@ -1,9 +1,9 @@
 state={
 	id=98
 	name="STATE_98"
-	manpower = 1412100
+	manpower = 210000
 	
-	state_category = rural
+	state_category = large_town
 	history={
 		victory_points = {
 			3230 5
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		548 3230 6259 6321 6401 6567 9290 9316 11385 
+		3230 3295 243 6321 6259 6401 548 6347
 	}
 
 	local_supplies=7.0 

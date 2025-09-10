@@ -1,0 +1,22 @@
+state={
+	id=1046
+	name="STATE_1046"
+	provinces={
+		7123 
+	}
+	history={
+		add_core_of = DCA
+		owner = DCA
+		buildings = {
+			infrastructure = 2
+			7123 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	manpower=72000 
+	state_category = tiny_island
+
+	local_supplies=0.0 
+}

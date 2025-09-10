@@ -3,11 +3,11 @@ state=
 	id=647
 	name="STATE_647"
 	state_category = small_island
-	manpower = 12100
+	manpower = 15260
 	history=
 	{
-		owner = JAP
-		add_core_of = FSM
+		owner = ROP
+		add_core_of = ROP
 		buildings = {
 			infrastructure = 2
 			air_base = 1

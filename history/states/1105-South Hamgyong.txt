@@ -1,0 +1,32 @@
+state={
+	id=1105
+	name="STATE_1105"
+	provinces={
+		852 3852 3981 6928 11878 13749 13757 
+	}
+		resources={
+		tungsten=48 # was: 52
+	}
+	
+	
+	history={
+		owner = NKR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 3
+			
+			 3852 = {
+                naval_base = 1
+            }
+			
+		}
+
+		add_core_of = DPK
+		add_claim_by = KOR
+	}
+	
+	manpower = 2405600
+	state_category = large_town
+	local_supplies=0.0 
+}

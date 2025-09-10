@@ -5,24 +5,24 @@ state={
 	history={
 		owner = PRC
 		add_core_of = SIK
-		add_core_of = CHI
+		add_claim_by = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
 
 		}
 		victory_points = {
-			4973 1
+			4973 5
 		}
 	}
 
 
-	provinces={
-		4973 8042 8086 10885 10911 12864 
-	}
-	manpower=408000
+	provinces={ 
+		1698 1943 2074 7790 8042 8086 10315 10885 10911 12864 
+	}                                         
+	manpower=1408000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 
 	local_supplies=4.0 
 }

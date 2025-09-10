@@ -1,0 +1,27 @@
+state={
+	id=1333
+	name="STATE_1333"
+	provinces={
+		445 583 
+	}
+	history = {
+
+		owner = CZE
+		add_core_of = CZE
+
+		buildings = {
+
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+
+	}
+	
+	state_category = town
+	manpower = 530469 # was 2830000
+	local_supplies = 0.0 
+
+}

@@ -1,0 +1,25 @@
+state={
+	id=1122
+	name="STATE_1122"
+	provinces={
+		11984 14060 14061 14059  
+	}
+	history= {
+		owner = ENG
+		add_core_of = ENG
+		add_claim_by = CYP
+		victory_points = {
+			11984 5
+		}
+		buildings = {
+			infrastructure = 2
+			11984 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	manpower = 381215
+	state_category = town
+	local_supplies=0.0 
+}

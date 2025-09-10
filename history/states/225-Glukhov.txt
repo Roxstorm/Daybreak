@@ -2,20 +2,20 @@
 state={
 	id=225
 	name="STATE_225" # Sumy
-	manpower = 1338280
+	manpower = 1403000
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		victory_points = {
-			3520 3
+			3520 5
 		}
 		victory_points = {
 			9566 1
 		}
 		owner = SOV
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 		}
 		add_core_of = SOV
 		add_core_of = UKR

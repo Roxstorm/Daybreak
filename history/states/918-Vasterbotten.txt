@@ -1,7 +1,7 @@
 state = { 
 	id = 918
 	name = "STATE_918" # Västerbotten
-	manpower = 315105
+	manpower = 415105
 	state_category = rural
 	resources = {
 		tungsten = 35

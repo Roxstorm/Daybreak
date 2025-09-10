@@ -20,7 +20,7 @@ state={
 			2017 1
 		}
 	}
-	manpower = 281165
+	manpower = 481165
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

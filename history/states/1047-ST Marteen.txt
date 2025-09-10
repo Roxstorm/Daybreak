@@ -1,0 +1,26 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		13397 
+	}
+	history={
+		add_core_of = HOL
+		owner = HOL
+		victory_points = {
+			13397 1
+		}
+		buildings = {
+			infrastructure = 2
+			13397 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	manpower = 30000
+
+	state_category = rural
+
+	local_supplies=3.0 
+}

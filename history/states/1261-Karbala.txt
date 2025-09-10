@@ -1,0 +1,27 @@
+state={
+	id=1261
+	name="STATE_1261"
+	provinces={
+		4951 10876 13950 13953 13959 
+	}
+		history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+			
+			
+			industrial_complex = 1
+			#dockyard
+			
+		}
+		add_core_of = IRQ
+	}
+	
+	
+	
+	manpower = 496000
+	
+	state_category = town
+
+	local_supplies=0.0 
+}

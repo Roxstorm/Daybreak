@@ -4,22 +4,21 @@ state={
 
 	history={
 		owner = PRC
-		add_core_of = MEN
-		add_core_of = CHI
+		add_claim_by = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 
 	}
 
 	provinces={
-		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 12348 12448 12554 
-	}
-	manpower=566000
+	972 1508 1558 1811 3828 3877 3978 4495 4514 6988 7575 7578 7812 10363 10426 10429 10499 12469 12478 
+	}                                                                              
+	manpower=866000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=0.0 
 }

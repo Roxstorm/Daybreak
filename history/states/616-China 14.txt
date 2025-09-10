@@ -5,8 +5,8 @@ state = {
 	history = {
 
 		owner = PRC
-		add_core_of = XSM
-		add_core_of = CHI
+		
+		add_claim_by = CHI
 		add_core_of = PRC
 
 		buildings = {
@@ -17,28 +17,14 @@ state = {
 			8127 2 #Yinchuan
 		}
 
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
-		}
-
 	}
 
 	provinces = {
-		3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776 
+	8127 12750 5031 10770 4783 7727 8102 8055 7803 10899
 	}
-	manpower = 2077600
+	manpower = 5020800
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = rural
 
 	local_supplies = 0.0 
 }

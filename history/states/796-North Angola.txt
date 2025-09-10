@@ -4,20 +4,21 @@ state={
 	history={
 		owner = ANG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 			2115 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 		victory_points = {
-			2115 1 
+			2115 5
 		}
 		add_core_of = ANG
 	}
 	provinces={
 		2115 
 	}
-	manpower=25000
+	manpower=71710
 	buildings_max_level_factor=1.000
 	state_category=rural
 

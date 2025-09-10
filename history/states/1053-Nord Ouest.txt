@@ -1,0 +1,19 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		1594 13435 
+	}
+	history={
+		owner = HAI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HAI
+
+	}
+	
+	manpower = 370000  	
+	state_category = rural
+	local_supplies=1.0 
+}

@@ -1,0 +1,24 @@
+state={
+	id=1070
+	name="STATE_1070"
+	provinces={
+		13476 4476
+	}   
+	history= {
+		owner = CUB
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			4476 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CUB
+
+	}
+	
+	manpower = 38000
+    state_category = pastoral
+	local_supplies=0.0 
+}

@@ -1,7 +1,7 @@
 state={
 	id=689
 	name="STATE_689"
-	manpower = 1075000
+	manpower = 2385000
 	
 	state_category = town
 
@@ -9,7 +9,7 @@ state={
 		add_core_of = JAM
 		owner = JAM
 		victory_points = {
-			12304 10 
+			12304 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -19,7 +19,7 @@ state={
 		}
 	}
 	
-	provinces={ 12304 12477 }
+	provinces={ 12304 13395 13396 12477 }
 
 	local_supplies=0.0 
 }

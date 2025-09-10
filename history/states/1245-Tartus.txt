@@ -1,0 +1,34 @@
+state={
+	id=1245
+	name="STATE_1245"
+	provinces={
+		10087  
+	}
+	history={
+		owner = SYR
+		victory_points = {
+			10087 5
+		}
+		
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+			10087 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SYR
+	}
+
+
+	
+	
+	manpower = 401000
+	
+	state_category = city
+	buildings_max_level_factor=1.000
+    local_supplies=1.0 
+}

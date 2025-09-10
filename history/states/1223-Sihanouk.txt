@@ -1,0 +1,27 @@
+state={
+	id=1223
+	name="STATE_1223"
+	provinces={
+		7432 
+	}
+		history = {
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			
+			7432 = {
+				naval_base = 4
+			}
+
+		}
+	}
+	manpower=775000 #7375000
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}
+

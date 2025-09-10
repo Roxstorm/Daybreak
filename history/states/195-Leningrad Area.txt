@@ -2,19 +2,24 @@
 state={
 	id=195
 	name="STATE_195"
-	manpower = 3750158
+	manpower = 6750158
 	
-	state_category = metropolis
+	state_category = megalopolis
 
 	history={
 		owner = SOV
 		victory_points = {
-			3151 30.0
+			3151 30
 		}
+		
+		victory_points = { #Viipuri
+			9206 5
+		}
+		
 		buildings = {
 			infrastructure = 4 #was: 7
-			arms_factory = 6
-			industrial_complex = 1
+			arms_factory = 4
+			industrial_complex = 6
 			dockyard = 3
 			air_base = 10
 			3151 ={
@@ -23,15 +28,10 @@ state={
 			}
 		}
 		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 7
-			}
-		}
 	}
 
 	provinces={
-		79 149 3151 6174 11068 
+			79 149 3050 3060 3151 6174 9100 9105 9150 9206 11068 11162 
 	}
 
 	local_supplies=11.0 

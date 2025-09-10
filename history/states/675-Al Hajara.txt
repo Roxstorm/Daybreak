@@ -1,9 +1,9 @@
 state = {
 	id = 675
 	name = "STATE_675"
-	manpower = 222093
+	manpower = 334200
 	
-	state_category = wasteland
+	state_category = rural
 
 	history = {
 
@@ -13,15 +13,22 @@ state = {
 		victory_points = {
 			12879 1 # Samawah
 		}
+		victory_points = {
+			8001 3 # Najaf
+		}
+		
 
 		buildings = {
-			#infrastructure = 1
+			infrastructure = 1
+			
+			
+			
 		}
 		
 	}
 	
 	provinces = {
-		10744 12879 13368
+		8001 13368 13943 13944 12879 13948 14050 14047
 	}
 
 	local_supplies = 0.0 

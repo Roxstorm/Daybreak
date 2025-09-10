@@ -1,0 +1,30 @@
+state={
+	id=1065
+	name="STATE_1065"
+	provinces={
+		1988 2075 
+	}
+	resources={
+		steel=13
+		tungsten=5
+	}
+	
+	history={
+		owner = NIC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = NIC
+		victory_points = {
+			2075 1
+		}
+
+	}
+	manpower=645000
+	buildings_max_level_factor=1.000
+		state_category = town
+	local_supplies=0.0 
+}

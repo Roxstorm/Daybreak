@@ -11,15 +11,15 @@ state = {
 	history = {
 		owner = ITA
 		victory_points = { #Venezia
-			11584 10 
+			11584 30
 		}
 		victory_points = { #Padova
-			3604 3 
+			3604 10 
 		}
 		victory_points = { #Verona
-			603 1
+			603 5
 		}
-
+		
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
@@ -29,22 +29,17 @@ state = {
 			11584 = {
 				naval_base = 6
 			}
+			
+			
 		}
 		add_core_of = ITA
-		add_core_of = LBV
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				industrial_complex = 5
-			}
-		}
 
 	}
 
 	provinces = {
-		603 628 3604 3657 6656 9582 9613 11584 
-	}
-	manpower = 3963151
+		 3604 3657 6656 9582 11584  13817 13816 603
+	}                                                        
+	manpower = 4963151
 	buildings_max_level_factor = 1.000
 
 	local_supplies = 5.0 

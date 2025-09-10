@@ -3,17 +3,17 @@ state=
 {
 	id=134
 	name="STATE_134"
-	manpower = 667100
+	manpower = 867100
 	
 	state_category = town
 
 	history= {
 		owner = IRE
 		victory_points = {
-			9303 3 #Galway
+			9303 5 #Galway
 		}
 		victory_points = {
-			11371 1 #Sligo
+			11371 3 #Sligo
 		}
 		buildings = {
 			infrastructure = 3 #was: 6

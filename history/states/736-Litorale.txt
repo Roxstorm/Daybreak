@@ -5,31 +5,24 @@ state = {
 	state_category = city
 
 	history = {
-		victory_points = {
-			6626 3
-		}
+		
 		owner = SLV
-		add_core_of = ITA
 		add_core_of = YUG
 		add_core_of = SLV
-		add_core_of = LBV
 		buildings = {
-			infrastructure = 1
-			dockyard = 1
-			arms_factory = 1
-			6626 = {
-				naval_base = 5
-			}
+			infrastructure = 3
+			dockyard = 2
+			arms_factory = 2
+			
 
 		}
 
 	}
 
 	provinces = {
-		599 6626 11595 
+		599 11595 
 	}
-	manpower = 1038159 # was 1063159 before Istria was merged with Fiume (~25k pop added to new Istria state (Fiume + Pola)
-	buildings_max_level_factor = 1.000
+	manpower = 128435 
 
 	local_supplies = 0.0 
 }

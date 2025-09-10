@@ -1,0 +1,25 @@
+state={
+	id=1063
+	name="STATE_1063"
+	provinces={
+		2031 13380 13381 
+	}
+	
+	
+	resources={
+		steel=26 # was: 1
+	}
+	
+	history={
+		owner = HON
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = HON
+
+	}
+
+	state_category = town
+    manpower=570000 
+	local_supplies=0.0 
+}

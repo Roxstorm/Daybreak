@@ -1,0 +1,45 @@
+state={
+	id=1337
+	name="STATE_1337"
+	provinces={
+		3576 6446 6560 14110 14111 14112  
+	}
+	
+	resources = {
+		steel = 19
+		tungsten = 10
+	}
+	
+	
+
+	history = {
+
+		owner = BEL
+		add_core_of = BEL
+		
+		
+
+		victory_points = { 
+			6560 10 
+		}
+
+		victory_points = { 
+			3576 5
+		}
+
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+		}
+	
+	}
+
+	
+	
+	manpower = 1800000
+	state_category = city
+
+	local_supplies = 0.0 
+}

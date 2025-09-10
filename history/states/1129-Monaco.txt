@@ -1,0 +1,24 @@
+state={
+	id=1129
+	name="STATE_1129"
+	provinces={
+		13812 
+	}
+	history={
+		add_core_of = MCO
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		
+		victory_points = {
+			13812 10
+		}
+		
+	}
+	manpower=30358   
+	buildings_max_level_factor=1
+	state_category="city"
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,32 @@
+state={
+	id=1294
+	name="STATE_1294"
+	provinces={
+		649 9612 9614 9769 
+	}
+	history={
+		owner = BUL
+		victory_points = { #Ruse
+			9612 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex =1
+
+		}
+		add_core_of = BUL
+
+	}
+
+	
+#	resources={
+#		oil=1
+#	}
+
+	manpower = 618780
+
+	state_category=town
+
+
+	local_supplies=0.0 
+}

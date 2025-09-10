@@ -1,0 +1,38 @@
+state={
+	id=1244
+	name="STATE_1244"
+	provinces={
+		1088 13987 
+	}
+	
+	history={
+		owner = SYR
+		
+		victory_points = {
+			1088 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			
+			1088 = {
+				naval_base = 5
+			}
+			
+		}
+		add_core_of = SYR	
+
+	}
+
+	manpower = 803478
+	
+	state_category = city
+
+	local_supplies=2.0 
+}
+
+
+

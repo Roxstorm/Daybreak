@@ -1,19 +1,20 @@
 state = {
 	id = 613
 	name = "STATE_613" # Shanghai
-	manpower = 17305100
+	manpower = 18305100
 	
-	state_category = large_city
+	state_category = metropolis
 	
 	history = {
 
 		owner = PRC
-		add_core_of = CHI
+		add_claim_by = CHI
 		add_core_of = PRC
 
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			industrial_complex = 2
+			dockyard = 2
 			air_base = 6
 			dockyard = 1
 			7014 = {
@@ -24,18 +25,19 @@ state = {
 		}
 
 		victory_points = {
-			11913 35 # Nanjing
+			11913 25 # Nanjing
 		}
 		victory_points = {
-			7014 25 # Shanghai
+			7014 15 # Shanghai
 		}
 		victory_points = {
-			10076 15 # Suzhou
+			10076 10 # Suzhou
 		}
+
 	}
 
 	provinces = {
-		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
+	996 7014 7120 10034 10076 11913 11982 12052 12076 13142 
 	}
 
 	local_supplies = 0.0 

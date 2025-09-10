@@ -1,7 +1,7 @@
 state = {
 	id = 60
 	name = "STATE_60"
-	manpower = 3005214
+	manpower = 2431255
 	resources = {
 		steel = 9 # was 5 was: 13 was: 20
 		chromium = 3 # was: 4
@@ -14,14 +14,14 @@ state = {
 
 		owner = GER
 		add_core_of = GER
-		add_core_of = THU
+		add_claim_by = WGR
 
 		victory_points = { 
 			3561 5 # Erfurt
 		}
 
 		victory_points = { 
-			425 1 # Weimar
+			6524 15 # Weimar
 		}
 
 		victory_points = { 
@@ -33,18 +33,10 @@ state = {
 			industrial_complex = 1
 		}
 		
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				arms_factory = 2
-				# From "The Four Year Plan"
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {
-		425 482 538 3500 3561 6501 6524 6582 9497 
+	 482  3500 3561 6524 9497 
 	}
 
 	local_supplies = 0.0 

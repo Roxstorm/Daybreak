@@ -2,9 +2,15 @@
 state={
 	id=773
 	name="STATE_773" # Cameroon
-	manpower = 2945782
+	manpower = 11945782
 	
-	state_category = rural
+	state_category = large_city
+
+	resources={
+		rubber=3 # was: 4
+		oil=10
+		steel=10
+	}
 
 	history={
 		owner = CMR
@@ -13,11 +19,12 @@ state={
 			2080 10
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
 			air_base = 1
 			6039 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 

@@ -3,10 +3,10 @@ state = {
 	id = 772
 	name = "STATE_772" # Middle Congo (Brazzaville)
 
-	manpower = 746415
-	state_category = pastoral
+	manpower = 2385000
+	state_category = town
 	resources = {
-		rubber = 2
+		rubber = 5
 	}
 
 	history = {
@@ -15,17 +15,18 @@ state = {
 		add_core_of = RCG
 
 		victory_points = {
-			8193 25 #Brazzaville
+			8193 15 #Brazzaville
 		}
 
 		victory_points = {
-			12975 10 #Loango
+			12975 5 #Loango
 		}
 
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
 			12975 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 

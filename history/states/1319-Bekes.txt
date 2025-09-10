@@ -1,0 +1,21 @@
+state={
+	id=1319
+	name="STATE_1319"
+	provinces={
+		679 9656 11646 
+	}
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = HUN
+	}
+
+	
+	
+	state_category = town
+	manpower = 610152
+	local_supplies=0.0 
+}

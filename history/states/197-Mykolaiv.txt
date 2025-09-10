@@ -2,9 +2,9 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 896311
+	manpower = 1213000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		victory_points = {
@@ -17,11 +17,6 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
 	}
 
 	provinces={

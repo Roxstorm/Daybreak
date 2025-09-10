@@ -1,0 +1,34 @@
+state={
+	id=1140
+	name="STATE_1140"
+	provinces={
+		425 538 3522 6487 6501 6582 9238 9560 11359 11468 11545 
+	}
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_claim_by = WGR
+
+		
+		victory_points = {
+			3522 10 # Magdeburg
+		}
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 6
+         
+		}
+
+	}
+
+	manpower = 2615375
+	buildings_max_level_factor = 1
+	state_category = large_town
+
+	local_supplies = 0.0 
+}

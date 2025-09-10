@@ -2,11 +2,11 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 663954
+	manpower = 3390234
 	resources={
-		oil=12 # was: 14
+		oil=47 # was: 14
 		chromium=7
-		steel=2
+		steel=23
 	}
 	state_category = town
 	
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		2026 4928 4983 5067 8074 12756 
+		2026 4928 4983 5067 8074 12756 1922 
 	}
 
 	local_supplies=0.0 

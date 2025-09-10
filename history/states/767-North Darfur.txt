@@ -2,28 +2,28 @@ state=
 {
 	id=767
 	name="STATE_767" # North Darfur
-	manpower = 8143
 	
-	state_category = wasteland
 	
 	history= {
 		owner = SLA
 		add_core_of = SUD
-		add_core_of = SSU
-		add_core_of = SUD
+		add_core_of = BJF
+		add_core_of = SPL
 		add_core_of = SLA
+		add_core_of = SSU
 		add_core_of = JEE
 		add_core_of = ILR
 		add_core_of = JWR
-		add_core_of = BJF
-		add_core_of = SPL
+		add_core_of = SUD
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 		}
 	}
 	provinces={
-		7987 8103 10900
+		10900 12836 4963 8105 10745 2046 12881 12826 12796 13874 13878 13879
 	}
-
+	manpower = 1636143
+	
+	state_category = town
 	local_supplies=0.0 
 }

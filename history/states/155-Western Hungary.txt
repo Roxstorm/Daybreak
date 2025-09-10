@@ -1,14 +1,17 @@
 state = {
 	id = 155
 	name = "STATE_155" # North Transdanubia
-	manpower = 1465070 # was 2197605
-	
-	state_category = large_town # was city
+
 
 	resources = {
 		aluminium = 40 # moved from Northern Hungary, then was 60
 	}
-
+		
+	provinces = {
+		6720 14082 686 11627 3670 
+	}
+	
+		
 	history = {
 
 		owner = HUN
@@ -31,9 +34,10 @@ state = {
 		
 	}
 
-	provinces = {
-		686 701 3670 3683 6703 6720 9676 11627 11663 13125 
-	}
+	
+		manpower = 1265070 # was 2197605
+	
+	state_category = large_town # was city
 
 	local_supplies = 0.0 
 }

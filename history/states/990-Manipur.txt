@@ -5,12 +5,13 @@ state={
 		1525 1553 12322  
 	}
 	state_category = rural
-	manpower = 445606
+	manpower = 1345730
 	history={
 		owner = RAJ
-		add_core_of = MPU
+		add_core_of = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
 		}
 
 		victory_points = {

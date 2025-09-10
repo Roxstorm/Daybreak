@@ -1,0 +1,36 @@
+state={
+	id=1329
+	name="STATE_1329"
+	provinces={
+		3553 6562 11511 14091 14092 557
+	}
+	
+	resources={
+		steel=16 # was: 6
+		oil = 10 # was: 4
+	}
+	
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		
+		victory_points = {
+			557 1
+		}
+		victory_points = {
+			6562 5
+		}
+		
+		add_core_of = CZE
+
+	}
+
+	
+	state_category = city
+    manpower = 929343
+	local_supplies=0.0 
+}

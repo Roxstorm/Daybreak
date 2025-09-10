@@ -2,9 +2,9 @@
 state = {
 	id = 496
 	name = "STATE_496" # Minas Gerais
-	manpower = 4603600
+	manpower = 12199540
 	
-	state_category = rural # was town
+	state_category = large_town # was town
 	
 	resources = {
 		steel = 3 # was: 4
@@ -17,7 +17,7 @@ state = {
 		add_core_of = BRA
 
 		victory_points = {
-			7476 3
+			7476 5
 		}
 
 		buildings = {

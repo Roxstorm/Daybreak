@@ -1,9 +1,9 @@
 state = {
 	id = 507
 	name = "STATE_507" # Magallanes
-	manpower = 34346 # was 68693 and divided by 2
+	manpower = 268692 # was 68693 and divided by 2
 	
-	state_category = pastoral
+	state_category = rural
 
 	resources = {
 		oil = 2

@@ -1,9 +1,9 @@
 state={
 	id=10
 	name="STATE_10"
-	manpower = 3089000
+	manpower = 4600000
 
-	state_category = large_city
+	state_category = metropolis
 
 	history={
 		owner = POL
@@ -11,7 +11,7 @@ state={
 			3544 25
 		}
 		victory_points = {
-			402 10
+			402 1
 		}
 		buildings = {
 			infrastructure = 4
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		402 467 524 3482 3544 6511 9400 11492 12562 
+		3544 11492 13843 9400 467 6511 3458 12562 524 402 9544 9290 9316 11385 6567
 	}
 
 	local_supplies=7.0 

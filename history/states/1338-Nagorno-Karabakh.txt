@@ -1,0 +1,29 @@
+state={
+	id=1338
+	name="STATE_1338"
+	provinces={
+		1610 
+	}
+	history={
+		owner = SOV
+		victory_points = {
+			1610 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = ARM
+		add_claim_by = AZR
+
+	}
+
+	manpower=1250082
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

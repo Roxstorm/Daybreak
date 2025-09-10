@@ -1,0 +1,24 @@
+state={
+	id=1131
+	name="STATE_1131"
+	provinces={
+		13818 
+	}
+	history={
+		add_core_of = LIE
+		owner = LIE
+		buildings = {
+			infrastructure = 3
+		}
+		
+		victory_points = {
+			13818 10
+		}
+		
+	}
+	manpower=28742 
+	buildings_max_level_factor=1
+	state_category=large_town
+
+	local_supplies=0.0 
+}

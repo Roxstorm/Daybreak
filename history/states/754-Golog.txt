@@ -2,19 +2,18 @@ state = {
 	id = 754
 	name = "STATE_754"
 	provinces = {
-		1882 4536 4888 7270 10490 10817 11448 12732 12815 
+		1882 4536 4888 7270 10490 10817 11448 12732 12815 12327 13924 2053 13146 13929 13926 
 	}
-	manpower = 400000
+	manpower = 1172000
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = town
 	history = {
 		owner = PRC
-		add_core_of = XSM
-		add_core_of = CHI
+		add_claim_by = CHI
 		add_core_of = PRC
 
 		victory_points = {
-			12732 10 #Was 3 when it was Lanzhou, but should be Xining, the capital of Xibei 
+			12732 10
 		}
 
 		buildings = {
@@ -23,20 +22,7 @@ state = {
 			arms_factory = 1
 		}
 
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
-		}
+		
 	}
 
 	local_supplies = 0.0 

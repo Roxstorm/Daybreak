@@ -2,7 +2,7 @@
 state={
 	id=390
 	name="STATE_390"
-	manpower = 692849
+	manpower = 696004
 	state_category = rural
 
 	history={
@@ -13,7 +13,11 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			1747 1 
+			1747 1
+		}
+		
+		victory_points = {
+			12620 5
 		}
 
 	}

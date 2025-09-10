@@ -1,22 +1,27 @@
 state = {
 	id = 900
 	name = "STATE_900"
-	manpower = 1163674
-	state_category = pastoral 
+	manpower = 7818370
+	state_category = large_town 
+	resources={
+		oil=34
+		steel=10
+	}
 
 	history = {
 
 		owner = NGA
 
 		add_core_of = NGA
-		add_core_of = BIA
 
 		victory_points = {
-			8034 2 # Enugu
+			8034 5 # Enugu
 		} 
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
 		}
 
 	}

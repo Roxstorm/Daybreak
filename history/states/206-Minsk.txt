@@ -2,7 +2,7 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower =  1163163
+	manpower =  2163163
 	
 	state_category = city
 
@@ -12,20 +12,16 @@ state={
 			11370 20
 		}
 		victory_points = {
-			9289 5
+			9289 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 3
+			arms_factory = 2
 			air_base = 8
 		}
 		add_core_of = SOV
 		add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

@@ -1,12 +1,13 @@
 state = {
 	id = 196
 	name = "STATE_196"
-	manpower = 728363
+	manpower = 1213000
 	
-	state_category = rural
+	state_category = city
 	
 	resources = {
 		chromium = 15 # was: 22
+		
 	}
 
 	history = {
@@ -14,25 +15,25 @@ state = {
 		owner = SOV
 		add_core_of = SOV
 		add_core_of = UKR
-		add_core_of = CRI
 
 		victory_points = {
-			721 1 # Kherson
+			721 10 # Kherson
 		}
 		
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
+			industrial_complex = 2
 
-			# Kakhovka Dam
-			#737 = { dam = 1 }
+			 #Kakhovka Dam
+			737 = { dam = 1 }
 			
 		}
 		
 	}
 
 	provinces = {
-		568 721 737 767 3573 6771 9712 11715 
+		568 721 737 767 3573 6771 9712 11715 14039 14040
 	}
 
 	local_supplies = 0.0 

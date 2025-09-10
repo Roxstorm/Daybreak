@@ -1,0 +1,35 @@
+state={
+	id=1358
+	name="STATE_1358"
+	provinces={
+		14170 14171 14172 
+	}
+		history = {
+
+		owner = ENG
+		add_core_of = ENG
+
+		buildings = {
+			infrastructure = 3
+			14170 = {
+				naval_base = 2
+			}
+			
+			14171 = {
+				naval_base = 2
+			}
+			
+			14172 = {
+				naval_base = 2
+			}
+			
+		}
+
+	}
+	
+	manpower = 44918
+	state_category = small_island
+
+
+	local_supplies = 8.0 
+}

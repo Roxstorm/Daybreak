@@ -1,0 +1,26 @@
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		13444 
+	}
+	history= {
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			13444 = {
+				naval_base = 3
+			}
+		}
+		add_claim_by = CUB
+		victory_points = {
+			13444 5 
+		}
+
+	}
+	
+	state_category = town
+	manpower = 6321
+	local_supplies=0.0 
+}

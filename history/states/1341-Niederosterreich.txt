@@ -1,0 +1,29 @@
+state={
+	id=1341
+	name="STATE_1341"
+	provinces={
+		704 3718 6552 6723 6739 9527 9650 11651 14121 14120 6690 14124 14123 14125 14127 14129 14128
+	}
+		
+	history = {
+
+		owner = AUS
+		add_core_of = AUS
+
+	
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 6
+		}
+
+	}
+
+	
+	
+	state_category = large_town
+    manpower = 1473813 # was 2595983
+	local_supplies = 0.0 
+}

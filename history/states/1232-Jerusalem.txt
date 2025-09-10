@@ -1,0 +1,31 @@
+state={
+	id=1232
+	name="STATE_1232"
+	provinces={
+		1086 
+	}
+	history = {
+
+		owner = ISR
+		add_core_of = ISR
+
+		buildings = {
+			infrastructure = 4 #was: 5
+			industrial_complex = 3
+			arms_factory = 2
+			
+			}
+		
+		victory_points = {
+			1086 10 # Jerusalem
+		}
+		
+	}
+	
+	manpower = 438000
+	
+	state_category = large_city
+
+
+	local_supplies = 0.0 
+}

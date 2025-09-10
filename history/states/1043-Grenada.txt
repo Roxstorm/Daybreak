@@ -1,0 +1,25 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		11106 
+	}
+	history={
+		owner = GDA
+		add_core_of = GDA
+		buildings = {
+			infrastructure = 2
+			11106 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11106 1
+		}
+	}
+	
+	manpower=91000
+	state_category = small_island
+
+	local_supplies=4.0 
+}

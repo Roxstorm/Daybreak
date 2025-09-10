@@ -1,0 +1,30 @@
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		13390 
+	}
+	history={
+		owner = ANB
+		add_core_of = ANB
+		buildings = {
+			infrastructure = 2
+			13390 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13390 1
+		}
+	}
+	
+	
+	
+	
+	manpower=63000
+	state_category = small_island
+
+	local_supplies=4.0 
+}
+
+

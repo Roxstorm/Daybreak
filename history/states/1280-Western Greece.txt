@@ -1,0 +1,23 @@
+state={
+	id=1280
+	name="STATE_1280"
+	provinces={
+		1205 4193 7211 12001 
+	}
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = GRE
+
+	}
+	
+	manpower=750000
+	state_category = large_town
+
+	local_supplies=0.0 
+}

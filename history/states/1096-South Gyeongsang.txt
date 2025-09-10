@@ -1,0 +1,22 @@
+state={
+	id=1096
+	name="STATE_1096"
+	provinces={
+		1054 4086 10085 13696 13701 
+	}
+		history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+		add_core_of = KOR
+		add_claim_by = DPK
+
+	}
+	
+	manpower = 3775000	
+	state_category = city
+	local_supplies=0.0 
+}

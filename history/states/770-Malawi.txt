@@ -6,10 +6,12 @@ state={
 		owner = MLW
 		add_core_of = MLW
 		victory_points = {
-			12986 10 
+			12986 5
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 
 		}
 

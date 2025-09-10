@@ -1,0 +1,41 @@
+state={
+	id=1109
+	name="STATE_1109"
+	provinces={
+		848 9981 10083 13737 13739 13740 13742 13743 13746 
+	}
+	history={
+		owner = NKR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			
+			848 = {
+                bunker = 2
+            }
+			13740 = {
+                bunker = 2
+            }
+			13739  = {
+                bunker = 2
+            }
+			9981 = {
+                bunker = 2
+            }
+			13737 = {
+                bunker = 2
+            }
+			
+			
+			
+		}
+
+		add_core_of = DPK
+		add_claim_by = KOR
+	}
+	
+	manpower = 1504400
+	state_category = large_town
+	local_supplies=0.0 
+}

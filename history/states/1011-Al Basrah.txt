@@ -7,8 +7,8 @@ state = {
 		aluminium = 7
 	}
 	
-	state_category = town
-	manpower = 980164
+	state_category = city
+	manpower = 921900
 
 	history = {
 
@@ -16,27 +16,27 @@ state = {
 		add_core_of = IRQ
 
 		victory_points = {
-			2089 5 # Basrah
+			2089 10 # Basrah
 		}
+		
 		victory_points = {
-			8001 3 # Najaf
-		}
-		victory_points = {
-			12726 1 # Nasiriyah
+			12726 5 # Nasiriyah
 		}
 
 		buildings = {
 			infrastructure = 2 #was: 5
+			
+			industrial_complex = 2
 			arms_factory = 1
-			industrial_complex = 1
+			dockyard = 4
 			2089 = {
-				naval_base = 1
+				naval_base = 5
 			}
 		}
 	}
 	
 	provinces = {
-		78 2004 2089 7977 8001 12726 
+	2089  12726 13947 13942 14048 
 	}
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000

@@ -1,0 +1,35 @@
+state={
+	id=1155
+	name="STATE_1155"
+	provinces={
+		3627 6647 9595 9608 11594 
+	}
+	history={
+		owner = CRO
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		
+		force_enable_resistance = {
+		occupier = YUG
+		occupied = CRO
+		}
+		start_resistance = yes
+		set_compliance = 65
+		set_resistance = 15
+		
+		
+	}
+
+	
+	manpower = 1101700
+
+	state_category = town
+
+	local_supplies=4.0 
+}

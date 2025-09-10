@@ -2,25 +2,38 @@
 state={
 	id=77
 	name="STATE_77"
-	manpower = 378000
+	manpower = 707786
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		victory_points = {
 			11597 1
 		}
-		owner = ROM
+		
+		victory_points = { #Shumen
+			9769 1
+		}
+		
+		victory_points = { #Varna
+			9783 5
+		}
+		
+		owner = BUL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			
+			9783 = {
+				naval_base = 3
+			}
+			
 		}
-		add_core_of = ROM
-		add_claim_by = BUL
+		add_core_of = BUL
 	}
 
 	provinces={
-		9614 11597 
+	 11597 9783 14066 14065 14064
 	}
 
 	local_supplies=1.0 

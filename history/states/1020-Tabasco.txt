@@ -1,0 +1,21 @@
+state={
+	id=1020
+	name="STATE_1020"
+	provinces={
+		2021 12867 13393 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+
+		victory_points = {
+			2021 3
+		}
+	}
+	manpower = 1501744
+	state_category = rural
+	local_supplies=0.0 
+}

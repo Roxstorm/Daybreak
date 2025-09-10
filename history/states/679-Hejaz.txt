@@ -1,7 +1,7 @@
 state = {
 	id = 679
 	name = "STATE_679"
-	manpower = 511000
+	manpower = 2511000
 
 	history = {
 
@@ -9,11 +9,13 @@ state = {
 		add_core_of = SAU
 
 		victory_points = {
-			12758 2 
+			12758 10
 		}
 		
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 2
 		}
 
 	}
@@ -23,6 +25,6 @@ state = {
 	}
 	
 	buildings_max_level_factor = 1.000
-	state_category = pastoral
+	state_category = town
 	local_supplies = 0.000
 }

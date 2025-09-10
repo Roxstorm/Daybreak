@@ -2,9 +2,9 @@
 state={
 	id=184
 	name="STATE_184"
-	manpower = 382500
+	manpower = 650000
 
-	state_category = rural
+	state_category = town
 
 	resources={
 		chromium=11.000
@@ -12,7 +12,7 @@ state={
 
 	history={
 		victory_points = {
-			11905 1 
+			11905 5
 		}
 		owner = GRE
 		buildings = {
@@ -21,11 +21,10 @@ state={
 
 		}
 		add_core_of = GRE
-		add_claim_by = BUL
 	}
 
 	provinces={
-		9791 9930 11774 11905 
+		9791 9930 11774 11905 13762 13760 6990
 	}
 
 	local_supplies=9.0 

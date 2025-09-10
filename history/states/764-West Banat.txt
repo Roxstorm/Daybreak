@@ -7,12 +7,14 @@ state={
 
 	history={
 		owner = YUG
+		controller = YUG
 		victory_points = {
-			3614 1
+			3614 3
 		}
 
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 2 #was: 6
+			industrial_complex = 1
 		}
 		add_core_of = YUG
 		add_core_of = SER

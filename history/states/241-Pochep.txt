@@ -2,7 +2,7 @@
 state={
 	id=241
 	name="STATE_241" # Gomel
-	manpower = 943422
+	manpower = 1943422
 	
 	state_category = rural
 
@@ -13,6 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 1
 			air_base = 3
 		}
 		add_core_of = SOV

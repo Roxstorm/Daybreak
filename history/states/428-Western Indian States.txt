@@ -1,10 +1,10 @@
 state = {
 	id = 428
 	name = "STATE_428"
-	manpower = 10489446
+	manpower = 31678126
 	
 	
-	state_category = town
+	state_category = large_town
 	resources = {
 		oil = 6 
 	}
@@ -12,7 +12,7 @@ state = {
 	history = {
 
 		owner = RAJ
-		add_core_of = WIS
+		add_core_of = RAJ
 
 		victory_points = {
 			10118 1 # Jamnagar
@@ -24,7 +24,9 @@ state = {
 
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
 		}
 
 	}

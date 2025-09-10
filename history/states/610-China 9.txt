@@ -2,14 +2,14 @@
 state={
 	id=610
 	name="STATE_610" # Jehol
-	manpower = 1975377
+	manpower = 5787854
 	
-	state_category = pastoral
+	state_category = city
 
 	history={
 		owner = PRC
-		add_core_of = CHI
-		add_core_of = MAN
+		add_claim_by = CHI
+		
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		814 881 934 972 3814 3828 3881 3934 3955 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 9905 9927 10331 10426 10499 11801 11855 11886 
+	846 934 3814 3881 3934 6837 6852 6893 6898 6951 7633 9788 9831 9835 9927 11815 11836 11855 11886 
 	}
 
 	local_supplies=0.0 

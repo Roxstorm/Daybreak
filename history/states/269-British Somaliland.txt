@@ -2,21 +2,24 @@ state=
 {
 	id=269
 	name="STATE_269"
-	manpower = 344700
+	manpower = 2585250
 	
-	state_category = enclave
+	state_category = large_town
 	
 	history= {
 		victory_points = { 
-			10833 1
+			10833 5
 		}
 		victory_points = { 
-			5068 1
+			5068 10
 		}
 		owner = SOM
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 2
+			
+			industrial_complex = 2
+			arms_factory = 2
 			10833 = {
 				naval_base = 1
 			}

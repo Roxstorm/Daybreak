@@ -2,17 +2,24 @@
 state={
 	id=721
 	name="STATE_721"
-	manpower = 455604
+	manpower = 655604
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
-		owner = POR
+		owner = INS
+		add_core_of = INS
+		add_core_of = ETM
 		buildings = {
 			infrastructure = 2
 			12190 ={
 				naval_base = 1
 			}
+			
+			12206 ={
+				naval_base = 1
+			}
+			
 		}
 	}
 

@@ -2,12 +2,12 @@
 state={
 	id=643
 	name="STATE_643"
-	manpower=493
+	manpower=8798
 	state_category = small_island
 
 	history={
-		owner = FIJ
-		add_core_of = FIJ
+		owner = TVU
+		add_core_of = TVU
 		buildings = {
 			infrastructure = 2
 			13056 = {

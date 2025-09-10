@@ -1,0 +1,28 @@
+state={
+	id=1247
+	name="STATE_1247"
+	provinces={
+		13996 6883 1606 1634
+	}
+	history = {
+		victory_points = {
+			6883 3
+		}
+	owner = SYR
+		
+		
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+		}
+		add_core_of = SYR
+	
+	}
+	
+	state_category = rural
+	manpower=234000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

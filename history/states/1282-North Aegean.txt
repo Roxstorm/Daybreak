@@ -1,0 +1,53 @@
+state={
+	id=1282
+	name="STATE_1282"
+	provinces={
+		6550 8435 13723 13726 13753 13755 
+	}
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			8435 = {
+				naval_base = 1
+			}
+			6550 = {
+				naval_base = 1
+			}
+			
+			13723 = {
+				naval_base = 1
+			}
+			
+			13726 = {
+				naval_base = 1
+			}
+			
+			13753 = {
+				naval_base = 1
+			}
+			
+			13755 = {
+				naval_base = 1
+			}
+			
+			
+		}
+		victory_points = {
+			6550 1
+		}
+		victory_points = {
+			8435 1
+		}
+		add_core_of = GRE
+	}
+
+	
+	
+	manpower = 230000
+	
+	state_category = small_island
+
+	local_supplies=9.0 
+}

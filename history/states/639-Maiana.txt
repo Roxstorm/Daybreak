@@ -2,12 +2,12 @@
 state={
 	id=639
 	name="STATE_639"
-	manpower=1035
+	manpower=74000
 	state_category = small_island
 
 	history={
-		owner = FIJ
-		add_core_of = FIJ
+		owner = KBT
+		add_core_of = KBT #Kiribati
 		buildings = {
 			infrastructure = 2
 			13021 = {

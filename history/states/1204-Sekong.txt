@@ -1,0 +1,19 @@
+state={
+	id=1204
+	name="STATE_1204"
+	provinces={
+		7426 13623
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	manpower = 204000	#4312000
+	state_category = pastoral	
+	local_supplies=0.0 
+}

@@ -2,9 +2,9 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 245642
+	manpower = 1202394
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = VEN
@@ -14,7 +14,7 @@ state={
 		}
 		add_core_of = VEN
 		victory_points = {
-			10879 1
+			10879 5
 		}
 	}
 

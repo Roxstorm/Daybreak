@@ -1,0 +1,34 @@
+state={
+	id=1277
+	name="STATE_1277"
+	provinces={
+		804 909 3907 3951 6808 6908 6925 9806 9901 11784 14030 6871
+	}
+	
+	resources={
+		chromium=11 # was: 16
+		steel = 28
+	}
+	
+	history={
+		owner = TUR
+		victory_points = {
+			804 5 
+		}
+		victory_points = {
+			3951 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = TUR
+	}
+
+	
+	
+		manpower = 3693384
+    state_category = city
+	local_supplies=7.0 
+}

@@ -9,8 +9,10 @@ state={
 		owner = AST
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			air_base = 3
 			7564 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -23,10 +25,10 @@ state={
 
 		}
 		victory_points = {
-			7564 15 
+			7564 25 
 		}
 		victory_points = {
-			7566 1 
+			7566 10
 		}
 		add_core_of = AST
 
@@ -35,8 +37,8 @@ state={
 	provinces={
 		1472 1557 1570 4481 4502 4517 4530 4546 4560 4632 5227 7522 7535 7564 7566 7592 7610 7651 7666 10430 10445 10458 10460 10475 10487 11006 12308 12382 12411 12424 12451 
 	}
-	manpower=816800
+	manpower=1816800
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 	local_supplies=0.000
 }

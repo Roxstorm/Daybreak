@@ -1,0 +1,21 @@
+state={
+	id=1106
+	name="STATE_1106"
+	provinces={
+		3912 6963 9795 11775 11828 11896 13756 13758 
+	}
+	history={
+		owner = NKR
+		buildings = {
+			infrastructure = 1
+			
+		}
+
+		add_core_of = DPK
+		add_claim_by = KOR
+	}
+	
+	manpower = 1403210
+	state_category = town
+	local_supplies=0.0 
+}

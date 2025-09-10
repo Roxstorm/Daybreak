@@ -2,8 +2,8 @@
 state={
 	id=1004
 	name="STATE_1004"
-	manpower = 353246
-	state_category = rural
+	manpower = 1271685
+	state_category = town
 
 	history={
 		owner = PER
@@ -13,7 +13,7 @@ state={
 		add_core_of = PER
 	}
 	provinces={
-		7573 1521 10351
+		7573 1521 10351 7602
 	}
 
 	local_supplies=0.0 

@@ -2,14 +2,14 @@
 state={
 	id=482
 	name="STATE_482"
-	manpower = 520751
+	manpower = 2520751
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = MEX
 
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 13527 13516
 	}
 	
 

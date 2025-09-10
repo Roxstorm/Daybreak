@@ -1,0 +1,22 @@
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		4486 13963 14003 
+	}
+		history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SYR	
+
+	}
+
+	manpower = 313546
+	
+	state_category = town
+
+	local_supplies=2.0 
+}

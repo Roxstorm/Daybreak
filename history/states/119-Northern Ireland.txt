@@ -6,10 +6,10 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			3379 5 
+			3379 10
 		}
 		victory_points = {
-			385 1 # Londonderry
+			385 5 # Londonderry
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,19 +22,19 @@ state={
 			}
 		}
 		add_core_of = ENG
-		add_core_of = IRE
+		add_claim_by = IRE
 		add_core_of = NIR
 	}
 
 	provinces={
 		276 385 3217 3242 3329 3379 11257 
 	}
-	manpower=1198537
+	manpower=1595537
 	buildings_max_level_factor=1
-	state_category="city"
+	state_category=city
 	
 	resources={
-		aluminium=2
+		aluminium=12
 	}
 
 	local_supplies=0.0 

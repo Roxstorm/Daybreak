@@ -12,9 +12,9 @@ state={
 	}
 
 	history={
-		owner = MOR
-		add_core_of = MOR
-		add_core_of = RIF
+		owner = SPR
+		add_core_of = SPR
+		add_claim_by = MOR
 		victory_points = {
 			9945 3
 		}
@@ -37,7 +37,7 @@ state={
 	}
 
 	provinces = {
-		4199 7215 9945 10113 12087 12100 
+	 9945 12100 
 	}
 
 	local_supplies = 0.0 
