@@ -6,7 +6,7 @@ state={
 	state_category = rural
 	
 	history = {
-		owner = JEE
+		owner = JWR
 		add_core_of = BJF
 		add_core_of = SPL
 		add_core_of = SLA
