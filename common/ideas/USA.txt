@@ -2,7 +2,7 @@ ideas = {
 	country = {
 	
 		USA_the_war_on_terror = {
-			picture = USA_the_war_on_terror
+			picture = GFX_idea_USA_the_war_on_terror
 			
 			allowed = {
 				always = no
@@ -15,10 +15,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				weekly_stability = -0.10
-				civilian_factories = -0.05
-				division_attrition = +0.10
-				army_experience_gain = +0.05
+				stability_factor = -0.02
+				compliance_growth = -0.04
+				army_org_regain = -0.04
+				army_morale_factor = -0.02
 			}
 		}
 		
@@ -34,16 +34,17 @@ ideas = {
 			
 		removal_cost = -1
 
-		picture = USA_the_cold_war
+		picture = GFX_idea_USA_the_cold_war
 			
 		modifier = {
-				research_time = -0.10
-				political_power_gain = -0.10
+				stability_factor = -0.05
+				command_power_gain = -0.01
+				political_power_gain = -0.02
 			}
 		}
 		
 		USA_a_house_divided = {
-			picture = USA_a_house_divided
+			picture = GFX_idea_USA_a_house_divided
 			
 			allowed = {
 				always = no
@@ -61,7 +62,7 @@ ideas = {
 			}
 		}
 		USA_the_eagles_fraying_wings = {
-			picture = USA_the_eagles_fraying_wings
+			picture = GFX_idea_USA_the_eagles_fraying_wings
 			
 			allowed = {
 				always = no
@@ -75,12 +76,12 @@ ideas = {
 			
 			modifier = {
 				stability = -0.05
-				trade_opinion_factor = -2%
+				trade_opinion_factor = -0.2%
 				drift_defence_factor = -0.05
 			}
 		}
 		USA_empire_of_mind = {
-			picture = USA_empire_of_mind
+			picture = GFX_idea_USA_empire_of_mind
 			
 			allowed = {
 				always = no
@@ -93,8 +94,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				weekly_stability = +0.5%
-				trade_opinion_factor = +3%
+				weekly_stability = +0.1%
+				trade_opinion_factor = +0.12%
 			}
 		}
 	}

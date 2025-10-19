@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_idea_USA_the_war_on_terror"
+		texturefile = "gfx/interface/ideas/idea_war_on_terror_USA.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_the_eagles_fraying_wings"
+		texturefile = "gfx/interface/ideas/USA_the_eagles_fraying_wings.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_a_house_divided"
+		texturefile = "gfx/interface/ideas/GFX_idea_USA_a_house_divided.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_empire_of_mind"
+		texturefile = "gfx/interface/ideas/GFX_idea_USA_empire_of_mind.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_the_cold_war"
+		texturefile = "gfx/interface/ideas/GFX_idea_USA_the_cold_war.dds"
+	}
+}
