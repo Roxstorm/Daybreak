@@ -5,7 +5,7 @@ state={
 		2021 12867 13393 
 	}
 	history={
-		owner = MEX
+		owner = YUC
 		buildings = {
 			infrastructure = 2
 		}

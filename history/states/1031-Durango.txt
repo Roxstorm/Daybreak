@@ -5,7 +5,8 @@ state={
 		4946 7921 8003 10853 10871 
 	}
 	history={
-		owner = MEX
+		owner = SNC
+		add_core_of = SNC
 		buildings = {
 			infrastructure = 2
 		}

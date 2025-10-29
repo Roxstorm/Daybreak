@@ -5,7 +5,8 @@ state={
 		10172 10738 12804 13492 13506 13507 
 	}
 	history={
-		owner = MEX
+		owner = FCM
+		add_core_of = FCM
 		buildings = {
 			infrastructure = 2
 		}

@@ -7,7 +7,8 @@ state={
 	state_category = large_town
 
 	history={
-		owner = MEX
+		owner = SFR
+		add_core_of = SFR
 		buildings = {
 			infrastructure = 2
 			4908 = {

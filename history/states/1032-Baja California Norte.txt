@@ -5,7 +5,8 @@ state={
 		1892 7964 12461 12859 13215 13216 13523 13530 13533 
 	}
 	history={
-		owner = MEX
+		owner = SFR
+		add_core_of = SFR
 		buildings = {
 			infrastructure = 2
 			air_base = 3

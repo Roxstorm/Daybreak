@@ -11,7 +11,8 @@ state={
 	}
 	
 	history={
-		owner = MEX
+		owner = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 2
 			

@@ -4,7 +4,8 @@ state={
 	name="STATE_481" # Durango
 	
 	history={
-		owner = MEX
+		owner = SNC
+		add_core_of = SNC
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

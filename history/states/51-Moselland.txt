@@ -12,6 +12,7 @@ state = {
 
 		owner = RHI
 		add_core_of = GER
+		add_core_of = RHI
 		
 		
 

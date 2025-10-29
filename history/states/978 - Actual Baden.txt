@@ -13,6 +13,7 @@ state = {
 
 		owner = RHI
 		add_core_of = GER
+		add_core_of = RHI
 		
 		victory_points = { 
 			9575 5 # Trier

@@ -120,6 +120,7 @@ set_popularities = {
 add_ideas = {
 }
 
+recruit_character = GER_klaus_ernst
 recruit_character = GER_gregor_gysi
 
 if = {

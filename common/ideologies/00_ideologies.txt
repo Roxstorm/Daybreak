@@ -90,6 +90,9 @@ ideologies = {
 			
 			maoist = {
 			}
+			
+			reformed_communism = {
+			}
 		}
 
 		dynamic_faction_names = {

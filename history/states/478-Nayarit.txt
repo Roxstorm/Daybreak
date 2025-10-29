@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = MEX
+		owner = JSC
+		add_core_of = JSC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -1,4 +1,17 @@
 characters = {
+	GER_klaus_ernst = {
+		name = "Klaus Ernst"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Klaus.Ernst.png"
+			}
+		}
+		country_leader={
+			ideology = reformed_communism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
 	GER_gregor_gysi = {
 		name = "Gregor Gysi"
 		portraits={

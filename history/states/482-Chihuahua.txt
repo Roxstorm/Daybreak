@@ -7,7 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = MEX
+		owner = SFR
+		add_core_of = SFR
 		buildings = {
 			infrastructure = 3
 		}

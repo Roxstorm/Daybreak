@@ -5,7 +5,8 @@ state={
 		5052 
 	}
 	history={
-		owner = MEX
+		owner = JSC
+		add_core_of = JSC
 		buildings = {
 			infrastructure = 1
 		}

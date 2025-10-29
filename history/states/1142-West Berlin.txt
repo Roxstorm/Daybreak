@@ -8,6 +8,7 @@ state={
 
 		owner = GER
 		add_core_of = GER
+		add_core_of = RHI
 		victory_points = {
 			13845 50 # west Berlin
 		}
