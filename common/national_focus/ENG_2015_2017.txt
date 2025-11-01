@@ -1,0 +1,1037 @@
+focus_tree = {
+	id = ENG_LD_focus
+	continuous_focus_position = { x = -40 y = 2350 }
+
+	country = {
+		factor = 0
+		modifier = { add = 10 tag = ENG }
+	}
+
+	default = no
+
+focus = {
+	id = ENG_LD_constitutional_review
+	icon = GFX_focus_eng_constitutional_review
+	x = 6
+	y = 1
+	cost = 2
+	completion_reward = {
+		add_political_power = 25
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_parliamentary_modernisation
+	icon = GFX_focus_eng_parliamentary_modernisation
+	x = 6
+	y = 2
+	prerequisite = { focus = ENG_LD_constitutional_review }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_civil_liberties_bill
+	icon = GFX_focus_eng_civil_liberties_bill
+	x = 4
+	y = 3
+	prerequisite = { focus = ENG_LD_parliamentary_modernisation }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_freedom_act
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_devolution_review
+	icon = GFX_focus_eng_devolution_review
+	x = 8
+	y = 3
+	prerequisite = { focus = ENG_LD_parliamentary_modernisation }
+	cost = 1
+	completion_reward = {
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_devolution_without_division
+	icon = GFX_focus_eng_devolution_without_division
+	x = 6
+	y = 4
+	prerequisite = { focus = ENG_LD_devolution_review }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_social_citizenship
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_central_coordination_plan
+	icon = GFX_focus_eng_central_coordination_plan
+	x = 10
+	y = 4
+	prerequisite = { focus = ENG_LD_devolution_review }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_joint_authority_framework
+	icon = GFX_focus_eng_joint_authority_framework
+	x = 6
+	y = 5
+	prerequisite = { focus = ENG_LD_devolution_without_division focus = ENG_LD_central_coordination_plan }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_charles_reign_begins
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_belfast_accord_refresh
+	icon = GFX_focus_eng_belfast_accord_refresh
+	x = 6
+	y = 6
+	prerequisite = { focus = ENG_LD_joint_authority_framework }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_northern_investment_programme
+	icon = GFX_focus_eng_northern_investment_programme
+	x = 4
+	y = 7
+	prerequisite = { focus = ENG_LD_belfast_accord_refresh }
+	cost = 1
+	completion_reward = {
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_public_transparency_portal
+	icon = GFX_focus_eng_public_transparency_portal
+	x = 8
+	y = 7
+	prerequisite = { focus = ENG_LD_belfast_accord_refresh }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 20
+	}
+}
+
+focus = {
+	id = ENG_LD_civic_engagement_drive
+	icon = GFX_focus_eng_civic_engagement_drive
+	x = 6
+	y = 8
+	prerequisite = { focus = ENG_LD_public_transparency_portal focus = ENG_LD_northern_investment_programme }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_human_rights_amendment
+	icon = GFX_focus_eng_human_rights_amendment
+	x = 4
+	y = 9
+	prerequisite = { focus = ENG_LD_civic_engagement_drive }
+	mutually_exclusive = { focus = ENG_LD_administrative_efficiency }
+	cost = 1
+	completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.02 }
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_administrative_efficiency
+	icon = GFX_focus_eng_administrative_efficiency
+	x = 8
+	y = 9
+	prerequisite = { focus = ENG_LD_civic_engagement_drive }
+	mutually_exclusive = { focus = ENG_LD_human_rights_amendment }
+	cost = 1
+	completion_reward = {
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_legal_system_modernisation
+	icon = GFX_focus_eng_legal_system_modernisation
+	x = 6
+	y = 10
+	prerequisite = { focus = ENG_LD_human_rights_amendment focus = ENG_LD_administrative_efficiency }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_reform_of_the_lords
+	icon = GFX_focus_eng_reform_of_the_lords
+	x = 6
+	y = 11
+	prerequisite = { focus = ENG_LD_legal_system_modernisation }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_civil_service_support
+	icon = GFX_focus_eng_civil_service_support
+	x = 4
+	y = 12
+	prerequisite = { focus = ENG_LD_reform_of_the_lords }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_public_services_upgrade
+	icon = GFX_focus_eng_public_services_upgrade
+	x = 8
+	y = 12
+	prerequisite = { focus = ENG_LD_reform_of_the_lords }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_local_governance_conference
+	icon = GFX_focus_eng_local_governance_conference
+	x = 6
+	y = 13
+	prerequisite = { focus = ENG_LD_civil_service_support focus = ENG_LD_public_services_upgrade }
+	cost = 1
+	completion_reward = {
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_upgrade_services_governance
+	icon = GFX_focus_eng_upgrade_services_governance
+	x = 6
+	y = 14
+	prerequisite = { focus = ENG_LD_local_governance_conference }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+	}
+}
+
+focus = {
+	id = ENG_LD_domestic_review_final
+	icon = GFX_focus_eng_domestic_review_final
+	x = 6
+	y = 15
+	prerequisite = { focus = ENG_LD_upgrade_services_governance }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_local_empowerment_grants
+	icon = GFX_focus_eng_local_empowerment_grants
+	x = 6
+	y = 16
+	prerequisite = { focus = ENG_LD_domestic_review_final }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_final_domestic_push
+	icon = GFX_focus_eng_final_domestic_push
+	x = 6
+	y = 17
+	prerequisite = { focus = ENG_LD_local_empowerment_grants }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.04
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_fiscal_responsibility
+	icon = GFX_focus_eng_fiscal_responsibility
+	x = 16
+	y = 1
+	cost = 2
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_balanced_budget_act
+	icon = GFX_focus_eng_balanced_budget_act
+	x = 16
+	y = 2
+	prerequisite = { focus = ENG_LD_fiscal_responsibility }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_public_works_programme
+	icon = GFX_focus_eng_public_works_programme
+	x = 14
+	y = 3
+	prerequisite = { focus = ENG_LD_balanced_budget_act }
+	cost = 1
+	completion_reward = {
+		add_building_construction = { type = infrastructure level = 2 instant_build = yes }
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_infrastructure_britain
+	icon = GFX_focus_eng_infrastructure_britain
+	x = 18
+	y = 3
+	prerequisite = { focus = ENG_LD_balanced_budget_act }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_infrastructure_revival
+	}
+}
+
+focus = {
+	id = ENG_LD_green_transition_framework
+	icon = GFX_focus_eng_green_transition_framework
+	x = 15
+	y = 4
+	prerequisite = { focus = ENG_LD_infrastructure_britain }
+	mutually_exclusive = { focus = ENG_LD_industrial_revival }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_green_transition
+	}
+}
+
+focus = {
+	id = ENG_LD_industrial_revival
+	icon = GFX_focus_eng_industrial_revival
+	x = 19
+	y = 4
+	prerequisite = { focus = ENG_LD_infrastructure_britain }
+	mutually_exclusive = { focus = ENG_LD_green_transition_framework }
+	cost = 1
+	completion_reward = {
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_support_startups
+	icon = GFX_focus_eng_support_startups
+	x = 14
+	y = 5
+	prerequisite = { focus = ENG_LD_green_transition_framework focus = ENG_LD_industrial_revival }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_startup_stimulus
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_financial_regulation_reform
+	icon = GFX_focus_eng_financial_regulation_reform
+	x = 18
+	y = 5
+	prerequisite = { focus = ENG_LD_industrial_revival }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_digital_infrastructure_act
+	icon = GFX_focus_eng_digital_infrastructure_act
+	x = 16
+	y = 6
+	prerequisite = { focus = ENG_LD_financial_regulation_reform focus = ENG_LD_support_startups }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_digital_infrastructure
+		add_research_bonus = { research_bonus = 0.03 }
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_productivity_pact
+	icon = GFX_focus_eng_productivity_pact
+	x = 16
+	y = 7
+	prerequisite = { focus = ENG_LD_digital_infrastructure_act }
+	cost = 2
+	completion_reward = {
+		add_ideas = ENG_productivity_pact
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_new_commonwealth_trade
+	icon = GFX_focus_eng_new_commonwealth_trade
+	x = 14
+	y = 8
+	prerequisite = { focus = ENG_LD_productivity_pact }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_advanced_manufacturing_support
+	icon = GFX_focus_eng_advanced_manufacturing_support
+	x = 18
+	y = 8
+	prerequisite = { focus = ENG_LD_productivity_pact }
+	cost = 1
+	completion_reward = {
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_innovation_agency
+	icon = GFX_focus_eng_innovation_agency
+	x = 16
+	y = 9
+	prerequisite = { focus = ENG_LD_new_commonwealth_trade focus = ENG_LD_advanced_manufacturing_support }
+	cost = 1
+	completion_reward = {
+		add_research_slots = 1
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_modern_service_economy
+	icon = GFX_focus_eng_modern_service_economy
+	x = 16
+	y = 10
+	prerequisite = { focus = ENG_LD_innovation_agency }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_modern_service_economy
+		add_stability = 0.03
+	}
+}
+
+focus = {
+	id = ENG_LD_fintech_initiative
+	icon = GFX_focus_eng_fintech_initiative
+	x = 14
+	y = 11
+	prerequisite = { focus = ENG_LD_modern_service_economy }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+		add_research_bonus = { research_bonus = 0.02 }
+	}
+}
+
+focus = {
+	id = ENG_LD_trade_diplomacy_push
+	icon = GFX_focus_eng_trade_diplomacy_push
+	x = 18
+	y = 11
+	prerequisite = { focus = ENG_LD_modern_service_economy }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_education_reform_invest
+	icon = GFX_focus_eng_education_reform_invest
+	x = 16
+	y = 12
+	prerequisite = { focus = ENG_LD_fintech_initiative }
+	prerequisite = { focus = ENG_LD_trade_diplomacy_push }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_innovation_final_push
+	icon = GFX_focus_eng_innovation_final_push
+	x = 16
+	y = 13
+	prerequisite = { focus = ENG_LD_education_reform_invest }
+	cost = 1
+	completion_reward = {
+		add_research_bonus = { research_bonus = 0.05 }
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_economic_review_final
+	icon = GFX_focus_eng_economic_review_final
+	x = 16
+	y = 14
+	prerequisite = { focus = ENG_LD_innovation_final_push }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_new_european_dialogue
+	icon = GFX_focus_eng_new_european_dialogue
+	x = 26
+	y = 1
+	cost = 2
+	completion_reward = {
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_renew_european_dialogue
+	icon = GFX_focus_eng_renew_european_dialogue
+	x = 24
+	y = 2
+	prerequisite = { focus = ENG_LD_new_european_dialogue }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_atlantic_partnership
+	icon = GFX_focus_eng_atlantic_partnership
+	x = 28
+	y = 2
+	prerequisite = { focus = ENG_LD_new_european_dialogue }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_atlantic_partnership
+	}
+}
+
+focus = {
+	id = ENG_LD_europes_fracture
+	icon = GFX_focus_eng_europes_fracture
+	x = 24
+	y = 3
+	prerequisite = { focus = ENG_LD_renew_european_dialogue }
+	mutually_exclusive = { focus = ENG_LD_mediterranean_reach }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_rhineland_question
+		add_stability = -0.03
+		country_event = { id = eng_ld.2 days = 7 }
+	}
+}
+
+focus = {
+	id = ENG_LD_mediterranean_reach
+	icon = GFX_focus_eng_mediterranean_reach
+	x = 28
+	y = 3
+	prerequisite = { focus = ENG_LD_renew_european_dialogue }
+	mutually_exclusive = { focus = ENG_LD_europes_fracture }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_mediterranean_initiative
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_joint_security_planning
+	icon = GFX_focus_eng_joint_security_planning
+	x = 26
+	y = 4
+	prerequisite = { focus = ENG_LD_europes_fracture focus = ENG_LD_mediterranean_reach }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_deterrent_reassessment
+	icon = GFX_focus_eng_deterrent_reassessment
+	x = 26
+	y = 5
+	prerequisite = { focus = ENG_LD_joint_security_planning }
+	cost = 1
+	completion_reward = {
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_nato_reform_initiative
+	icon = GFX_focus_eng_nato_reform_initiative
+	x = 24
+	y = 6
+	prerequisite = { focus = ENG_LD_deterrent_reassessment }
+	mutually_exclusive = { focus = ENG_LD_diplomatic_detente }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_professional_force
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_diplomatic_detente
+	icon = GFX_focus_eng_diplomatic_detente
+	x = 28
+	y = 6
+	prerequisite = { focus = ENG_LD_deterrent_reassessment }
+	mutually_exclusive = { focus = ENG_LD_nato_reform_initiative }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_modernise_forces
+	icon = GFX_focus_eng_modernise_forces
+	x = 26
+	y = 7
+	prerequisite = { focus = ENG_LD_nato_reform_initiative focus = ENG_LD_diplomatic_detente }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_professional_force
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_secure_maritime_routes
+	icon = GFX_focus_eng_secure_maritime_routes
+	x = 24
+	y = 8
+	prerequisite = { focus = ENG_LD_modernise_forces }
+	cost = 1
+	completion_reward = {
+		add_war_support = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_indo_pacific_strategy
+	icon = GFX_focus_eng_indo_pacific_strategy
+	x = 28
+	y = 8
+	prerequisite = { focus = ENG_LD_modernise_forces }
+	cost = 1
+	completion_reward = {
+		add_war_support = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_mediator_of_europe
+	icon = GFX_focus_eng_mediator_of_europe
+	x = 26
+	y = 9
+	prerequisite = { focus = ENG_LD_indo_pacific_strategy focus = ENG_LD_secure_maritime_routes }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_global_ENG_vision
+	icon = GFX_focus_eng_global_ENG_vision
+	x = 26
+	y = 10
+	prerequisite = { focus = ENG_LD_mediator_of_europe }
+	cost = 1
+	completion_reward = {
+		add_ideas = ENG_global_ENG_vision
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_diplomatic_corps_expansion
+	icon = GFX_focus_eng_diplomatic_corps_expansion
+	x = 30
+	y = 9
+	prerequisite = { focus = ENG_LD_indo_pacific_strategy }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_intelligence_sharing
+	icon = GFX_focus_eng_intelligence_sharing
+	x = 22
+	y = 10
+	prerequisite = { focus = ENG_LD_mediator_of_europe }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_global_trade_missions
+	icon = GFX_focus_eng_global_trade_missions
+	x = 30
+	y = 10
+	prerequisite = { focus = ENG_LD_diplomatic_corps_expansion }
+	cost = 1
+	completion_reward = {
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_maritime_security_partnerships
+	icon = GFX_focus_eng_maritime_security_partnerships
+	x = 28
+	y = 11
+	prerequisite = { focus = ENG_LD_global_trade_missions }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_intl_conflict_mediation
+	icon = GFX_focus_eng_intl_conflict_mediation
+	x = 26
+	y = 11
+	prerequisite = { focus = ENG_LD_global_ENG_vision }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_foreign_policy_review
+	icon = GFX_focus_eng_foreign_policy_review
+	x = 26
+	y = 12
+	prerequisite = { focus = ENG_LD_intl_conflict_mediation }
+	cost = 2
+	completion_reward = {
+		add_political_power = 40
+		add_stability = 0.02
+	}
+}
+
+focus = {
+	id = ENG_LD_welfare_modernisation
+	icon = GFX_focus_eng_welfare_modernisation
+	x = 36
+	y = 1
+	cost = 2
+	completion_reward = {
+		add_ideas = ENG_social_citizenship
+	}
+}
+
+focus = {
+	id = ENG_LD_education_renewal
+	icon = GFX_focus_eng_education_renewal
+	x = 36
+	y = 2
+	prerequisite = { focus = ENG_LD_welfare_modernisation }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_nhs_integration_reform
+	icon = GFX_focus_eng_nhs_integration_reform
+	x = 34
+	y = 3
+	prerequisite = { focus = ENG_LD_education_renewal }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_university_modernisation
+	icon = GFX_focus_eng_university_modernisation
+	x = 38
+	y = 3
+	prerequisite = { focus = ENG_LD_education_renewal }
+	cost = 1
+	completion_reward = {
+		add_research_slots = 1
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_social_compact
+	icon = GFX_focus_eng_social_compact
+	x = 36
+	y = 4
+	prerequisite = { focus = ENG_LD_nhs_integration_reform focus = ENG_LD_university_modernisation }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 35
+	}
+}
+
+focus = {
+	id = ENG_LD_welfare_equality_act
+	icon = GFX_focus_eng_welfare_equality_act
+	x = 36
+	y = 5
+	prerequisite = { focus = ENG_LD_social_compact }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_housing_investment_plan
+	icon = GFX_focus_eng_housing_investment_plan
+	x = 34
+	y = 6
+	prerequisite = { focus = ENG_LD_welfare_equality_act }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_community_health_drives
+	icon = GFX_focus_eng_community_health_drives
+	x = 38
+	y = 6
+	prerequisite = { focus = ENG_LD_welfare_equality_act }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_science_and_society_bill
+	icon = GFX_focus_eng_science_and_society_bill
+	x = 36
+	y = 7
+	prerequisite = { focus = ENG_LD_housing_investment_plan focus = ENG_LD_community_health_drives }
+	cost = 1
+	completion_reward = {
+		add_research_bonus = { research_bonus = 0.03 }
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_national_innovation_council
+	icon = GFX_focus_eng_national_innovation_council
+	x = 36
+	y = 8
+	prerequisite = { focus = ENG_LD_science_and_society_bill }
+	cost = 1
+	completion_reward = {
+		add_political_power = 40
+		add_research_bonus = { research_bonus = 0.02 }
+	}
+}
+
+focus = {
+	id = ENG_LD_citizen_services_upgrade
+	icon = GFX_focus_eng_citizen_services_upgrade
+	x = 34
+	y = 9
+	prerequisite = { focus = ENG_LD_national_innovation_council }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.03
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_youth_employment_programme
+	icon = GFX_focus_eng_youth_employment_programme
+	x = 38
+	y = 9
+	prerequisite = { focus = ENG_LD_national_innovation_council }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_nhs_staffing_boost
+	icon = GFX_focus_eng_nhs_staffing_boost
+	x = 36
+	y = 10
+	prerequisite = { focus = ENG_LD_citizen_services_upgrade }
+	prerequisite = { focus = ENG_LD_youth_employment_programme }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_social_progress_bill
+	icon = GFX_focus_eng_social_progress_bill
+	x = 36
+	y = 11
+	prerequisite = { focus = ENG_LD_nhs_staffing_boost }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.04
+		add_political_power = 40
+	}
+}
+
+focus = {
+	id = ENG_LD_local_infrastructure_partnerships
+	icon = GFX_focus_eng_local_infrastructure_partnerships
+	x = 34
+	y = 12
+	prerequisite = { focus = ENG_LD_social_progress_bill }
+	cost = 1
+	completion_reward = {
+		add_political_power = 30
+	}
+}
+
+focus = {
+	id = ENG_LD_community_resilience_fund
+	icon = GFX_focus_eng_community_resilience_fund
+	x = 38
+	y = 12
+	prerequisite = { focus = ENG_LD_social_progress_bill }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.02
+		add_political_power = 25
+	}
+}
+
+focus = {
+	id = ENG_LD_final_social_push
+	icon = GFX_focus_eng_final_social_push
+	x = 36
+	y = 13
+	prerequisite = { focus = ENG_LD_community_resilience_fund }
+	prerequisite = { focus = ENG_LD_local_infrastructure_partnerships }
+	cost = 2
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 50
+	}
+}
+
+focus = {
+	id = ENG_LD_policy_coherence_forum
+	icon = GFX_focus_eng_policy_coherence_forum
+	x = 16
+	y = 18
+	prerequisite = { focus = ENG_LD_economic_review_final }
+	prerequisite = { focus = ENG_LD_final_domestic_push }
+	cost = 1
+	completion_reward = {
+		add_political_power = 50
+		add_stability = 0.03
+	}
+}
+
+focus = {
+	id = ENG_LD_ENG_renewed
+	icon = GFX_focus_eng_ENG_renewed
+	x = 16
+	y = 19
+	prerequisite = { focus = ENG_LD_policy_coherence_forum }
+	cost = 1
+	completion_reward = {
+		add_stability = 0.10
+		add_political_power = 100
+		add_research_bonus = { research_bonus = 0.10 }
+		country_event = { id = eng_ld.1 days = 1 }
+		}
+	}
+}

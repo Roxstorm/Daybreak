@@ -12,4 +12,374 @@ characters = {
 			id=-1
 		}
 	}
+	
+	ENG_robert_griffiths = {
+		name = "Robert Griffiths"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Robert.Griffiths.png"
+			}
+		}
+		country_leader={
+			ideology = reformed_communism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+	
+	ENG_adam_walker = {
+		name = "Adam Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Adam.Walker.png"
+			}
+		}
+		country_leader={
+			ideology = fascism_ideology
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+	
+	ENG_jeremy_corbyn = {
+		name = "Jeremy Corbyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Jeremy.Corbyn.png"
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			expire="2019.10.1"
+			id=-1
+		}
+	}
+	
+	ENG_Danny_Alexander = {
+		name = "Danny Alexander"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Danny.Alexander.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Danny_Alexander
+			cost = 150
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_efficiency_cap_factor = 0.03
+			}
+		}
+	}
+
+	ENG_Norman_Baker = {
+		name = "Norman Baker"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Norman.Baker.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Norman_Baker
+			cost = 150
+			modifier = {
+				improve_relations_opinion = 0.20
+				justify_war_goal_time = 0.25
+				war_support_factor = -0.05
+			}
+		}
+	}
+
+	ENG_Natalie_Bennett = {
+		name = "Natalie Bennett"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Natalie.Bennett.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Natalie_Bennett
+			cost = 150
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.10
+			}
+		}
+	}
+
+	ENG_Tom_Watson = {
+		name = "Tom Watson"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Tom.Watson.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Tom_Watson
+			cost = 150
+			modifier = {
+				research_speed_factor = 0.05
+				encryption = -1
+				decryption = -1
+			}
+		}
+	}
+
+	ENG_Naomi_Long = {
+		name = "Naomi Long"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Naomi.Long.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Naomi_Long
+			cost = 150
+			modifier = {
+				compliance_gain = 0.02
+				resistance_target = -0.03
+				stability_factor = 0.03
+			}
+		}
+	}
+
+	ENG_Nick_Carter = {
+		name = "Nick Carter"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Nick.Carter.png"
+			}
+		}
+		advisor = {
+			slot = chief_of_staff
+			idea_token = ENG_Nick_Carter
+			cost = 150
+			traits = { army_chief_reform_2 }
+		}
+	}
+
+	ENG_Mark_Carleton_Smith = {
+		name = "Mark Carleton Smith"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Mark.Carleton.Smith.png"
+			}
+		}
+		advisor = {
+			slot = chief_of_army
+			idea_token = ENG_Mark_Carleton_Smith
+			cost = 150
+			traits = { army_chief_defensive_2 }
+		}
+	}
+
+	ENG_George_Zambellas = {
+		name = "George Zambellas"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/George.Zambellas.png"
+			}
+		}
+		advisor = {
+			slot = chief_of_navy
+			idea_token = ENG_George_Zambellas
+			cost = 150
+			traits = { navy_chief_decisive_battle_2 }
+		}
+	}
+
+	ENG_Andrew_Pulford = {
+		name = "Andrew Pulford"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Andrew.Pulford.png"
+			}
+		}
+		advisor = {
+			slot = chief_of_airforce
+			idea_token = ENG_Andrew_Pulford
+			cost = 150
+			traits = { air_chief_reform_2 }
+		}
+	}
+
+	ENG_Tim_Evans = {
+		name = "Tim Evans"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Tim.Evans.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = ENG_Tim_Evans
+			cost = 150
+			traits = { army_armored_2 }
+		}
+	}
+
+	ENG_Philip_Jones = {
+		name = "Philip Jones"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Philip.Jones.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			idea_token = ENG_Philip_Jones
+			cost = 150
+			traits = { navy_anti_submarine_2 }
+		}
+	}
+
+	ENG_Stuart_Atha = {
+		name = "Stuart Atha"
+		portraits = {
+			army = {
+				small = "gfx/leaders/ENG/Stuart.Atha.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = ENG_Stuart_Atha
+			cost = 150
+			traits = { air_close_air_support_2 }
+		}
+	}
+
+	ENG_Tesco_Logistics = {
+		name = "Tesco Logistics"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Tesco.Logistics.png"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = ENG_Tesco_Logistics
+			cost = 150
+			modifier = {
+				consumer_goods_factor = -0.02
+				supply_range = 0.05
+			}
+		}
+	}
+
+	ENG_BP = {
+		name = "BP"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/BP.png"
+			}
+		}
+		advisor = {
+			slot = industrial_concern
+			idea_token = ENG_BP
+			cost = 150
+			modifier = {
+				fuel_gain_factor = 0.10
+				refinery_output = 0.05
+			}
+		}
+	}
+
+	ENG_Rolls_Royce = {
+		name = "Rolls Royce"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/ENG/Rolls.Royce.png"
+			}
+		}
+		advisor = {
+			slot = aircraft_manufacturer
+			idea_token = ENG_Rolls_Royce
+			cost = 150
+			modifier = {
+				air_equipment_reliability = 0.05
+				air_range = 0.05
+			}
+		}
+	}
+
+	ENG_BAE_Systems = {
+		name = "BAE Systems"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/ENG/BAE.Systems.png"
+			}
+		}
+		advisor = {
+			slot = naval_manufacturer
+			idea_token = ENG_BAE_Systems
+			cost = 150
+			modifier = {
+				naval_equipment_reliability = 0.05
+				ship_hull_armor_factor = 0.05
+			}
+		}
+	}
+
+	ENG_ARM_Holdings = {
+		name = "ARM Holdings"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/ARM.Holdings.png"
+			}
+		}
+		advisor = {
+			slot = materiel_manufacturer
+			idea_token = ENG_ARM_Holdings
+			cost = 150
+			modifier = {
+				electronics_research_speed_factor = 0.05
+			}
+		}
+	}
+
+	ENG_Andrew_Parker = {
+		name = "Andrew Parker"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Andrew.Parker.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Andrew_Parker
+			cost = 150
+			modifier = {
+				decryption = 1
+				counter_intelligence = 1
+				stability_factor = -0.02
+			}
+		}
+	}
+
+	ENG_Alex_Younger = {
+		name = "Alex Younger"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ideas/ENG/Alex.Younger.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ENG_Alex_Younger
+			cost = 150
+			modifier = {
+				encryption = 1
+				intel_network_gain_factor = 0.10
+				trade_opinion_factor = 0.05
+			}
+		}
+	}
 }

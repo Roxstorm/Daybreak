@@ -62,6 +62,10 @@ set_popularities = {
 	neutrality = 0
 }
 
+add_ideas = {
+	EC_member
+}
+
 create_country_leader = {
 	name = "Anibal Silva"
 	desc = ""

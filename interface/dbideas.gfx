@@ -25,4 +25,9 @@ spriteTypes = {
 		name = "GFX_idea_USA_the_cold_war"
 		texturefile = "gfx/interface/ideas/GFX_idea_USA_the_cold_war.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_EC_member"
+		texturefile = "gfx/interface/ideas/GFX_idea_EC_european_community.dds"
+	}
 }

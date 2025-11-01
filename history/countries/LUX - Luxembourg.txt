@@ -62,6 +62,10 @@ set_popularities = {
 	neutrality = 60
 }
 
+add_ideas = {
+	EC_member
+}
+
 create_country_leader = {
 	name = "Henri"
 	desc = ""

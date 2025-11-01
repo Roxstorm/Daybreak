@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		EC_member = {
+			picture = GFX_idea_EC_member
+			allowed = {
+			}
+			cancel = {
+			}
+			modifier = {
+				army_org_Factor = 0.02
+				battalion_upkeep_factor = 0.1
+				coordination_bonus = 0.1
+				mobilization_speed = 0.020
+				war_support_factor = 0.02
+			}
+		} 
+		EC_observer = {
+			allowed = {
+			}
+			cancel = {
+			}
+			picture = EC_observer
+			modifier = {
+				production_speed_buildings_factor = 0.01
+				mobilization_speed = 0.05
+				war_support_factor = 0.02
+			}
+		}		
+	}
+}

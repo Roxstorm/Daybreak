@@ -194,12 +194,15 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
+	EC_member
+	ENG_crumbling_pound
+	ENG_missed_digital_age
+	ENG_kingdom_of_moderation
+	ENG_atlantic_dependency
+	ENG_rhineland_tension
+	ENG_joint_authority_in_ni
 }
 	
-
 set_convoys = 1000
 
 if = {
@@ -208,18 +211,51 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+set_autonomy = {
+	target = NIR
+	autonomous_state =  autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2012.11.14"
 	election_frequency = 48
-	elections_allowed = no ##suspended through duration of war, which is handled via event
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+    democratic = 59
+    communism = 25
+    fascism = 10
+    neutrality = 6
 }
 
 recruit_character = ENG_nick_clegg
+recruit_character = ENG_robert_griffiths
+recruit_character = ENG_adam_walker
+recruit_character = ENG_jeremy_corbyn
+recruit_character = ENG_Danny_Alexander
+recruit_character = ENG_Norman_Baker
+recruit_character = ENG_Natalie_Bennett
+recruit_character = ENG_Tom_Watson
+recruit_character = ENG_Naomi_Long
 
+recruit_character = ENG_Nick_Carter
+recruit_character = ENG_Mark_Carleton_Smith
+recruit_character = ENG_George_Zambellas
+recruit_character = ENG_Andrew_Pulford
+
+recruit_character = ENG_Tim_Evans
+recruit_character = ENG_Philip_Jones
+recruit_character = ENG_Stuart_Atha
+
+recruit_character = ENG_Tesco_Logistics
+recruit_character = ENG_BP
+recruit_character = ENG_Rolls_Royce
+recruit_character = ENG_BAE_Systems
+recruit_character = ENG_ARM_Holdings
+
+recruit_character = ENG_Andrew_Parker
+recruit_character = ENG_Alex_Younger
 
 if = {
 	limit = {

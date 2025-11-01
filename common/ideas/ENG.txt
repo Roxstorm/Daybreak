@@ -1,0 +1,260 @@
+ideas = {
+	country = {
+
+		ENG_crumbling_pound = {
+			picture = GFX_idea_ENG_crumbling_pound
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				trade_opinion_factor = -0.20
+				resource_gain_efficiency = -0.10
+				political_power_gain = -0.05
+			}
+		}
+
+		ENG_missed_digital_age = {
+			picture = GFX_idea_ENG_missed_digital_age
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.03
+				encryption_factor = -0.10
+				decryption_factor = -0.05
+				civilian_factory_construction_speed = 0.05
+			}
+		}
+
+		ENG_kingdom_of_moderation = {
+			picture = GFX_idea_ENG_kingdom_of_moderation
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = -0.15
+				justify_war_goal_time = 0.25
+				drift_defence_factor = 0.10
+			}
+		}
+
+		ENG_king_in_waiting_burden = {
+			picture = GFX_idea_ENG_king_in_waiting_burden
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				war_support_factor = -0.05
+				drift_defence_factor = 0.10
+			}
+		}
+
+		ENG_atlantic_dependency = {
+			picture = GFX_idea_ENG_atlantic_dependency
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				opinion_gain_factor = 0.25
+				lend_lease_tension_limit = 0.25
+				military_factory_construction_speed_factor = -0.05
+				drift_defence_factor = 0.10
+			}
+		}
+
+		ENG_rhineland_tension = {
+			picture = GFX_idea_ENG_rhineland_tension
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = 0.10
+				justify_war_goal_time = -0.20
+				defence_bonus_on_core_factor = 0.05
+			}
+		}
+
+		ENG_joint_authority_in_ni = {
+			picture = GFX_idea_ENG_joint_authority_in_ni
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.03
+				political_power_gain = -0.02
+				weekly_stability = 0.001
+				opinion_gain_factor = 0.05
+				drift_defence_factor = 0.05
+			}
+		}
+
+
+		### ECONOMIC AND INFRASTRUCTURE POLICIES ###
+
+		ENG_green_transition = {
+			picture = GFX_idea_generic_industry
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_industrial_complex_factor = 0.05
+				stability_factor = 0.01
+			}
+		}
+
+		ENG_startup_stimulus = {
+			picture = GFX_idea_generic_research
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.02
+				research_speed_factor = 0.02
+				political_power_gain = 0.02
+			}
+		}
+
+		ENG_digital_infrastructure = {
+			picture = GFX_idea_generic_technology
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.03
+				production_speed_infrastructure_factor = 0.05
+				stability_factor = 0.01
+			}
+		}
+
+		ENG_productivity_pact = {
+			picture = GFX_idea_generic_factory
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+				political_power_gain = 0.03
+			}
+		}
+
+		ENG_modern_service_economy = {
+			picture = GFX_idea_generic_consumer_goods
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.03
+				trade_opinion_factor = 0.10
+				stability_factor = 0.02
+			}
+		}
+
+		ENG_infrastructure_revival = {
+			picture = GFX_idea_generic_construction
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_infrastructure_factor = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}
+
+
+		### DEFENCE & FOREIGN POLICY ###
+
+		ENG_atlantic_partnership = {
+			picture = GFX_idea_generic_allies
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				opinion_gain_factor = 0.15
+				political_power_gain = -0.01
+				war_support_factor = 0.02
+			}
+		}
+
+		ENG_mediterranean_initiative = {
+			picture = GFX_idea_generic_naval
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				navy_experience_gain_factor = 0.05
+				trade_opinion_factor = 0.10
+				naval_base_construction_speed = 0.05
+			}
+		}
+
+		ENG_professional_force = {
+			picture = GFX_idea_generic_army
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_experience_gain_factor = 0.05
+				conscription_factor = -0.02
+				land_doctrine_cost_factor = -0.05
+			}
+		}
+
+		ENG_global_vision = {
+			picture = GFX_idea_generic_globe
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = 0.20
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+
+
+		### EVENT / POLITICAL OUTCOME IDEAS ###
+
+		ENG_ld_victory = {
+			picture = GFX_idea_generic_democracy
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				research_speed_factor = 0.02
+			}
+		}
+
+		ENG_conservative_victory = {
+			picture = GFX_idea_generic_economy
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_factory_max_efficiency_factor = 0.03
+				stability_factor = -0.01
+			}
+		}
+
+		ENG_labour_victory = {
+			picture = GFX_idea_generic_social
+			allowed = { original_tag = ENG }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.02
+				research_speed_factor = -0.01
+			}
+		}
+	}
+}
