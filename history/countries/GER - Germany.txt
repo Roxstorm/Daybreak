@@ -1,5 +1,7 @@
 capital = 64
 
+oob = "GER_2015"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -122,6 +124,8 @@ add_ideas = {
 
 recruit_character = GER_klaus_ernst
 recruit_character = GER_gregor_gysi
+
+set_country_flag = rhineland_insurgency_ongoing
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
