@@ -1,0 +1,15 @@
+characters = {
+	SAF_julius_malema = {
+		name="Julius Malema"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/SAF_julius_malema.png"
+			}
+		}
+		country_leader={
+			ideology = pan_africanism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+}

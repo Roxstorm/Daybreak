@@ -3,7 +3,7 @@ characters = {
 		name="Sergey Ivanov"
 		portraits={
 			civilian={
-				large="gfx/leaders/SOV/Sergey.Ivanov.png"
+				large="gfx/leaders/SOV/SOV_sergey_ivanov.png"
 			}
 		}
 		country_leader={
