@@ -64,6 +64,7 @@ set_popularities = {
 
 add_ideas = {
 	EC_member
+	IRE_joint_authority_in_ni
 }
 
 create_country_leader = {

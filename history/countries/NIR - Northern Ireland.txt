@@ -118,8 +118,9 @@ set_popularities = {
 }
 
 add_ideas = {
+	EC_member
+	NIR_joint_authority_in_ni
 }
-
 create_country_leader = {
 	name = "Margaret Ritchie"
 	desc = ""
