@@ -198,8 +198,6 @@ add_ideas = {
 	ENG_crumbling_pound
 	ENG_missed_digital_age
 	ENG_kingdom_of_moderation
-	ENG_atlantic_dependency
-	ENG_rhineland_tension
 	ENG_joint_authority_in_ni
 }
 	
@@ -209,11 +207,6 @@ if = {
 	limit = { has_dlc = "Together for Victory" }
 
 	add_to_tech_sharing_group = commonwealth_research
-}
-
-set_autonomy = {
-	target = NIR
-	autonomous_state =  autonomy_puppet
 }
 
 set_politics = {

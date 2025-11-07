@@ -30,4 +30,24 @@ spriteTypes = {
 		name = "GFX_idea_EC_member"
 		texturefile = "gfx/interface/ideas/GFX_idea_EC_european_community.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_crumbling_pound"
+		texturefile = "gfx/interface/ideas/GFX_idea_ENG_crumbling_pound.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_missed_digital_age"
+		texturefile = "gfx/interface/ideas/GFX_idea_ENG_missed_digital_age.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_kingdom_of_moderation"
+		texturefile = "gfx/interface/ideas/GFX_idea_ENG_kingdom_of_moderation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ENG_joint_authority_in_ni"
+		texturefile = "gfx/interface/ideas/GFX_idea_ENG_joint_authority_in_ni.dds"
+	}
 }

@@ -49,6 +49,11 @@ if = {
 	}
 }
 
+set_autonomy = {
+	target = NIR
+	autonomous_state =  autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1987.11.3"

@@ -1,0 +1,268 @@
+﻿l_english:
+
+### ideas ###
+ EC_member:0 "The European Community"
+ EC_member_desc:0 "Born from the ruins of two world wars, the European Community was meant to be the guarantor of peace in the West. Its founders dreamed of unity, prosperity, and an end to bloodshed on the continent. For decades, it has succeeded—at least on paper. The EC now acts as both an economic bloc and a diplomatic coalition, bound by treaties and bureaucracy rather than faith or fire. Its leaders speak the language of stability, of dialogue, of cooperation with the East. They believe peace is not won through strength, but through understanding. Yet beneath the press conferences and summits lies a quiet anxiety: the Warsaw Pact grows stronger, faster, and more confident each year. The European dream still stands, but it stands in the shadow of another world."
+ ENG_crumbling_pound:0 "Echoes of Sterling"
+ ENG_crumbling_pound_desc:0 "The pound once ruled the world’s markets, a symbol of imperial certainty. Now it buys less, means less, and inspires even less confidence. In the banks of London, deals are written in dollars or, unsettlingly, in rubles. Economists assure Parliament that this is a temporary correction, not a decline. But on the streets, prices rise, wages stagnate, and belief falters. Every foreign currency accepted feels like a small surrender. The City mutters about reform, yet nothing changes. Once, the pound was Britain’s pride. Today, it feels more like an old family heirloom—polished, displayed, but no longer used."
+ ENG_missed_digital_age:0 "Running Late for Tomorrow"
+ ENG_missed_digital_age_desc:0 "Britain taught the world how to think in circuits and code, and then somehow stopped doing so itself. The schools remain analog, the ministries paper-bound, and the politicians baffled by screens. Committees are formed, reports are written, and nothing truly changes. The rest of the world moves forward, sleek and connected, while Britain hesitates at the threshold. Every new program arrives years late and over budget. The young leave, seeking the future elsewhere. The old wonder when the country lost its spark. Innovation is now a word spoken wistfully, as if it were an old friend long since departed."
+ ENG_kingdom_of_moderation:0 "Staying the Course"
+ ENG_kingdom_of_moderation_desc:0 "The government calls it balance, but it feels more like exhaustion. Between the shouting of the radicals and the silence of the indifferent, the Liberal Democrats stand, trying to hold the line. The socialists demand reform, the conservatives demand restoration, and neither will be satisfied. In Parliament, debates last for hours and resolve nothing. Compromise is a virtue spoken of so often it has lost all meaning. The people watch, patient but weary, as policies blur into platitudes. Britain survives by doing just enough to avoid disaster. Whether that is wisdom or cowardice is a matter of opinion."
+ ENG_joint_authority_in_ni:0 "An United Nation Once Again"
+ ENG_joint_authority_in_ni_desc:0 "Northern Ireland has always been a question without a satisfying answer. Now, in a move both bold and divisive, London and Dublin share its rule. The official line speaks of peace, reconciliation, and the promise of unity by 2022. The reality is a land uneasy with itself, watched by soldiers and politicians alike. To the conservatives, it is betrayal dressed as diplomacy. To others, it is the first real step toward an end to history’s longest argument. Nick Clegg stands by his decision, even as his popularity fades. The Union feels lighter with every passing month. Perhaps one day, it will simply float away."
+### focuses ###
+ ENG_LD_constitutional_review:0 "The Constitutional Review"
+ ENG_LD_constitutional_review_desc:0 "Nick Clegg promised renewal, and Britain demands it. The constitution, a patchwork of precedent and privilege, no longer suits a world defined by ideology and instability. A sweeping review is underway, drawing voices from across the Isles. Some whisper that the monarchy should fear this moment, others believe nothing will change. But with the USSR looming and unrest growing, even symbolic reform is a signal that Britain still knows how to govern."
+ 
+ ENG_LD_parliamentary_modernisation:0 "Parliamentary Modernisation"
+ ENG_LD_parliamentary_modernisation_desc:0 "Westminster remains a relic of empire, slow and ceremonial in a time of urgency. The Liberal Democrats propose digitised voting, livestreamed committees, and streamlined legislation. Traditionalists scoff, but the Cold War’s second century demands speed and transparency. If Britain is to remain relevant, its government must reflect the world it claims to lead."
+ 
+ ENG_LD_civil_liberties_bill:0 "Civil Liberties Bill"
+ ENG_LD_civil_liberties_bill_desc:0 "Surveillance has become routine, justified by threats both foreign and domestic. The Civil Liberties Bill aims to restore balance, curbing state overreach while preserving security. MI5 warns of Communist infiltration, civil rights groups warn of democratic decay. The bill walks a tightrope, offering a rare moment of principle in a nation long ruled by pragmatism."
+ 
+ ENG_LD_devolution_review:0 "Devolution Review"
+ ENG_LD_devolution_review_desc:0 "The Union is fraying. Scotland demands autonomy, Wales seeks recognition, and Northern Ireland remains a diplomatic minefield. The Devolution Review will attempt to recalibrate power without surrendering unity. Meanwhile, Communist organisers exploit regional grievances, promising equality through separation. The Liberal Democrats hope consultation will calm the storm, but even they know unity is no longer guaranteed."
+ 
+ ENG_LD_devolution_without_division:0 "Devolution Without Division"
+ ENG_LD_devolution_without_division_desc:0 "The Liberal Democrats unveil a plan for regional empowerment: new assemblies in Edinburgh and Cardiff, limited autonomy under the Crown. Critics call it appeasement, supporters call it overdue. In a world split between Moscow and Washington, Britain offers a third path — one of compromise and quiet strength."
+ 
+ ENG_LD_central_coordination_plan:0 "Central Coordination Plan"
+ ENG_LD_central_coordination_plan_desc:0 "With power shifting to the regions, London proposes a framework to keep the kingdom coherent. Ministries and devolved governments will share data, align budgets, and coordinate policy. Some see efficiency, others see overreach. But in a Cold War defined by fragmentation, even imperfect unity is a strategic asset."
+ 
+ ENG_LD_joint_authority_framework:0 "Joint Authority Framework"
+ ENG_LD_joint_authority_framework_desc:0 "Northern Ireland is governed jointly by London and Dublin, a fragile arrangement born of necessity. The Joint Authority Framework formalises this cooperation, laying the groundwork for full integration into Ireland by 2022. Conservatives decry it as betrayal, the Soviets hail it as proof of Western decline. For Belfast, it is simply the latest chapter in a long story of promises and pain."
+ 
+ ENG_LD_belfast_accord_refresh:0 "Belfast Accord Refresh"
+ ENG_LD_belfast_accord_refresh_desc:0 "The Belfast Accord, once a symbol of peace, is showing its age. Clegg’s government proposes a refresh: updated terms, renewed commitments, and a timeline for integration. Dublin pushes for speed, Westminster urges caution. The Cold War has taught Europe that peace is a process, and Northern Ireland remains its most delicate test."
+ 
+ ENG_LD_northern_investment_programme:0 "Northern Investment Programme"
+ ENG_LD_northern_investment_programme_desc:0 "The industrial north has been left behind, its factories silent and its youth restless. The Northern Investment Programme promises infrastructure, innovation, and jobs. The Liberal Democrats call it renewal, the Communists call it too late. But money flows north, and for now, hope follows."
+ 
+ ENG_LD_public_transparency_portal:0 "Public Transparency Portal"
+ ENG_LD_public_transparency_portal_desc:0 "In an age of secrecy and suspicion, the Liberal Democrats launch a portal to publish government data: budgets, contracts, and policy drafts. Critics fear exposure, reformers cheer accountability. Transparency may not solve Britain’s problems, but it might restore a measure of trust."
+ 
+ ENG_LD_civic_engagement_drive:0 "Civic Engagement Drive"
+ ENG_LD_civic_engagement_drive_desc:0 "With political apathy rising and radicals gaining ground, the government launches a campaign to reengage the public. Local councils, youth forums, and digital platforms receive funding. The goal is simple: drown out extremism with participation. Whether it works remains to be seen."
+ 
+ ENG_LD_human_rights_amendment:0 "Human Rights Amendment"
+ ENG_LD_human_rights_amendment_desc:0 "The Liberal Democrats propose a constitutional amendment to enshrine human rights protections. It’s a symbolic gesture, but in a country caught between East and West, symbols matter. Conservatives call it unnecessary, Communists call it hypocritical. Britain calls it a statement of values."
+ 
+ ENG_LD_administrative_efficiency:0 "Administrative Efficiency"
+ ENG_LD_administrative_efficiency_desc:0 "Whitehall is bloated, slow, and outdated. The Liberal Democrats propose reforms: automation, consolidation, and performance metrics. Unions resist, fearing job losses. Ministers worry about backlash. But in a Cold War economy, efficiency is survival."
+ 
+ ENG_LD_legal_system_modernisation:0 "Legal System Modernisation"
+ ENG_LD_legal_system_modernisation_desc:0 "Britain’s legal system is a maze of precedent and privilege. Reform will mean digitisation, simplification, and accessibility. The bar association protests, the public cheers. In Moscow, trials are swift. In London, they will be fair — or so the government hopes."
+ 
+ ENG_LD_reform_of_the_lords:0 "Reform of the Lords"
+ ENG_LD_reform_of_the_lords_desc:0 "The House of Lords, a bastion of aristocracy, faces reform. Hereditary seats will be reduced, merit appointments expanded. The monarchy watches nervously. In a Cold War world, even tradition must justify itself."
+ 
+ ENG_LD_civil_service_support:0 "Civil Service Support"
+ ENG_LD_civil_service_support_desc:0 "The civil service, long neglected, will be revitalised. Training, salaries, and morale are prioritised. Critics call it indulgent, supporters call it necessary. In a democracy, stability begins with competence."
+ 
+ ENG_LD_public_services_upgrade:0 "Public Services Upgrade"
+ ENG_LD_public_services_upgrade_desc:0 "Hospitals, post offices, and transport systems are crumbling. The Public Services Upgrade will rebuild them. It’s not ideology — it’s infrastructure. The Warsaw Pact boasts of progress, Britain must respond with results."
+ 
+ ENG_LD_local_governance_conference:0 "Local Governance Conference"
+ ENG_LD_local_governance_conference_desc:0 "Delegates from across Britain gather to discuss the future of local governance. Scotland demands clarity, Northern Ireland demands answers. Clegg listens, nods, and promises unity. Whether anyone believes him is another matter."
+ 
+ ENG_LD_upgrade_services_governance:0 "Upgrade Services Governance"
+ ENG_LD_upgrade_services_governance_desc:0 "A new oversight body will link local councils with national ministries. Critics warn of centralisation, the government insists on coordination. In a Cold War defined by systems, Britain must prove its own still works."
+ 
+ ENG_LD_domestic_review_final:0 "Domestic Review"
+ ENG_LD_domestic_review_final_desc:0 "Two years of reform culminate in a national review. The Liberal Democrats hope for praise, the opposition expects failure. The Cold War continues, the economy stumbles, and the Union strains. But Britain moves — slowly, stubbornly, and still together."
+
+ ENG_LD_fiscal_responsibility:0 "Fiscal Responsibility"
+ ENG_LD_fiscal_responsibility_desc:0 "Britain’s finances are a mirror of its uncertainty. Years of stagnation and cautious spending have left the Treasury caught between restraint and necessity. Nick Clegg’s cabinet now promises discipline: balanced budgets, reduced debt, and a signal to the world that the state can still manage its own books. Economists call it too timid, unions call it too harsh. But in a Cold War economy, even survival is a statement."
+ 
+ ENG_LD_balanced_budget_act:0 "Balanced Budget Act"
+ ENG_LD_balanced_budget_act_desc:0 "To restore confidence, the Chancellor proposes a law mandating balanced budgets. In theory, it will prevent overspending; in practice, it may bind reform itself. Parliament debates whether responsibility means saving or investing. The Liberal Democrats insist prudence is not cowardice. The Warsaw Pact grows faster each year, its ledgers written in ideology. Britain must find a middle way before its economy becomes another Cold War casualty."
+ 
+ ENG_LD_public_works_programme:0 "Public Works Programme"
+ ENG_LD_public_works_programme_desc:0 "Unemployment lingers like fog across the Midlands and the North. The Public Works Programme promises roads, rails, and renewal. It is a gamble that investment can buy both jobs and faith in the state. Contractors line up, workers sign on, and even the skeptics admit that visible progress may heal invisible despair. The Communists call it a pale imitation of socialism, but for once the cranes are moving again."
+ 
+ ENG_LD_infrastructure_britain:0 "Infrastructure Britain"
+ ENG_LD_infrastructure_britain_desc:0 "To compete in the modern world, the island must first reconnect with itself. Motorways will be expanded, airports upgraded, and high-speed rails will finally link North and South. The government speaks of opportunity, but the subtext is survival. The Warsaw Pact boasts of efficiency, the Americans of innovation. Britain will settle for functionality, hoping that concrete and steel can succeed where politics has failed."
+ 
+ ENG_LD_green_transition_framework:0 "Green Transition Framework"
+ ENG_LD_green_transition_framework_desc:0 "The environment, once a luxury concern, is now a necessity. Rising energy prices and industrial decay have forced the government to seek cleaner, cheaper paths forward. The Green Transition Framework pledges investment in renewables and sustainable transport. Diplomats whisper that this is the EC’s quiet answer to the East’s expansion. Critics ask how a coal-burning country can speak of the future with a straight face."
+ 
+ ENG_LD_industrial_revival:0 "Industrial Revival"
+ ENG_LD_industrial_revival_desc:0 "Factories that once armed empires now stand silent. The Industrial Revival seeks to awaken them under modern terms. Subsidies flow, unions are consulted, and cautious optimism replaces despair. The Communists call it proof that capitalism copies socialism when convenient. Perhaps they are right. What matters is that men will work again, and Britain will produce something besides apologies."
+ 
+ ENG_LD_support_startups:0 "Support Startups"
+ ENG_LD_support_startups_desc:0 "Britain’s economy cannot live on legacy industries alone. The Support Startups initiative offers grants and tax breaks to entrepreneurs willing to risk failure for innovation. Small firms bloom in converted warehouses, coding through the night in the shadow of empty factories. The Prime Minister calls it a sign that ambition still exists on this tired island. In the quiet rivalry of systems, creativity has become the West’s final weapon."
+ 
+ ENG_LD_financial_regulation_reform:0 "Financial Regulation Reform"
+ ENG_LD_financial_regulation_reform_desc:0 "London’s markets have always thrived on risk, and nearly drowned in it. The Financial Regulation Reform aims to impose order upon the chaos, restoring credibility to a city that once ruled the world’s finance. Bankers warn that oversight will drive business eastward, while ordinary Britons welcome anything that reins in excess. In the Cold War of currencies, trust is worth more than gold."
+ 
+ ENG_LD_digital_infrastructure_act:0 "Digital Infrastructure Act"
+ ENG_LD_digital_infrastructure_act_desc:0 "The world runs on networks and signals, and Britain is still plugging in the cables. The Digital Infrastructure Act pledges to connect schools, councils, and homes to high-speed communication. The investment is enormous and the skepticism louder still. But as the Warsaw Pact boasts of electronic planning and instant coordination, the United Kingdom cannot afford to pretend that paperwork is patriotism. The act marks the first real step into the century that everyone else already lives in."
+ 
+ ENG_LD_productivity_pact:0 "Productivity Pact"
+ ENG_LD_productivity_pact_desc:0 "Britain works hard but produces little, a paradox of tired effort and tired tools. The Productivity Pact unites government, industry, and unions to modernise processes and share the gains of efficiency. Conferences are held, targets set, slogans rehearsed. Somewhere in the paperwork lies the hope that consensus can be more powerful than compulsion. The Communists claim they have no need for pacts, only plans. Britain replies that freedom is messy, but still worth defending with spreadsheets and goodwill."
+ 
+ ENG_LD_new_commonwealth_trade:0 "New Commonwealth Trade"
+ ENG_LD_new_commonwealth_trade_desc:0 "Old ties stretch across oceans, frayed but not broken. The New Commonwealth Trade initiative seeks to rekindle those relationships with former dominions and allies of another age. It is less an empire reborn than an economy remembered. Agreements on technology, culture, and aid are drawn up as diplomats smile for the cameras. To the outside world it seems nostalgia, but to Britain it is survival by heritage. The Cold War has drawn new borders; the Commonwealth is one of the few bridges left."
+ 
+ ENG_LD_advanced_manufacturing_support:0 "Advanced Manufacturing Support"
+ ENG_LD_advanced_manufacturing_support_desc:0 "The next generation of factories will not forge steel but print it. Advanced manufacturing promises precision without manpower, efficiency without pride. The government’s support package funds research into robotics and materials science, hoping to keep Britain relevant in a race it once led. Workers fear redundancy, investors fear irrelevance. Both may be right. In this new industrial age, even success feels mechanical."
+ 
+ ENG_LD_innovation_agency:0 "Innovation Agency"
+ ENG_LD_innovation_agency_desc:0 "Innovation cannot survive on speeches alone. The government establishes the Innovation Agency to coordinate research across universities and industries, a civilian mirror to the planning ministries of the East. Grants and guidance flow through the new bureaucracy, promising a renaissance of invention. Critics call it state meddling in the market; supporters call it finally doing something. The Cold War is fought as much in laboratories as in parliaments, and Britain intends to at least remain invited to the contest."
+ 
+ ENG_LD_modern_service_economy:0 "Modern Service Economy"
+ ENG_LD_modern_service_economy_desc:0 "Manufacturing may fade, but the business of Britain remains service. Finance, technology, education, and tourism have become the pillars of a post-industrial economy that trades in information more than goods. The transition is fragile, dependent on confidence and competence alike. The Liberal Democrats hope to build a nation that sells its skills to the world rather than its labour. Yet some wonder how long a service economy can stand when there is so little left to serve."
+ 
+ ENG_LD_fintech_initiative:0 "Fintech Initiative"
+ ENG_LD_fintech_initiative_desc:0 "London’s financial empire once spanned continents; now it spans computer screens. The Fintech Initiative merges finance and technology into a single strategy of modernisation, seeking to keep the City relevant in a digital age. Startups bloom amid marble towers as algorithms replace clerks. The government calls it progress, though few outside the capital feel its benefits. Still, in the quiet rivalry of systems, every innovation is a victory measured in code rather than blood."
+ 
+ ENG_LD_trade_diplomacy_push:0 "Trade Diplomacy Push"
+ ENG_LD_trade_diplomacy_push_desc:0 "In a world divided by ideology, trade is the last universal language. Britain’s diplomats are dispatched to negotiate agreements with both allies and adversaries, guided by the hope that commerce might succeed where politics has failed. The Warsaw Pact trades out of necessity, the European Community out of faith. Britain trades out of habit, the old instinct of a maritime nation refusing to close its ports. Each deal signed is less about profit than proof that dialogue still matters."
+ 
+ ENG_LD_education_reform_invest:0 "Education Reform Investment"
+ ENG_LD_education_reform_invest_desc:0 "No nation modernises without knowledge. The Education Reform Investment expands funding for schools and universities long starved of attention. Classrooms will gain computers, teachers will gain support, and perhaps students will gain reason to stay. The government presents it as renewal, the opposition calls it window dressing. Yet amid a global struggle defined by ideology, education is the quietest weapon. The East moulds minds through doctrine. Britain chooses curiosity instead."
+
+ ENG_LD_innovation_final_push:0 "Innovation Final Push"
+ ENG_LD_innovation_final_push_desc:0 "The government’s long experiment with modernisation nears its conclusion. Grants have been issued, networks connected, and yet the results remain uncertain. The Innovation Final Push directs remaining resources toward uniting industry and academia in a final burst of creativity. Some see desperation, others determination. Nick Clegg calls it proof that Britain still believes in progress. The rest of the world calls it catching up."
+ 
+ ENG_LD_economic_review_final:0 "Economic Review"
+ ENG_LD_economic_review_final_desc:0 "With reforms enacted and funds spent, the Treasury now compiles the verdict. Growth is modest, debt manageable, hope fragile. The Liberal Democrats call it proof that democracy works. The Communists call it evidence that capitalism crawls while others run. Both are correct in their own way. Britain has not won the economic war, but it has not surrendered either. In these uncertain times, endurance itself is achievement."
+ 
+ ENG_LD_new_european_dialogue:0 "New European Dialogue"
+ ENG_LD_new_european_dialogue_desc:0 "For decades Europe has survived by habit rather than harmony. The government now proposes a New European Dialogue — an attempt to breathe life into a weary community whose members have forgotten why they united in the first place. London offers itself as mediator, promising that cooperation need not mean subservience. Behind the speeches lies a quieter truth: the bloc grows brittle while rival powers grow bold. The initiative may not save the continent’s unity, but it could at least remind the world that Europe still remembers the language of peace."
+ 
+ ENG_LD_renew_european_dialogue:0 "Renew European Dialogue"
+ ENG_LD_renew_european_dialogue_desc:0 "Clegg’s ministers press forward with renewed talks in Brussels, Paris, and Berlin. The European Community is fragile, overshadowed by the Warsaw Pact’s growth and America’s dominance. Britain positions itself as the bridge, promising to keep Western Europe together. Labour calls it naïve, Conservatives call it weak. Yet in a Cold War defined by division, even small gestures of unity matter."
+ 
+ ENG_LD_atlantic_partnership:0 "Atlantic Partnership"
+ ENG_LD_atlantic_partnership_desc:0 "Britain’s relationship with the United States remains its most vital lifeline. The Atlantic Partnership initiative seeks to deepen cooperation in trade, defense, and technology. Critics accuse Clegg of bowing to Washington, while Communists denounce it as imperial subservience. But in a world where Moscow still threatens and Europe still hesitates, the Atlantic remains Britain’s safest bet."
+ 
+ ENG_LD_europes_fracture:0 "Europe’s Fracture"
+ ENG_LD_europes_fracture_desc:0 "The European Community is not immune to division. France and Germany bicker, Italy drifts, and Britain struggles to hold the centre. The policy of unity falters, and the cracks widen. Conservatives blame Clegg’s weakness, Labour blames his compromises, and the Communists cheer the collapse of capitalist solidarity. The Warsaw Pact watches with satisfaction. Europe’s fracture is Britain’s nightmare."
+ 
+ ENG_LD_mediterranean_reach:0 "Mediterranean Reach"
+ ENG_LD_mediterranean_reach_desc:0 "Britain turns southward, seeking influence in the Mediterranean. Cooperation with Spain, Italy, and Greece promises trade and security, but critics call it a distraction from Europe’s core. The Liberal Democrats argue that Britain must look outward to survive. The Communists call it colonial nostalgia. Yet in a Cold War world, every port and every sea lane is a battlefield."
+ 
+ ENG_LD_joint_security_planning:0 "Joint Security Planning"
+ ENG_LD_joint_security_planning_desc:0 "Britain proposes joint security planning with its European partners. Military coordination, intelligence sharing, and crisis management are placed on the table. Conservatives demand stronger commitments, Labour warns of entanglements, and Communists denounce militarism. But in a continent still shadowed by Soviet divisions, even cautious planning is a form of deterrence."
+ 
+ ENG_LD_deterrent_reassessment:0 "Deterrent Reassessment"
+ ENG_LD_deterrent_reassessment_desc:0 "Britain’s nuclear deterrent, once the pride of the nation, now feels outdated and unaffordable. The Deterrent Reassessment will examine whether Trident remains viable in a world where Moscow still rattles its sabres. Conservatives demand expansion, Liberal Democrats urge restraint, and Labour sits uneasily between. The Cold War has no patience for indecision."
+ 
+ ENG_LD_nato_reform_initiative:0 "NATO Reform Initiative"
+ ENG_LD_nato_reform_initiative_desc:0 "Britain pushes for reform within NATO, seeking to modernise its command structures and reaffirm its purpose. Washington welcomes the effort, Paris hesitates, and Berlin complains. Communists denounce NATO as a relic of imperialism. Yet in a world where the USSR still stands, NATO remains the West’s shield — however tarnished."
+ 
+ ENG_LD_diplomatic_detente:0 "Diplomatic Détente"
+ ENG_LD_diplomatic_detente_desc:0 "The Cold War has lasted longer than some nations have existed. The Diplomatic Détente accepts what ideology cannot change — that coexistence is now a condition of survival. Britain will pursue open channels with both alliances, trading rhetoric for results. Critics call it appeasement, supporters call it sanity. Every meeting held, every line of communication maintained, is a small victory over the logic of annihilation."
+ 
+ ENG_LD_modernise_forces:0 "Modernise Forces"
+ ENG_LD_modernise_forces_desc:0 "Britain’s armed forces remain formidable on paper, less so in practice. The Modernise Forces initiative will examine outdated doctrines, ageing fleets, and a military spread too thin for its commitments. The goal is not expansion but realism: to build forces that match purpose, not pride. Conservatives demand new weapons, Liberal Democrats argue for diplomacy. The Cold War’s stalemate demands both."
+ 
+ ENG_LD_secure_maritime_routes:0 "Secure Maritime Routes"
+ ENG_LD_secure_maritime_routes_desc:0 "Britain’s lifeblood has always been the sea. Securing maritime routes from the Atlantic to the Indian Ocean is essential to trade and survival. The Royal Navy, diminished but proud, will be tasked with keeping the lanes open. Communists call it imperial arrogance, Conservatives call it overdue. In a world divided by ideology, Britain still sails."
+ 
+ ENG_LD_indo_pacific_strategy:0 "Indo-Pacific Strategy"
+ ENG_LD_indo_pacific_strategy_desc:0 "Britain looks eastward, toward the Indo-Pacific. Cooperation with India, Australia, and Japan promises influence in a region where China and the USSR loom large. Critics call it overstretch, supporters call it foresight. The Liberal Democrats argue that Britain must remain global, even if its empire is gone. The Indo-Pacific strategy is less about power than presence."
+ 
+ ENG_LD_mediator_of_europe:0 "Mediator of Europe"
+ ENG_LD_mediator_of_europe_desc:0 "Britain positions itself as mediator in Europe, seeking to bridge divides between East and West, North and South. Nick Clegg presents himself as the voice of moderation, promising dialogue where others demand confrontation. Conservatives sneer, Communists laugh, Labour hesitates. Yet in a continent defined by stalemate, mediation may be Britain’s last gift to peace."
+ 
+ ENG_LD_global_ENG_vision:0 "Global Britain Vision"
+ ENG_LD_global_ENG_vision_desc:0 "The Liberal Democrats unveil their vision of a global Britain: a nation defined not by empire but by diplomacy, trade, and moderation. Critics call it fantasy, supporters call it ambition. The USSR dismisses it as weakness, Washington welcomes it as partnership. Britain may no longer rule the waves, but it can still shape the currents."
+ 
+ ENG_LD_diplomatic_corps_expansion:0 "Diplomatic Corps Expansion"
+ ENG_LD_diplomatic_corps_expansion_desc:0 "The Foreign Office has thinned to a whisper of its former self. The new expansion will send ambassadors and attachés back into regions long neglected, rebuilding networks of influence through conversation rather than command. The cost is modest, the symbolism vast. Where Britain can no longer project power, it will project presence."
+ 
+ ENG_LD_intelligence_sharing:0 "Intelligence Sharing"
+ ENG_LD_intelligence_sharing_desc:0 "Information is the currency of a divided world. Britain’s intelligence agencies, scattered and secretive, will now be bound by a central directive designed to prevent the failures of the past. Surveillance remains a necessary sin, the government insists, so long as it is guided by oversight rather than impulse. Trust will not return overnight, but neither will danger wait for it."
+ 
+ ENG_LD_global_trade_missions:0 "Global Trade Missions"
+ ENG_LD_global_trade_missions_desc:0 "Britain dispatches trade missions across the globe, seeking markets in Africa, Asia, and Latin America. The Communists denounce it as capitalist exploitation, Conservatives praise it as pragmatism, Labour calls it cautious optimism. In a Cold War defined by blocs, Britain still insists that commerce can cross borders where ideology cannot."
+
+ ENG_LD_welfare_modernisation:0 "Welfare Modernisation"
+ ENG_LD_welfare_modernisation_desc:0 "The postwar welfare state, once Britain’s proudest achievement, has withered under decades of neglect. Nick Clegg’s Liberal Democrats promise to modernise it, not dismantle it. Conservatives sneer at the cost, Labour claims the reforms are too timid, and the Communists call it a capitalist bribe. Yet in a Cold War world where Moscow boasts of cradle-to-grave security, Britain cannot afford to let its citizens feel abandoned."
+ 
+ ENG_LD_education_renewal:0 "Education Renewal"
+ ENG_LD_education_renewal_desc:0 "No democracy survives without an educated public. The Education Renewal programme expands funding for schools and universities, long starved of attention. Computers will enter classrooms, teachers will gain support, and students will be told that their future lies not in Moscow’s slogans but in Britain’s opportunities. Labour calls it window dressing, Conservatives call it waste, but the Liberal Democrats call it survival."
+ 
+ ENG_LD_nhs_integration_reform:0 "NHS Integration Reform"
+ ENG_LD_nhs_integration_reform_desc:0 "The National Health Service remains Britain’s most beloved institution, but it is creaking under strain. Integration reforms will link hospitals, clinics, and local councils into a more coherent system. Conservatives mutter about costs, Labour demands more, and the Communists insist only socialism can save the sick. Yet for millions of Britons, the NHS is proof that democracy still cares for them."
+ 
+ ENG_LD_university_modernisation:0 "University Modernisation"
+ ENG_LD_university_modernisation_desc:0 "Britain’s universities, once the envy of the world, now lag behind their American and Soviet rivals. Modernisation will expand research, digitise libraries, and open doors to new students. Critics call it elitist, supporters call it overdue. In the Cold War of ideas, Oxford and Cambridge must not become museums."
+ 
+ ENG_LD_social_compact:0 "Social Compact"
+ ENG_LD_social_compact_desc:0 "The Liberal Democrats propose a new social compact: a balance between welfare and responsibility, rights and duties. Labour calls it half-hearted, Conservatives call it dangerous, Communists call it meaningless. Yet in a fractured society, even the promise of compromise is radical."
+ 
+ ENG_LD_welfare_equality_act:0 "Welfare Equality Act"
+ ENG_LD_welfare_equality_act_desc:0 "The Welfare Equality Act seeks to close the gaps between regions, classes, and communities. Benefits will be standardised, access expanded, and discrimination challenged. Conservatives denounce it as socialism by stealth, Communists laugh at its modesty. But for the Liberal Democrats, it is proof that fairness is not a slogan but a policy."
+ 
+ ENG_LD_housing_investment_plan:0 "Housing Investment Plan"
+ ENG_LD_housing_investment_plan_desc:0 "Britain’s housing crisis has left families crammed into decaying estates while the wealthy buy empty flats in London. The Housing Investment Plan promises new construction, renovation, and affordable rents. Labour cheers, Conservatives groan, Communists claim it is too little too late. Yet bricks and mortar may prove more persuasive than speeches."
+ 
+ ENG_LD_community_health_drives:0 "Community Health Drives"
+ ENG_LD_community_health_drives_desc:0 "Public health is more than hospitals. Community health drives will target smoking, diet, and exercise, bringing medicine into daily life. Critics call it nanny-statism, supporters call it common sense. In a Cold War where the Soviets boast of strong workers, Britain must prove its citizens are not falling behind."
+ 
+ ENG_LD_science_and_society_bill:0 "Science and Society Bill"
+ ENG_LD_science_and_society_bill_desc:0 "Science is no longer a luxury but a battlefield. The Science and Society Bill funds research, links universities with industry, and promises that Britain will not be left behind in the technological race. Conservatives call it meddling, Labour calls it timid, Communists call it capitalist theft. But in a world where Moscow and Washington compete in laboratories, Britain must at least show up."
+ 
+ ENG_LD_national_innovation_council:0 "National Innovation Council"
+ ENG_LD_national_innovation_council_desc:0 "The National Innovation Council will coordinate research across government, universities, and industry. It is a civilian mirror of the Soviet planning ministries, but dressed in liberal rhetoric. Critics call it bureaucracy, supporters call it vision. Nick Clegg calls it Britain’s ticket back into relevance."
+ 
+ ENG_LD_citizen_services_upgrade:0 "Citizen Services Upgrade"
+ ENG_LD_citizen_services_upgrade_desc:0 "From post offices to pensions, Britain’s citizen services are outdated and inefficient. The upgrade promises digitisation, accessibility, and dignity. Conservatives call it waste, Labour calls it insufficient, Communists call it a distraction. But for ordinary Britons, it may be the first sign that government still works."
+ 
+ ENG_LD_youth_employment_programme:0 "Youth Employment Programme"
+ ENG_LD_youth_employment_programme_desc:0 "Britain’s youth face unemployment, disillusionment, and the lure of radical politics. The Youth Employment Programme offers training, apprenticeships, and jobs. Labour calls it a start, Conservatives call it indulgence, Communists call it desperation. But if the young are not given hope, they will find it in the red banners of the streets."
+ 
+ ENG_LD_nhs_staffing_boost:0 "NHS Staffing Boost"
+ ENG_LD_nhs_staffing_boost_desc:0 "The NHS suffers not from lack of love but lack of staff. The Staffing Boost will recruit, train, and retain doctors and nurses. Conservatives complain of costs, Labour demands more, Communists claim only socialism can heal. Yet for patients waiting in crowded wards, more hands mean more hope."
+ 
+ ENG_LD_social_progress_bill:0 "Social Progress Bill"
+ ENG_LD_social_progress_bill_desc:0 "The Social Progress Bill bundles reforms in welfare, education, and health into a single package. It is the Liberal Democrats’ attempt to prove that liberal democracy can still deliver. Conservatives call it reckless, Labour calls it inadequate, Communists call it meaningless. But for Nick Clegg, it is the heart of his government’s legacy."
+ 
+ ENG_LD_local_infrastructure_partnerships:0 "Local Infrastructure Partnerships"
+ ENG_LD_local_infrastructure_partnerships_desc:0 "Local councils will be empowered to partner with businesses and communities to rebuild infrastructure. Conservatives call it meddling, Labour calls it decentralisation, Communists call it capitalist window dressing. Yet in a country where London dominates, local empowerment is itself revolutionary."
+ 
+ ENG_LD_community_resilience_fund:0 "Community Resilience Fund"
+ ENG_LD_community_resilience_fund_desc:0 "The Community Resilience Fund will provide resources for towns and cities to withstand economic shocks, natural disasters, and political unrest. Critics call it vague, supporters call it necessary. In a Cold War world where instability is weaponised, resilience is survival."
+ 
+ ENG_LD_final_social_push:0 "Final Social Push"
+ ENG_LD_final_social_push_desc:0 "The last phase of social reform begins. Welfare is modernised, the NHS strengthened, education renewed, and communities empowered. Conservatives call it reckless, Labour calls it insufficient, Communists call it hypocrisy. But for the Liberal Democrats, it is proof that liberal democracy can still act."
+ 
+ ENG_LD_policy_coherence_forum:0 "Policy Coherence Forum"
+ ENG_LD_policy_coherence_forum_desc:0 "With reforms scattered across ministries, the Policy Coherence Forum will align them. It is an attempt to make sense of progress, to prove that Britain’s government is not simply improvising. Whether it succeeds depends on whether anyone still believes in progress."
+ 
+ ENG_LD_ENG_renewed:0 "Britain Renewed"
+ ENG_LD_ENG_renewed_desc:0 "Nick Clegg declares victory. The reforms are complete, the reviews positive, and the country — if not healed — at least stabilised. The Cold War continues, the USSR still looms, the Communists still march, but Britain stands. Not as a superpower, not as an empire, but as a democracy that still remembers how to change."
+
+ ENG_LD_maritime_security_partnerships:0 "Maritime Security Partnerships"
+ ENG_LD_maritime_security_partnerships_desc:0 "Britain’s navy is no longer the empire’s trident, but it still sails. Maritime security partnerships with allies from Canada to Australia promise to keep sea lanes open in an age of piracy, smuggling, and Soviet submarines. Conservatives demand more ships, Labour questions the cost, Communists sneer at imperial nostalgia. Yet for a nation that lives or dies by trade, the sea remains destiny."
+ 
+ ENG_LD_intl_conflict_mediation:0 "International Conflict Mediation"
+ ENG_LD_intl_conflict_mediation_desc:0 "Nick Clegg presents Britain as a mediator in conflicts where superpowers refuse to tread. From the Middle East to Africa, British diplomats offer dialogue instead of arms. Critics call it vanity, supporters call it vision. The Soviets dismiss it as weakness, Washington tolerates it as useful. In a Cold War defined by stalemate, even small mediations can echo loudly."
+ 
+ ENG_LD_foreign_policy_review:0 "Foreign Policy Review"
+ ENG_LD_foreign_policy_review_desc:0 "After years of improvisation, the government orders a comprehensive review of foreign policy. Britain must decide whether it is a European power, an Atlantic partner, or a global mediator. Conservatives demand loyalty to Washington, Labour urges European integration, Communists call for neutrality. Nick Clegg insists Britain can be all three. The review will decide whether ambition is strategy or delusion."
+
+ ENG_LD_local_empowerment_grants:0 "Local Empowerment Grants"
+ ENG_LD_local_empowerment_grants_desc:0 "After years of centralisation, Nick Clegg’s Liberal Democrats promise to return power to the regions. Local Empowerment Grants will provide councils with funding to shape their own priorities, from housing to transport. Labour praises the move as overdue, Conservatives condemn it as reckless decentralisation, and Communists sneer that capitalism only remembers the poor when it fears revolt. Yet for towns long ignored by Westminster, even modest grants feel like liberation."
+ 
+ ENG_LD_final_domestic_push:0 "Final Domestic Push"
+ ENG_LD_final_domestic_push_desc:0 "The Liberal Democrats prepare their last great wave of domestic reform. Services are upgraded, councils empowered, and the promise of a fairer Britain is placed before the public. Conservatives accuse Clegg of bankrupting the nation, Labour insists the reforms do not go far enough, and Communists call it a desperate attempt to stave off revolution. But for the Liberal Democrats, the Final Domestic Push is proof that liberal democracy can still act decisively, even in the twilight of the Cold War."
+
+### traits ###
+
+### events ###
+
+### parties ###
+
+ ENG_communism_party:0 "CPB"
+ ENG_communism_party_long:0 "Communist Party of Britain"
+ ENG_democratic_party:0 "Liberal Democrats"
+ ENG_democratic_party_long:0 "Liberal Democratic Party"
+ ENG_fascism_party:0 "BNP"
+ ENG_fascism_party_long:0 "British National Party"
+ ENG_neutrality_party:0 "Conservatives"
+ ENG_neutrality_party_long:0 "Conservative and Unionist Party"
