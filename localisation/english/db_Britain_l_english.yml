@@ -14,10 +14,8 @@
 ### focuses ###
  ENG_LD_constitutional_review:0 "The Constitutional Review"
  ENG_LD_constitutional_review_desc:0 "Nick Clegg promised renewal, and Britain demands it. The constitution, a patchwork of precedent and privilege, no longer suits a world defined by ideology and instability. A sweeping review is underway, drawing voices from across the Isles. Some whisper that the monarchy should fear this moment, others believe nothing will change. But with the USSR looming and unrest growing, even symbolic reform is a signal that Britain still knows how to govern."
- 
  ENG_LD_parliamentary_modernisation:0 "Parliamentary Modernisation"
  ENG_LD_parliamentary_modernisation_desc:0 "Westminster remains a relic of empire, slow and ceremonial in a time of urgency. The Liberal Democrats propose digitised voting, livestreamed committees, and streamlined legislation. Traditionalists scoff, but the Cold War’s second century demands speed and transparency. If Britain is to remain relevant, its government must reflect the world it claims to lead."
- 
  ENG_LD_civil_liberties_bill:0 "Civil Liberties Bill"
  ENG_LD_civil_liberties_bill_desc:0 "Surveillance has become routine, justified by threats both foreign and domestic. The Civil Liberties Bill aims to restore balance, curbing state overreach while preserving security. MI5 warns of Communist infiltration, civil rights groups warn of democratic decay. The bill walks a tightrope, offering a rare moment of principle in a nation long ruled by pragmatism."
  
@@ -191,100 +189,80 @@
  
  ENG_LD_university_modernisation:0 "University Modernisation"
  ENG_LD_university_modernisation_desc:0 "Britain’s universities, once the envy of the world, now lag behind their American and Soviet rivals. Modernisation will expand research, digitise libraries, and open doors to new students. Critics call it elitist, supporters call it overdue. In the Cold War of ideas, Oxford and Cambridge must not become museums."
- 
  ENG_LD_social_compact:0 "Social Compact"
  ENG_LD_social_compact_desc:0 "The Liberal Democrats propose a new social compact: a balance between welfare and responsibility, rights and duties. Labour calls it half-hearted, Conservatives call it dangerous, Communists call it meaningless. Yet in a fractured society, even the promise of compromise is radical."
- 
  ENG_LD_welfare_equality_act:0 "Welfare Equality Act"
  ENG_LD_welfare_equality_act_desc:0 "The Welfare Equality Act seeks to close the gaps between regions, classes, and communities. Benefits will be standardised, access expanded, and discrimination challenged. Conservatives denounce it as socialism by stealth, Communists laugh at its modesty. But for the Liberal Democrats, it is proof that fairness is not a slogan but a policy."
- 
  ENG_LD_housing_investment_plan:0 "Housing Investment Plan"
  ENG_LD_housing_investment_plan_desc:0 "Britain’s housing crisis has left families crammed into decaying estates while the wealthy buy empty flats in London. The Housing Investment Plan promises new construction, renovation, and affordable rents. Labour cheers, Conservatives groan, Communists claim it is too little too late. Yet bricks and mortar may prove more persuasive than speeches."
- 
  ENG_LD_community_health_drives:0 "Community Health Drives"
  ENG_LD_community_health_drives_desc:0 "Public health is more than hospitals. Community health drives will target smoking, diet, and exercise, bringing medicine into daily life. Critics call it nanny-statism, supporters call it common sense. In a Cold War where the Soviets boast of strong workers, Britain must prove its citizens are not falling behind."
- 
  ENG_LD_science_and_society_bill:0 "Science and Society Bill"
  ENG_LD_science_and_society_bill_desc:0 "Science is no longer a luxury but a battlefield. The Science and Society Bill funds research, links universities with industry, and promises that Britain will not be left behind in the technological race. Conservatives call it meddling, Labour calls it timid, Communists call it capitalist theft. But in a world where Moscow and Washington compete in laboratories, Britain must at least show up."
- 
  ENG_LD_national_innovation_council:0 "National Innovation Council"
  ENG_LD_national_innovation_council_desc:0 "The National Innovation Council will coordinate research across government, universities, and industry. It is a civilian mirror of the Soviet planning ministries, but dressed in liberal rhetoric. Critics call it bureaucracy, supporters call it vision. Nick Clegg calls it Britain’s ticket back into relevance."
- 
  ENG_LD_citizen_services_upgrade:0 "Citizen Services Upgrade"
  ENG_LD_citizen_services_upgrade_desc:0 "From post offices to pensions, Britain’s citizen services are outdated and inefficient. The upgrade promises digitisation, accessibility, and dignity. Conservatives call it waste, Labour calls it insufficient, Communists call it a distraction. But for ordinary Britons, it may be the first sign that government still works."
- 
  ENG_LD_youth_employment_programme:0 "Youth Employment Programme"
  ENG_LD_youth_employment_programme_desc:0 "Britain’s youth face unemployment, disillusionment, and the lure of radical politics. The Youth Employment Programme offers training, apprenticeships, and jobs. Labour calls it a start, Conservatives call it indulgence, Communists call it desperation. But if the young are not given hope, they will find it in the red banners of the streets."
- 
  ENG_LD_nhs_staffing_boost:0 "NHS Staffing Boost"
  ENG_LD_nhs_staffing_boost_desc:0 "The NHS suffers not from lack of love but lack of staff. The Staffing Boost will recruit, train, and retain doctors and nurses. Conservatives complain of costs, Labour demands more, Communists claim only socialism can heal. Yet for patients waiting in crowded wards, more hands mean more hope."
- 
  ENG_LD_social_progress_bill:0 "Social Progress Bill"
  ENG_LD_social_progress_bill_desc:0 "The Social Progress Bill bundles reforms in welfare, education, and health into a single package. It is the Liberal Democrats’ attempt to prove that liberal democracy can still deliver. Conservatives call it reckless, Labour calls it inadequate, Communists call it meaningless. But for Nick Clegg, it is the heart of his government’s legacy."
- 
  ENG_LD_local_infrastructure_partnerships:0 "Local Infrastructure Partnerships"
  ENG_LD_local_infrastructure_partnerships_desc:0 "Local councils will be empowered to partner with businesses and communities to rebuild infrastructure. Conservatives call it meddling, Labour calls it decentralisation, Communists call it capitalist window dressing. Yet in a country where London dominates, local empowerment is itself revolutionary."
- 
  ENG_LD_community_resilience_fund:0 "Community Resilience Fund"
  ENG_LD_community_resilience_fund_desc:0 "The Community Resilience Fund will provide resources for towns and cities to withstand economic shocks, natural disasters, and political unrest. Critics call it vague, supporters call it necessary. In a Cold War world where instability is weaponised, resilience is survival."
- 
  ENG_LD_final_social_push:0 "Final Social Push"
  ENG_LD_final_social_push_desc:0 "The last phase of social reform begins. Welfare is modernised, the NHS strengthened, education renewed, and communities empowered. Conservatives call it reckless, Labour calls it insufficient, Communists call it hypocrisy. But for the Liberal Democrats, it is proof that liberal democracy can still act."
- 
  ENG_LD_policy_coherence_forum:0 "Policy Coherence Forum"
  ENG_LD_policy_coherence_forum_desc:0 "With reforms scattered across ministries, the Policy Coherence Forum will align them. It is an attempt to make sense of progress, to prove that Britain’s government is not simply improvising. Whether it succeeds depends on whether anyone still believes in progress."
- 
  ENG_LD_ENG_renewed:0 "Britain Renewed"
  ENG_LD_ENG_renewed_desc:0 "Nick Clegg declares victory. The reforms are complete, the reviews positive, and the country — if not healed — at least stabilised. The Cold War continues, the USSR still looms, the Communists still march, but Britain stands. Not as a superpower, not as an empire, but as a democracy that still remembers how to change."
-
  ENG_LD_maritime_security_partnerships:0 "Maritime Security Partnerships"
  ENG_LD_maritime_security_partnerships_desc:0 "Britain’s navy is no longer the empire’s trident, but it still sails. Maritime security partnerships with allies from Canada to Australia promise to keep sea lanes open in an age of piracy, smuggling, and Soviet submarines. Conservatives demand more ships, Labour questions the cost, Communists sneer at imperial nostalgia. Yet for a nation that lives or dies by trade, the sea remains destiny."
- 
  ENG_LD_intl_conflict_mediation:0 "International Conflict Mediation"
  ENG_LD_intl_conflict_mediation_desc:0 "Nick Clegg presents Britain as a mediator in conflicts where superpowers refuse to tread. From the Middle East to Africa, British diplomats offer dialogue instead of arms. Critics call it vanity, supporters call it vision. The Soviets dismiss it as weakness, Washington tolerates it as useful. In a Cold War defined by stalemate, even small mediations can echo loudly."
- 
  ENG_LD_foreign_policy_review:0 "Foreign Policy Review"
  ENG_LD_foreign_policy_review_desc:0 "After years of improvisation, the government orders a comprehensive review of foreign policy. Britain must decide whether it is a European power, an Atlantic partner, or a global mediator. Conservatives demand loyalty to Washington, Labour urges European integration, Communists call for neutrality. Nick Clegg insists Britain can be all three. The review will decide whether ambition is strategy or delusion."
-
  ENG_LD_local_empowerment_grants:0 "Local Empowerment Grants"
  ENG_LD_local_empowerment_grants_desc:0 "After years of centralisation, Nick Clegg’s Liberal Democrats promise to return power to the regions. Local Empowerment Grants will provide councils with funding to shape their own priorities, from housing to transport. Labour praises the move as overdue, Conservatives condemn it as reckless decentralisation, and Communists sneer that capitalism only remembers the poor when it fears revolt. Yet for towns long ignored by Westminster, even modest grants feel like liberation."
- 
  ENG_LD_final_domestic_push:0 "Final Domestic Push"
  ENG_LD_final_domestic_push_desc:0 "The Liberal Democrats prepare their last great wave of domestic reform. Services are upgraded, councils empowered, and the promise of a fairer Britain is placed before the public. Conservatives accuse Clegg of bankrupting the nation, Labour insists the reforms do not go far enough, and Communists call it a desperate attempt to stave off revolution. But for the Liberal Democrats, the Final Domestic Push is proof that liberal democracy can still act decisively, even in the twilight of the Cold War."
 
 ### traits ###
 
 ### events ###
- britishflavor.2.t:0 "Terror in Londonderry"
- britishflavor.2.desc:0 "The morning was shattered by fire and smoke, Londonderry’s streets filled with sirens, broken glass, and the cries of the wounded. A bomb tore through the quiet, leaving bodies scattered across the pavement, the calm of the city destroyed in an instant. The Joint Authority had promised stability after the Good Friday Agreement, yet the old wounds bleed again, the people whisper of betrayal, the government speaks of resilience, but the silence of the dead carries heavier meaning. Across Britain the news spread quickly, grief mixing with anger, and questions of whether peace had ever truly taken root returned to the forefront. In Westminster, Nick Clegg’s reformist government faces its first great test, balancing promises of constitutional renewal with the harsh reality of violence that refuses to fade."
- britishflavor.2.a:0 "Britain mourns"
- britishflavor.3.t:0 "Communists Unite Under One Banner"
- britishflavor.3.desc:0 "Robert Griffiths and George Galloway stood together, their voices rising in halls and streets, the fractured left now gathered beneath a single flag. The Communist Party of Britain, long divided, declared unity, promising solidarity and struggle renewed. In factories and unions the red flame flickered again, uncertain yet defiant, reminding the nation that the old battles had not vanished, that the language of class and revolution still carried weight in a weary country. The Liberal Democrats speak of reform and rights, yet the communists speak of equality and struggle, and in the shadow of Moscow’s thriving bloc, their words find resonance. Britain’s political landscape grows more crowded, more restless, as the Cold War’s endless contest echoes even in the streets of London."
- britishflavor.3.a:0 "The red flag flies again"
- britishflavor.5.t:0 "Kanye West Performs for the Queen"
- britishflavor.5.desc:0 "Buckingham Palace opened its doors to an unusual guest, Kanye West arriving with music reshaped for a Cold War age. He performed a version of American Boy that carried the rhythm of rivalry, the tone of confrontation, the laughter of irony. The Queen listened, courtiers smiled politely, the press scribbled furiously, and the world watched, wondering if art could soften the iron curtain or if it only mocked the endless contest between East and West. In Washington the performance was hailed as cultural diplomacy, in Moscow it was dismissed as spectacle, yet in Britain it was remembered as a curious moment, a blending of pop culture and geopolitics, a reminder that even in times of tension the stage could become a battlefield of its own."
- britishflavor.5.a:0 "A strange performance in strange times"
- britishflavor.7.t:0 "Corbyn Denounces the Liberal Democrats"
- britishflavor.7.desc:0 "Jeremy Corbyn stood before cameras, his words sharp and deliberate, accusing Nick Clegg and the Liberal Democrats of neglect, of allowing Northern Ireland to sink deeper into crisis, of betraying the promises of peace. He spoke of communities abandoned, of agreements left to rot, of leaders who spoke of reform while ignoring the suffering at Britain’s edge. The audience listened, some nodding, some frowning, the air thick with anger and fatigue. In the Commons whispers spread quickly, in the streets doubts grew louder, and the fragile balance of Britain trembled once more under the weight of accusation. The Cold War still rages abroad, yet here at home the war of words grows fiercer, and the promise of stability feels ever more fragile."
- britishflavor.7.a:0 "The accusations echo"
- britishflavor.9.t:0 "Britain Grinds to a Halt"
- britishflavor.9.desc:0 "The trains stood still, the hospitals slowed, the classrooms emptied, and the unions rose again. Promises of reform echo in Westminster, yet wages remain stagnant, inequality deepens, and patience runs thin. The chants in the streets recall the Winter of Discontent, the faces are tired, the voices hoarse, and the fragile hope of renewal feels already frayed. Ministers speak of dialogue, but the picket lines grow longer, and the EC looks on with unease, wondering if Britain can hold its fragile balance. The strikes are not just about pay, they are about dignity, about whether the promises of reform mean anything at all."
- britishflavor.9.a:0 "Guess we’re speedrunning 1979 again"
- britishflavor.11.t:0 "Britain Faces the Europe Question"
- britishflavor.11.desc:0 "The ballot boxes opened, the question simple yet heavy, Britain’s place in the EC. Germany stands unified under the DDR, Italy red, the EC crippled, NATO overstretched, and Britain torn between loyalty and doubt. The Liberal Democrats speak of reform, the Conservatives of sovereignty, Labour divided, and the people cast their votes with weary hands, uncertain if any choice will bring relief. In pubs and cafés the talk is bitter, some dream of renewal, others of retreat, all aware that Europe itself is fractured. The vote is not just about treaties, it is about identity, about whether Britain belongs to a continent that no longer knows itself."
- britishflavor.11.a:0 "Time to roll the dice on Europe.exe"
- britishflavor.13.t:0 "America Votes, Britain Panics"
- britishflavor.13.desc:0 "Across the Atlantic the United States elects its new leader, the headlines filled with promises of strength and warnings of decline. In Britain the reaction is mixed, some hopeful, others fearful, all aware that Washington’s burden is heavy, Sudan still burns, NATO strains under endless wars. In Westminster the debates stretch late into the night, wondering if Britain must chart its own course, or cling tighter to a weary ally. The EC watches too, fractured and uncertain, wondering if America’s choice will steady the West or hasten its decline. The election is not just theirs, it is ours, for the shadow it casts falls across every capital in Europe."
- britishflavor.13.a:0 "Please don’t let it be another cowboy"
- britishflavor.15.t:0 "Britain’s Youth Scroll East"
- britishflavor.15.desc:0 "In London flats and Manchester cafés, the youth scroll through glimpses of Moscow’s thriving bloc, the Web Curtain pierced by whispers and fragments. They see music, culture, rights, reforms, a society reshaped by younger voices, and they ask why Britain lingers in austerity and doubt. The government warns of manipulation, the press speaks of danger, yet the allure of change grows stronger, and the Cold War feels less like rivalry, more like comparison. In the EC the same questions stir, young Europeans restless, tired of old promises, drawn to the energy of reform abroad. The divide is not just geopolitical, it is generational, and Britain’s youth are no longer content to wait."
- britishflavor.15.a:0 "hop on vine :/"
- britishflavor.17.t:0 "Manchester in Mourning"
- britishflavor.17.desc:0 "The night was filled with music, thousands gathered for a concert, when the blast tore through the crowd. Panic, screams, smoke, silence, the arena turned into chaos. The government condemned the attack, promises of security filled the air, yet grief weighed heavier. As the election approached the bombing became a symbol of fragility, of the dangers that linger even in times of reform, of the questions Britain must face about its place in a fractured world. The EC expressed sorrow, but also fear, for terrorism knows no borders, and the shock in Manchester reverberated across Europe’s weary capitals. The dead are mourned, but the living wonder if safety can ever be promised again."
- britishflavor.17.a:0 "Not like this, not now"
- britishflavor.19.t:0 "Britain Votes in the Shadow"
- britishflavor.19.desc:0 "Polling stations opened across Britain, the people casting ballots under the shadow of recent violence. Nick Clegg’s Liberal Democrats spoke of reform, Jeremy Corbyn denounced neglect, the Conservatives promised stability, yet none could escape the weight of grief. But beneath the headlines another story has been unfolding, quieter yet relentless, the communists slowly gaining ground since 2012, their rallies swelling, their voices sharper, their presence no longer dismissed as fringe. In the EC the vote was watched closely, allies and rivals alike wondering if Britain would falter or endure, and whether the red banners rising in the streets were a passing protest or the beginning of something larger. The ballots were not just about parties, they were about survival, about whether democracy itself could withstand the strain of a world still divided, and whether Britain could resist the tide of radicalism that had been building for years."
- britishflavor.19.a:0 "LMAO, Red flags are EVERYWHERE."
+britishflavor.2.t:0 "Terror in Londonderry"
+britishflavor.2.desc:0 "Fire and smoke broke the morning apart. Londonderry's streets ended up full of sirens. Broken glass lay everywhere. The wounded cried out. A bomb ripped through the quiet place. Bodies scattered over the pavement. The city's calm vanished right away. The Joint Authority promised stability after the Good Friday Agreement. Old wounds started bleeding once more. People whispered about betrayal. The government talked about resilience. The dead stayed silent. That silence meant more than words. News spread fast across Britain. Grief mixed with anger there. Questions came back about peace. Had it ever really grown strong. In Westminster Nick Clegg's reformist government met its first big test. They balanced promises of constitutional renewal. Violence refused to go away. That harsh reality pressed hard."
+britishflavor.2.a:0 "Britain mourns."
+britishflavor.3.t:0 "Communists Unite Under One Banner"
+britishflavor.3.desc:0 "Robert Griffiths and George Galloway stood side by side. Their voices rose in halls and on streets. The fractured left gathered under one flag now. The Communist Party of Britain declared unity. It had been divided for so long. They promised solidarity. Struggle would renew itself. In factories and unions the red flame flickered back to life. It felt uncertain. It stayed defiant. The nation got a reminder. Old battles had not disappeared. The language of class and revolution still mattered. This held weight in a tired country. The Liberal Democrats talked about reform and rights. Communists spoke of equality and struggle. Moscow's thriving bloc cast a shadow. Their words found resonance there. Britain's political landscape crowded up more. It grew restless. The Cold War's endless contest echoed. Even London's streets felt it."
+britishflavor.3.a:0 "The red flag flies again!"
+britishflavor.5.t:0 "Kanye West Performs for the Queen"
+britishflavor.5.desc:0 "Buckingham Palace let in an odd guest. Kanye West showed up with music, a small new version of American Boy. It had the rhythm of rivalry. The tone carried confrontation. Laughter came from irony. The Queen listened to it all. Courtiers smiled in a polite way. The press wrote down notes fast. The world watched the scene. They wondered about art's power. Could it soften the iron curtain. Or did it just mock the contest between East and West. Washington called the performance cultural diplomacy. Moscow dismissed it as pure spectacle. Britain remembered it as a strange moment. Pop culture blended with geopolitics. Even in tense times the stage turned into its own battlefield."
+britishflavor.5.a:0 "A strange performance in strange times."
+britishflavor.7.t:0 "Corbyn Denounces the Liberal Democrats"
+britishflavor.7.desc:0 "Jeremy Corbyn faced the cameras. His words came out sharp and careful. He accused Nick Clegg and the Liberal Democrats of neglect. They let Northern Ireland sink deeper into crisis. They betrayed peace promises. He talked about communities left behind. Agreements rotted away. Leaders spoke of reform. They ignored suffering at Britain's edge. The audience heard him out. Some nodded along. Others frowned. Anger and fatigue filled the air. Whispers spread quick in the Commons. Doubts grew louder in the streets. Britain's fragile balance shook again. Accusations weighed it down. The Cold War raged on abroad. At home the war of words heated up. Stability's promise felt more fragile than ever."
+britishflavor.7.a:0 "The accusations echo!"
+britishflavor.9.t:0 "Britain Grinds to a Halt"
+britishflavor.9.desc:0 "Trains stopped moving. Hospitals slowed their work. Classrooms stood empty. Unions rose up once more. Reform promises echoed in Westminster. Wages stayed flat. Inequality got worse. Patience wore thin. Chants filled the streets. They brought back the Winter of Discontent. Faces looked tired. Voices turned hoarse. Hope for renewal already frayed at the edges. Ministers talked about dialogue. Picket lines stretched longer. The EC watched with unease. They wondered if Britain could keep its balance. Strikes went beyond pay issues. They touched on dignity. Reform promises faced real tests. Did they mean anything at all."
+britishflavor.9.a:0 "Guess we're speedrunning 1979 again"
+britishflavor.11.t:0 "Britain Faces the Europe Question"
+britishflavor.11.desc:0 "Ballot boxes opened up. The question seemed simple. It carried heavy weight. Britain's place in the EC hung in the balance. Germany stood unified under the DDR. Italy turned red. The EC felt crippled. NATO stretched too thin. Britain pulled between loyalty and doubt. Liberal Democrats pushed reform. Conservatives stressed sovereignty. Labour split apart. People voted with tired hands. They felt unsure. Would any choice bring real relief. Talk in pubs and cafes turned bitter. Some dreamed of renewal. Others wanted retreat. Everyone knew Europe fractured itself. The vote touched more than treaties. It hit identity hard. Did Britain belong to a continent lost in confusion."
+britishflavor.11.a:0 "Time to roll the dice on Europe"
+britishflavor.13.t:0 "America Votes, Britain Panics"
+britishflavor.13.desc:0 "The United States picked its new leader across the Atlantic. Headlines filled with promises of strength. Warnings of decline came too. Britain's reaction mixed things up. Some felt hopeful. Others grew fearful. Washington carried a heavy load. Sudan still burned. NATO strained from endless wars. Debates in Westminster ran late into the night. They wondered about Britain's path. Should it go alone. Or hold tight to a tired ally. The EC watched closely. It stayed fractured and unsure. Would America's choice steady the West. Or speed up its fall. The election belonged to them. But its shadow reached every European capital."
+britishflavor.13.a:0 "Please don't let it be another cowboy"
+britishflavor.17.t:0 "Manchester in Mourning"
+britishflavor.17.desc:0 "The night was filled with music, thousands gathered for a concert, when the blast tore through the crowd. Panic, screams, smoke, silence, the arena turned into chaos. The government condemned the attack, promises of security filled the air, yet grief weighed heavier. As the election approached the bombing became a symbol of fragility, of the dangers that linger even in times of reform, of the questions Britain must face about its place in a fractured world. The EC expressed sorrow, but also fear, for terrorism knows no borders, and the shock in Manchester reverberated across Europe’s weary capitals. The dead are mourned, but the living wonder if safety can ever be promised again."
+britishflavor.17.a:0 "Not like this, not now"
+britishflavor.15.t:0 "Britain’s Youth Scroll East"
+britishflavor.15.desc:0 "In London flats and Manchester cafés, the youth scroll through glimpses of Moscow’s thriving bloc, the Web Curtain pierced by whispers and fragments. They see music, culture, rights, reforms, a society reshaped by younger voices, and they ask why Britain lingers in austerity and doubt. The government warns of manipulation, the press speaks of danger, yet the allure of change grows stronger, and the Cold War feels less like rivalry, more like comparison. In the EC the same questions stir, young Europeans restless, tired of old promises, drawn to the energy of reform abroad. The divide is not just geopolitical, it is generational, and Britain’s youth are no longer content to wait."
+britishflavor.15.a:0 "hop on vine :/"
+britishflavor.19.t:0 "Britain Votes in the Shadow"
+britishflavor.19.desc:0 "Polling stations opened across Britain, the people casting ballots under the shadow of recent violence. Nick Clegg’s Liberal Democrats spoke of reform, Jeremy Corbyn denounced neglect, the Conservatives promised stability, yet none could escape the weight of grief. But beneath the headlines another story has been unfolding, quieter yet relentless, the communists slowly gaining ground since 2012, their rallies swelling, their voices sharper, their presence no longer dismissed as fringe. In the EC the vote was watched closely, allies and rivals alike wondering if Britain would falter or endure, and whether the red banners rising in the streets were a passing protest or the beginning of something larger. The ballots were not just about parties, they were about survival, about whether democracy itself could withstand the strain of a world still divided, and whether Britain could resist the tide of radicalism that had been building for years."
+britishflavor.19.a:0 "LMAO, Red flags are EVERYWHERE."
 ### parties ###
 
  ENG_communism_party:0 "CPB"
