@@ -18,7 +18,7 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.2 } }
+            50 = { country_event = { id = britishflavor.2 } }
         }
     }
     
@@ -28,13 +28,13 @@ country_event = {
 # ============================================================
 # Londonderry Terrorist Attack
 # ============================================================
-news_event = {
+country_event = {
     id = britishflavor.2
     title = britishflavor.2.t
     desc = britishflavor.2.desc
-    picture = GFX_news_event_londonderry_terrorist_attack
+    picture = GFX_country_event_londonderry_terrorist_attack
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     immediate = { set_global_flag = british_start }
@@ -63,20 +63,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.3 } }
+            50 = { country_event = { id = britishflavor.3 } }
         }
     }
     
     option = { name = britishflavor.2b.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.3
     title = britishflavor.3.t
     desc = britishflavor.3.desc
-    picture = GFX_news_event_british_communist_unification
+    picture = GFX_country_event_british_communist_unification
 
-    major = yes
+    major = no
     is_triggered_only = yes
     fire_only_once = yes
     
@@ -108,20 +108,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.5 } }
+            50 = { country_event = { id = britishflavor.5 } }
         }
     }
     
     option = { name = britishflavor.4.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.5
     title = britishflavor.5.t
     desc = britishflavor.5.desc
-    picture = GFX_news_event_kanye_west_in_london
+    picture = GFX_country_event_kanye_west_in_london
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -147,20 +147,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.7 } }
+            50 = { country_event = { id = britishflavor.7 } }
         }
     }
     
     option = { name = britishflavor.6.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.7
     title = britishflavor.7.t
     desc = britishflavor.7.desc
-    picture = GFX_news_event_corbyn_denounces_libdem
+    picture = GFX_country_event_corbyn_denounces_libdem
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -190,20 +190,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.9 } }
+            50 = { country_event = { id = britishflavor.9 } }
         }
     }
     
     option = { name = britishflavor.8.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.9
     title = britishflavor.9.t
     desc = britishflavor.9.desc
-    picture = GFX_news_event_strikes
+    picture = GFX_country_event_strikes
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -229,20 +229,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.11 } }
+            50 = { country_event = { id = britishflavor.11 } }
         }
     }
     
     option = { name = britishflavor.10.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.11
     title = britishflavor.11.t
     desc = britishflavor.11.desc
-    picture = GFX_news_event_referendum
+    picture = GFX_country_event_referendum
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -271,20 +271,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.13 } }
+            50 = { country_event = { id = britishflavor.13 } }
         }
     }
     
     option = { name = britishflavor.12.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.13
     title = britishflavor.13.t
     desc = britishflavor.13.desc
-    picture = GFX_news_event_us_election
+    picture = GFX_country_event_us_election
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -309,20 +309,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.15 } }
+            50 = { country_event = { id = britishflavor.15 } }
         }
     }
     
     option = { name = britishflavor.14.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.15
     title = britishflavor.15.t
     desc = britishflavor.15.desc
-    picture = GFX_news_event_web_curtain
+    picture = GFX_country_event_web_curtain
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -348,20 +348,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.17 } }
+            50 = { country_event = { id = britishflavor.17 } }
         }
     }
     
     option = { name = britishflavor.16.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.17
     title = britishflavor.17.t
     desc = britishflavor.17.desc
-    picture = GFX_news_event_manchester_attack
+    picture = GFX_country_event_manchester_attack
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
@@ -388,20 +388,20 @@ country_event = {
     
     immediate = {
         random_list = {
-            50 = { news_event = { id = britishflavor.19 } }
+            50 = { country_event = { id = britishflavor.19 } }
         }
     }
     
     option = { name = britishflavor.18.a }
 }
 
-news_event = {
+country_event = {
     id = britishflavor.19
     title = britishflavor.19.t
     desc = britishflavor.19.desc
-    picture = GFX_news_event_election
+    picture = GFX_country_event_election
     
-    major = yes
+    major = no
     is_triggered_only = yes
     
     option = {
