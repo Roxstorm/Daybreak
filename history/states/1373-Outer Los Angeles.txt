@@ -1,6 +1,6 @@
 state={
-	id=378
-	name="STATE_378"
+	id=1373
+	name="STATE_1373"
 	resources={
 		steel=20.000
 		aluminium=18.000
@@ -20,13 +20,14 @@ state={
 		add_core_of = USA
 		add_core_of = CAL
 		victory_points = {
-			9713 15
+			12536 15
 		}
 	}
 
 	provinces={
-		710 9713 13544 
+		11757 13536 13537 
 	}
-	manpower=486741
+	manpower=8387978
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
