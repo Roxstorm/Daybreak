@@ -1,0 +1,31 @@
+state={
+	id=1402
+	name="STATE_1402"
+	manpower = 3145585
+	
+	state_category = city
+	
+	resources={
+		oil=60 # was: 100
+		aluminium=30 # was: 32
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 2
+		}
+		add_core_of = USA
+		add_core_of = TXS
+		victory_points = {
+			7981 5 
+		}
+	}
+
+	provinces={
+		1915 7836 7981 12875 
+	}
+
+	local_supplies=0.000
+}
