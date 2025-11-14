@@ -17,7 +17,7 @@ state={
 		add_core_of = USA
 		add_core_of = TXS
 		victory_points = {
-			805 15 
+			805 5
 		}
 
 	}

@@ -1208,10 +1208,31 @@ UTH = {
 	color = rgb { 72 73 126 }
 	color_ui = rgb { 94 95 164 }
 }
-CAL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+CAL = {
+	color = rgb { 230 230 70 }
+	color_ui = rgb { 230 230 70 }
 }
 QUE = {
 	color = rgb { 0 102 255 }
 	color_ui = rgb { 0 31 77 }
+}
+ORG = {
+	color 	 = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
+}
+OKL = {
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
+}
+WSH = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+IDH = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}
+NVD = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
 }

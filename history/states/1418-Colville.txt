@@ -1,10 +1,24 @@
 state={
 	id=1418
 	name="STATE_1418"
+	manpower = 53323 
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+		}
+		add_core_of = USA
+		add_core_of = WSH
+
+	}
+
 	provinces={
 		1320 7414 10198 12214 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	local_supplies=0.000
 }

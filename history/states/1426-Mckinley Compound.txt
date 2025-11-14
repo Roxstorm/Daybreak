@@ -14,7 +14,7 @@ state={
 		add_core_of = USA
 		add_core_of = NMX
 		victory_points = {
-			10645 15 
+			10645 5
 		}
 
 	}

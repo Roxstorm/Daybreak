@@ -5396,3 +5396,23 @@
  NVD:0 "State of Nevada"
  NVD_DEF:0 "Nevadan"
  NVD_ADJ:0 "Nevadan"
+
+ IDH:0 "State of Idaho"
+ IDH_DEF:0 "Idahoan"
+ IDH_ADJ:0 "Idahoan"
+ 
+ WSH:0 "State of Washington"
+ WSH_DEF:0 "Washingtonian"
+ WSH_ADJ:0 "Washingtonian"
+ 
+ OKL:0 "State of Oklahoma"
+ OKL_DEF:0 "Oklahoman"
+ OKL_ADJ:0 "Oklahoman"
+ 
+ ORG:0 "State of Oregon"
+ ORG_DEF:0 "Oregonian"
+ ORG_ADJ:0 "Oregonian"
+ 
+ NMX:0 "State of New Mexico"
+ NMX_DEF:0 "New Mexican"
+ NMX_ADJ:0 "New Mexican"

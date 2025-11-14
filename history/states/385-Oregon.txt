@@ -1,11 +1,30 @@
 state={
 	id=385
 	name="STATE_385"
+	manpower = 631394 
+	
+	state_category = metropolis
+
+	history={
+		owner = USA
+		victory_points = {
+			12211 40 
+		}
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+			12211 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = USA
+		add_core_of = ORG
+	}
+
 	provinces={
 		10183 12211 
 	}
-	manpower=2842321
-	buildings_max_level_factor=1.000
-	state_category=city
+
 	local_supplies=0.000
 }

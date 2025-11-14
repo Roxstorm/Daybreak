@@ -21,7 +21,7 @@ state={
 		add_core_of = USA
 		add_core_of = ARI
 		victory_points = {
-			853 15
+			853 40
 		}
 	}
 
