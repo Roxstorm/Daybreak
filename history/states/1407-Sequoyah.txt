@@ -1,29 +1,26 @@
 state={
-	id=374
-	name="STATE_374"
-	manpower = 656453
-	resources={
-		oil=30 # was: 20
-		aluminium=50 # was: 52
-	}
+	id=1407
+	name="STATE_1407"
+	manpower = 277574
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 			industrial_complex = 1
 		}
 		add_core_of = USA
 		add_core_of = OKL
 		victory_points = {
-			10798 15 
+			1806 15
 		}
-
 	}
+
 	provinces={
-		1618 5103 7762 10798 
+		1806 2043 
 	}
 
 	local_supplies=0.000

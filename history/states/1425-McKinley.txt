@@ -1,10 +1,10 @@
 state={
-	id=374
-	name="STATE_374"
-	manpower = 656453
+	id=1425
+	name="STATE_1425"
+	manpower = 294394
 	resources={
-		oil=30 # was: 20
-		aluminium=50 # was: 52
+		oil=14 # was: 20
+		steel = 40
 	}
 	
 	state_category = city
@@ -15,15 +15,13 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		add_core_of = NMX
 		add_core_of = USA
-		add_core_of = OKL
-		victory_points = {
-			10798 15 
-		}
 
 	}
+
 	provinces={
-		1618 5103 7762 10798 
+		1972 12552 13540 13541 
 	}
 
 	local_supplies=0.000
