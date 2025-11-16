@@ -1,0 +1,108 @@
+add_namespace = america
+add_namespace = usa_election_events
+add_namespace = usa_primary_events
+
+country_event = {
+	id = usa_election_events.1
+	title = usa_election_events.1.t
+	desc = usa_election_events.1.d
+	picture = GFX_report_event_usa_election_2016election
+	
+	major = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2016.11.3
+		date < 2016.12.25
+		tag = USA
+	}
+	
+	option = {
+		name = usa_election_events.1.a
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				USA = { exists = yes }
+			}
+			USA = {
+			set_party_name = { ideology = democratic long_name = "Republican Party" name = "GOP" }
+			load_focus_tree = { tree = usa_trump_first}
+			news_event = { id = america.1 days = 1 }
+				retire_country_leader = yes
+				promote_character = {
+				character = USA_trump
+   				ideology = democratic
+				}
+			}
+		}
+	}	
+	
+	option = {
+		name = usa_election_events.1.b
+		ai_chance = {
+			factor = 20
+		}
+		if = {
+			limit = {
+				USA = { exists = yes }
+			}
+			USA = {
+			set_party_name = { ideology = democratic long_name = "Democrat Party" name = "Democrats" }
+			load_focus_tree = { tree = USA_obama_first}
+			news_event = { id = america.3 days = 1 }
+				retire_country_leader = yes
+				promote_character = {
+				character = USA_barack_obama
+   				ideology = democratic
+				}
+			}
+		}
+	}
+	option = {
+		name = usa_election_events.1.c
+		ai_chance = {
+			factor = 20
+		}
+		trigger = { has_country_flag = SANDERS }
+		if = {
+			limit = {
+				USA = { exists = yes }
+			}
+			USA = {
+			set_party_name = { ideology = democratic long_name = "Democrat Party" name = "Democrats" }
+			load_focus_tree = { tree = USA_sanders_first}
+			news_event = { id = america.4 days = 1 }
+				retire_country_leader = yes
+				promote_character = {
+				character = USA_bernie_sanders
+   				ideology = democratic
+				}
+			}
+		}
+	}
+	option = {
+		name = usa_election_events.1.e
+		ai_chance = {
+			factor = 20
+		}
+		trigger = { has_country_flag = CRUZ }
+		if = {
+			limit = {
+				USA = { exists = yes }
+			}
+			USA = {
+			set_party_name = { ideology = democratic long_name = "Republican Party" name = "GOP" }
+			load_focus_tree = { tree = USA_ted_first}
+			news_event = { id = america.5 days = 1 }
+				retire_country_leader = yes
+				promote_character = {
+				character = USA_Ted_Cruz
+   				ideology = democratic
+				}
+			}
+		}
+	}
+}
