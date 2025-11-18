@@ -1,7 +1,5 @@
 capital = 219
 
-oob = "SOV_2015"
-
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
 	infantry_weapons = 1

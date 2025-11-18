@@ -1,35 +1,43 @@
-state={
-	id=379
-	name="STATE_379"
-	resources={
-		steel=70.000
-		tungsten=32.000
-		aluminium=25.000
-	}
-	manpower = 983232
-	resources={
-		oil=30 # was: 20
-		aluminium=50 # was: 52
-	}
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 1201833
 	
 	state_category = large_town
+	
+	resources = {
+		steel = 70 # was: 136
+		tungsten = 32 # was: 62
+		aluminium = 25 # was: 44
+	}
 
-	history={
+	history = {
+
 		owner = USA
+		add_core_of = USA
+
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-		}
-		add_core_of = USA
-		add_core_of = NVD
-		victory_points = {
-			7827 15 
+			industrial_complex = 3
+
+			# Hoover Dam
+			4799 = { dam_mountain = 1 }
+
 		}
 
+		victory_points = {
+			4799 10 # Las Vegas
+		}
+		
+		victory_points = {
+			4607 15 # Reno
+		}
+		
 	}
-	provinces={
-		1862 7756 7827 10591 
+
+	provinces = {
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 13547
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+
+	local_supplies = 0.0 
 }

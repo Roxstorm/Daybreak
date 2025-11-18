@@ -63,22 +63,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Andrzej Lepper"
-	desc = ""
-	picture = gfx/leaders/EASTERNBLOC/Andrzej.Lepper.png
-	expire = "1960.1.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
 	name = "Adrian Zandberg"
 	desc = ""
 	picture = gfx/leaders/EASTERNBLOC/Adrian.Zandberg.png
 	expire = "1960.1.1"
-	ideology = socialism
+	ideology = leninism
 	traits = {
 		
 	}

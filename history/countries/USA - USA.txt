@@ -211,8 +211,6 @@ USA_empire_of_mind
 
 
 recruit_character = USA_wesley_clark
-recruit_character = USA_trump
-recruit_character = USA_barack_obama
 
 set_convoys = 700
 
