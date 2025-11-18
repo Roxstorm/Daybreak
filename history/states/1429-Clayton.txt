@@ -1,0 +1,30 @@
+state={
+	id=1429
+	name="STATE_1429"
+	manpower = 894394
+	resources={
+		oil=6
+	}
+	
+	state_category = city
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		add_core_of = NMX
+		victory_points = {
+			12684 5
+		}
+
+	}
+
+	provinces={
+		2102 10642 12684 13538 13539 
+	}
+
+	local_supplies=0.000
+}

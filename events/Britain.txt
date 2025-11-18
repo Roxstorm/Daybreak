@@ -1,0 +1,416 @@
+add_namespace = britishflavor
+add_namespace = eng_ld
+
+# ============================================================
+# August 2015 – Londonderry Terrorist Attack trigger
+# ============================================================
+country_event = {
+    id = britishflavor.1
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2015.8.20
+        date < 2015.9.20
+        tag = ENG
+        has_dlc = "Together for Victory"
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.2 } }
+        }
+    }
+    
+    option = { name = britishflavor.1.a }
+}
+
+# ============================================================
+# Londonderry Terrorist Attack
+# ============================================================
+country_event = {
+    id = britishflavor.2
+    title = britishflavor.2.t
+    desc = britishflavor.2.desc
+    picture = GFX_country_event_londonderry_terrorist_attack
+    
+    major = no
+    is_triggered_only = yes
+    
+    immediate = { set_global_flag = british_start }
+    
+    option = {
+        name = britishflavor.2.a
+        add_stability = -0.05
+        add_war_support = 0.05
+        add_political_power = -25
+    }
+}
+
+# ============================================================
+# September 2015 – Communist Unification
+# ============================================================
+country_event = {
+    id = britishflavor.2b
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2015.9.14
+        date < 2015.10.14
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.3 } }
+        }
+    }
+    
+    option = { name = britishflavor.2b.a }
+}
+
+country_event = {
+    id = britishflavor.3
+    title = britishflavor.3.t
+    desc = britishflavor.3.desc
+    picture = GFX_country_event_british_communist_unification
+
+    major = no
+    is_triggered_only = yes
+    fire_only_once = yes
+    
+    immediate = { set_country_flag = undermine_british_communists }
+    
+    option = {
+        name = britishflavor.3.a
+        add_popularity = {
+		ideology = communism
+		popularity = 0.03
+		}
+        add_political_power = -20
+    }
+}
+
+# ============================================================
+# October 2015 – Kanye West Visits the Queen
+# ============================================================
+country_event = {
+    id = britishflavor.4
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2015.10.17
+        date < 2015.11.18
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.5 } }
+        }
+    }
+    
+    option = { name = britishflavor.4.a }
+}
+
+country_event = {
+    id = britishflavor.5
+    title = britishflavor.5.t
+    desc = britishflavor.5.desc
+    picture = GFX_country_event_kanye_west_in_london
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.5.a
+        add_stability = 0.02
+        add_political_power = 10
+    }
+}
+
+# ============================================================
+# November 2015 – Corbyn Denunciation
+# ============================================================
+country_event = {
+    id = britishflavor.6
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2015.11.1
+        date < 2015.11.30
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.7 } }
+        }
+    }
+    
+    option = { name = britishflavor.6.a }
+}
+
+country_event = {
+    id = britishflavor.7
+    title = britishflavor.7.t
+    desc = britishflavor.7.desc
+    picture = GFX_country_event_corbyn_denounces_libdem
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.7.a
+        ai_chance = { factor = 1 }
+        add_popularity = {
+		ideology = neutrality
+		popularity = 0.03
+		}
+        add_stability = -0.02
+    }
+}
+
+# ============================================================
+# January 2016 – Strikes Sweep Britain
+# ============================================================
+country_event = {
+    id = britishflavor.8
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2016.1.1
+        date < 2016.1.31
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.9 } }
+        }
+    }
+    
+    option = { name = britishflavor.8.a }
+}
+
+country_event = {
+    id = britishflavor.9
+    title = britishflavor.9.t
+    desc = britishflavor.9.desc
+    picture = GFX_country_event_strikes
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.9.a
+        add_stability = -0.05
+        add_political_power = -30
+    }
+}
+
+# ============================================================
+# June 2016 – European Referendum
+# ============================================================
+country_event = {
+    id = britishflavor.10
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2016.6.1
+        date < 2016.6.30
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.11 } }
+        }
+    }
+    
+    option = { name = britishflavor.10.a }
+}
+
+country_event = {
+    id = britishflavor.11
+    title = britishflavor.11.t
+    desc = britishflavor.11.desc
+    picture = GFX_country_event_referendum
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.11.a
+        add_political_power = -50
+        add_popularity = {
+		ideology = fascism
+		popularity = 0.01
+		}
+    }
+}
+
+# ============================================================
+# November 2016 – U.S. Election Reaction
+# ============================================================
+country_event = {
+    id = britishflavor.12
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2016.11.1
+        date < 2016.11.30
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.13 } }
+        }
+    }
+    
+    option = { name = britishflavor.12.a }
+}
+
+country_event = {
+    id = britishflavor.13
+    title = britishflavor.13.t
+    desc = britishflavor.13.desc
+    picture = GFX_country_event_us_election
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.13.a
+        add_political_power = 25
+    }
+}
+
+# ============================================================
+# March 2017 – Youth and the Web Curtain
+# ============================================================
+country_event = {
+    id = britishflavor.14
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2017.3.1
+        date < 2017.3.31
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.15 } }
+        }
+    }
+    
+    option = { name = britishflavor.14.a }
+}
+
+country_event = {
+    id = britishflavor.15
+    title = britishflavor.15.t
+    desc = britishflavor.15.desc
+    picture = GFX_country_event_web_curtain
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.15.a
+        add_stability = -0.03
+        add_popularity = { ideology = communism value = 1 }
+    }
+}
+
+# ============================================================
+# May 2017 – Manchester Arena Bombing
+# ============================================================
+country_event = {
+    id = britishflavor.16
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2017.5.1
+        date < 2017.5.31
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.17 } }
+        }
+    }
+    
+    option = { name = britishflavor.16.a }
+}
+
+country_event = {
+    id = britishflavor.17
+    title = britishflavor.17.t
+    desc = britishflavor.17.desc
+    picture = GFX_country_event_manchester_attack
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.17.a
+        add_stability = -0.07
+        add_war_support = 0.07
+        add_political_power = -40
+    }
+}
+
+# ============================================================
+# July 2017 – Britain Votes Amid Tension
+# ============================================================
+country_event = {
+    id = britishflavor.18
+    hidden = yes
+    fire_only_once = yes
+    
+    trigger = {
+        date > 2017.7.1
+        date < 2017.7.31
+        tag = ENG
+    }
+    
+    immediate = {
+        random_list = {
+            50 = { country_event = { id = britishflavor.19 } }
+        }
+    }
+    
+    option = { name = britishflavor.18.a }
+}
+
+country_event = {
+    id = britishflavor.19
+    title = britishflavor.19.t
+    desc = britishflavor.19.desc
+    picture = GFX_country_event_election
+    
+    major = no
+    is_triggered_only = yes
+    
+    option = {
+        name = britishflavor.19.a
+        add_political_power = 50
+        add_stability = 0.03
+        add_popularity = {
+		ideology = fascism
+		popularity = 0.01
+		}
+    }
+}

@@ -1,0 +1,30 @@
+state={
+	id=1359
+	name="STATE_1359"
+	manpower = 329439
+	resources={
+		oil=14 # was: 20
+		steel = 40
+	}
+	
+	state_category = city
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		add_core_of = ARI
+		victory_points = {
+			14173 15 
+		}
+
+	}
+
+	provinces={
+		14173 14174 
+	}
+	local_supplies=0.000
+}

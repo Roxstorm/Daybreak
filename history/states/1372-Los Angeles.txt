@@ -1,0 +1,33 @@
+state={
+	id=1372
+	name="STATE_1372"
+	resources={
+		steel=20.000
+		aluminium=18.000
+	}
+
+	state_category = metropolis
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 9
+			arms_factory = 4
+			dockyard = 2
+			air_base = 3
+		}
+		add_core_of = USA
+		add_core_of = CAL
+		victory_points = {
+			9814 40
+		}
+	}
+
+	provinces={
+		9814 
+	}
+	manpower=3957022
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
