@@ -1,53 +1,30 @@
-state = {
-	id = 386
-	name = "STATE_386" # Washington State
-	manpower = 4866692
+state={
+	id=386
+	name="STATE_386"
+	manpower = 2296224 
 	
-	state_category = large_city
+	state_category = metropolis
 
-	history = {
-
+	history={
 		owner = USA
-		add_core_of = USA
-
+		victory_points = {
+			7315 40 
+		}
 		buildings = {
-			infrastructure = 4 #was: 6
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			air_base = 5
-
+			infrastructure = 4 
+			industrial_complex = 5
 			7315 = {
-				naval_base = 3
+				naval_base = 5
+
 			}
-
-			# Grand Coulee Dam
-			#10327 = { dam = 1 }
-			
-			7315 = {
-					air_facility = 1 # Boeing Factories
-				}
-
 		}
-		
-		victory_points = {
-			1690 1 # Spokane
-		}
-
-		victory_points = {
-			7315 10 # Seattle
-		}
-		
-		victory_points = {
-			7386 15 # Olympia
-		}
-		
-
+		add_core_of = USA
+		add_core_of = WSH
 	}
 
-	provinces = {
-		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 
+	provinces={
+		7315 10157 
 	}
 
-	local_supplies = 0.0 
+	local_supplies=0.000
 }

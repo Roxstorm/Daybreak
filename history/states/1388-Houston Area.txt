@@ -1,0 +1,30 @@
+state={
+	id=1388
+	name="STATE_1388"
+	manpower = 2296224 
+	
+	state_category = metropolis
+
+	history={
+		owner = USA
+		victory_points = {
+			10337 40 
+		}
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+			10337 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = USA
+		add_core_of = TXS
+	}
+
+	provinces={
+		10337 
+	}
+
+	local_supplies=0.000
+}

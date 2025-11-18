@@ -5372,3 +5372,47 @@
  YUC:0 "Yucatán Commonwealth"
  YUC_DEF:0 "the Yucatán Commonwealth"
  YUC_ADJ:0 "Yucateco"
+
+ TXS_fascism:0 "Second Republic of Texas"
+ TXS_fascism_DEF:0 "the Second Republic of Texas"
+ TXS_democratic:0 "State of Texas"
+ TXS_democratic_DEF:0 "the State of Texas"
+ TXS_neutrality:0 "Duchy of Texas"
+ TXS_neutrality_DEF:0 "Duchies of Texas"
+ TXS_communism:0 "Union of Texas"
+ TXS_communism_DEF:0 "the Union of Texas"
+ TXS_fascism_ADJ:0 "Texan"
+ TXS_democratic_ADJ:0 "Texan"
+ TXS_neutrality_ADJ:0 "Texan"
+ TXS_communism_ADJ:0 "Texan"
+ TXS:0 "State of Texas"
+ TXS_DEF:0 "Texan"
+ TXS_ADJ:0 "Texan"
+ 
+ CAL:0 "State of California"
+ CAL_DEF:0 "Californian"
+ CAL_ADJ:0 "Californian"
+ 
+ NVD:0 "State of Nevada"
+ NVD_DEF:0 "Nevadan"
+ NVD_ADJ:0 "Nevadan"
+
+ IDH:0 "State of Idaho"
+ IDH_DEF:0 "Idahoan"
+ IDH_ADJ:0 "Idahoan"
+ 
+ WSH:0 "State of Washington"
+ WSH_DEF:0 "Washingtonian"
+ WSH_ADJ:0 "Washingtonian"
+ 
+ OKL:0 "State of Oklahoma"
+ OKL_DEF:0 "Oklahoman"
+ OKL_ADJ:0 "Oklahoman"
+ 
+ ORG:0 "State of Oregon"
+ ORG_DEF:0 "Oregonian"
+ ORG_ADJ:0 "Oregonian"
+ 
+ NMX:0 "State of New Mexico"
+ NMX_DEF:0 "New Mexican"
+ NMX_ADJ:0 "New Mexican"

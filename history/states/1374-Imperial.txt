@@ -1,0 +1,27 @@
+state={
+	id=1374
+	name="STATE_1374"
+	manpower = 980832
+	resources={
+		oil=30 # was: 20
+		aluminium=50 # was: 52
+	}
+	
+	state_category = large_town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		add_core_of = CAL
+
+	}
+	provinces={
+		823 4727 7986 11795 12303 12374 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

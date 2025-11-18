@@ -1,0 +1,27 @@
+state={
+	id=1364
+	name="STATE_1364"
+	manpower = 617820 
+	
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		victory_points = {
+			14176 40 
+		}
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+		}
+		add_core_of = USA
+		add_core_of = NVD
+
+	}
+
+	provinces={
+		14175 14176 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
