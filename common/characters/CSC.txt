@@ -1,0 +1,10 @@
+characters = {
+	CSC_Vladimir_Boldyrev = {
+		name = CSC_Vladimir_Boldyrev
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/SOV_Vladimir_Boldyrev.png"
+			}
+		}
+	}
+}

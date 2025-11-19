@@ -1,0 +1,30 @@
+# Just as a joke, I asked Arch Dornan what I should code (for fun). He said: 'Soviet Military Administration in the Pacific Northwest.' 
+# Well, I’m a man of my word. 
+# >;3
+add_namespace = soviet_administration_zones
+
+# what you gonna do???
+country_event = {
+    id = soviet_administration_zones.1
+    title = soviet_administration_zones.1.t
+    desc = soviet_administration_zones.1.desc
+    
+    is_triggered_only = yes
+    
+    option = { # make ocupations zones!!! (full west coast)
+        name = soviet_administration_zones.1.a
+        SOV_create_pacific_northwest_ocupation_zone = yes
+        SOV_create_alaska_and_san_francisco_ocupation_zone = yes
+    }
+
+	option = { # just pacific northwest
+		name = soviet_administration_zones.1.b
+        SOV_create_pacific_northwest_ocupation_zone = yes
+	}
+
+	option = { # nothing :(
+		name = soviet_administration_zones.1.c
+       
+	}
+}
+

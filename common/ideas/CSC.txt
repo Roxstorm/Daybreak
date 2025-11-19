@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		CSC_Winning_the_Fight_for_America = {
+			picture = GFX_idea_CSC_Winning_the_Fight_for_America
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			traits = { _blank_idea_trait }
+			modifier = {
+				war_support_factor = 0.2
+				stability_factor = -0.4
+				army_morale_factor = -0.3
+				army_attack_factor = -0.5
+			}
+		}
+		CSC_Resistance = {
+			picture = GFX_idea_CSC_Resistance
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			traits = { _blank_idea_trait }
+			modifier = {
+				stability_factor = -0.2
+				resistance_growth = 0.15
+			}
+		}
+	}
+}

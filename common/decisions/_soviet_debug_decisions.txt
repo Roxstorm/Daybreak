@@ -1,0 +1,18 @@
+soviet_debug_decisions = {
+
+	soviet_debug_make_ocupation_pacific_northwest = {
+		priority = 100
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		complete_effect = {
+			country_event = soviet_administration_zones.1
+		}
+	}
+}

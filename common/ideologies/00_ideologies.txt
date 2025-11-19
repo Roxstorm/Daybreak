@@ -97,6 +97,9 @@ ideologies = {
 			pan_africanism = {
 				can_be_randomly_selected = no
 			}
+
+			stratocratic_communism = {
+			}
 		}
 
 		dynamic_faction_names = {

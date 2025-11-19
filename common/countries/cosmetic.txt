@@ -1682,5 +1682,12 @@ AFG_second_empire = {
 	color_ui = rgb { 0 51 77 }
 }
 
+CSC_soviet_military_administration_northwest_pacific = {
+	color = rgb { 124 43 51 }
+	color_ui = rgb { 124 43 51 }
+}
 
-
+ALS_pacific_fleet_operational_zone = {
+	color = rgb { 124 43 51 }
+	color_ui = rgb { 124 43 51 }
+}

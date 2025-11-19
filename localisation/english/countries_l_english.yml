@@ -5416,3 +5416,7 @@
  NMX:0 "State of New Mexico"
  NMX_DEF:0 "New Mexican"
  NMX_ADJ:0 "New Mexican"
+
+ ALS:0 "State of Alaska"
+ ALS_DEF:0 "the State of Alaska"
+ ALS_ADJ:0 "Alaskan"

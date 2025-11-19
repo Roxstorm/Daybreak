@@ -29,14 +29,3 @@ USA_empire_of_mind_desc:0 "Our soldiers come home, our movies go out. That is th
  USA_democratic_party:0 "Democratic Party"
  USA_republican_party:0 "Republican Party"
  
-### AMERICAN FAILURE IN WW3 ###
-
- FSC_communism:0 "Soviet Military Administration in California"
- FSC_organized_communism:0 "California Socialist Republic"
- FSC_DEF:0 "Californian"
- FSC_ADJ:0 "Californian"
-
- CSC_communism:0 "Soviet Military Administration in the Pacific Northwest"
- CSC_organized_communism:0 "People's Federal Republic of Cascadia"
- CSC_DEF:0 "Cascadian"
- CSC_ADJ:0 "Cascadian"

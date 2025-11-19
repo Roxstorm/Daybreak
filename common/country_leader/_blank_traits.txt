@@ -1,0 +1,13 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+	_blank_idea_trait = { # blank for decor in idea (inspired from TFR)
+		random = no
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

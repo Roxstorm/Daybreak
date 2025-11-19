@@ -7,6 +7,41 @@
 ### traits ###
 
 ### events ###
-sovietflavor.2.t:0 "Discovery Family Announces Soviet Branch"
-sovietflavor.2.desc:0 "For the first time in over forty-five years, a Western TV show has made it onto Soviet screens. My Little Pony: Friendship Is Magic started airing on COMNET after months of negotiations with Discovery Family. The show quickly caught people’s attention, with many calling Season 5’s The Cutie Map episodes some of the best yet. Starlight Glimmer became an instant favorite, admired for her cleverness and determination. Officials are keeping a close eye, nervous about what influence even a cartoon might have. Meanwhile, viewers across forums and fan groups are talking about friendship, loyalty, and second chances in ways the country hasn’t seen in decades."
-sovietflavor.2.a:0 "Ja ljublju Startrix"
+sovietflavor.2.t: "Discovery Family Announces Soviet Branch"
+sovietflavor.2.desc: "For the first time in over forty-five years, a Western TV show has made it onto Soviet screens. My Little Pony: Friendship Is Magic started airing on COMNET after months of negotiations with Discovery Family. The show quickly caught people’s attention, with many calling Season 5’s The Cutie Map episodes some of the best yet. Starlight Glimmer became an instant favorite, admired for her cleverness and determination. Officials are keeping a close eye, nervous about what influence even a cartoon might have. Meanwhile, viewers across forums and fan groups are talking about friendship, loyalty, and second chances in ways the country hasn’t seen in decades."
+sovietflavor.2.a: "Ja ljublju Startrix"
+
+######################## POST WW3 ########################
+### Events ###
+soviet_administration_zones.1.t: "Soviet Occupation in the USA"
+soviet_administration_zones.1.desc: "REPLACE_ME"
+soviet_administration_zones.1.a: "Make the West Red"
+soviet_administration_zones.1.b: "Pacific Northwest"
+soviet_administration_zones.1.c: "It's okay, I changed my mind."
+
+### Party Names ###
+CSC_soviet_military_administration_party_name: "SMA"
+CSC_soviet_military_administration_party_name_long: "Soviet Military Administration"
+CSC_red_army_party_name: "Red Army"
+CSC_red_army_party_name_long: "Red Army"
+
+ALS_supreme_command_of_the_ussr_navy_party_name: "SCN"
+ALS_supreme_command_of_the_ussr_navy_party_name_long: "the Supreme Command of the USSR Navy"
+
+### Cosmetic Tags ###
+CSC_soviet_military_administration_northwest_pacific: "Soviet Military Administration in the Northwest Pacific"
+CSC_soviet_military_administration_northwest_pacific_DEF: "the Soviet Military Administration in the Northwest Pacific"
+CSC_soviet_military_administration_northwest_pacific_ADJ: "Soviet"
+
+ALS_pacific_fleet_operational_zone: "Pacific Fleet Operational Zone"
+ALS_pacific_fleet_operational_zone_DEF: "the Pacific Fleet Operational Zone"
+ALS_pacific_fleet_operational_zone_ADJ: "Soviet"
+
+### Ideas ###
+CSC_Winning_the_Fight_for_America: "Winning the Fight for America"
+CSC_Winning_the_Fight_for_America_desc: ""
+CSC_Resistance: "Resistance"
+CSC_Resistance_desc: ""
+
+### Characters ###
+CSC_Vladimir_Boldyrev: "Vladimir Boldyrev"

@@ -1,0 +1,102 @@
+SOV_create_pacific_northwest_ocupation_zone = {
+	hidden_effect = {
+		CSC = {
+			transfer_state = 1420
+			transfer_state = 1419
+			transfer_state = 1418
+			transfer_state = 1417
+			transfer_state = 1415
+			transfer_state = 1414
+			transfer_state = 385
+			transfer_state = 1413
+			transfer_state = 1411
+			transfer_state = 1412
+			transfer_state = 1410
+			transfer_state = 386
+			transfer_state = 1416
+
+			add_state_core = 1420
+			add_state_core = 1419
+			add_state_core = 1418
+			add_state_core = 1417
+			add_state_core = 1415
+			add_state_core = 1414
+			add_state_core = 385
+			add_state_core = 1413
+			add_state_core = 1411
+			add_state_core = 1412
+			add_state_core = 1410
+			add_state_core = 386
+			add_state_core = 1416
+		}
+		SOV = { set_autonomy = { target = CSC autonomy_state = autonomy_autonomous_state } }
+		CSC = {
+			set_cosmetic_tag = CSC_soviet_military_administration_northwest_pacific
+			set_politics = { ruling_party = communism }
+			set_popularities = {
+				communism = 90
+				neutrality = 10
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = CSC_soviet_military_administration_party_name_long
+				name = CSC_soviet_military_administration_party_name
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = CSC_red_army_party_name_long
+				name = CSC_red_army_party_name
+			}
+			add_country_leader_role = {
+    			character = CSC_Vladimir_Boldyrev
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = stratocratic_communism
+        			expire = "2100.1.1.1"
+    			}
+			}
+			add_ideas = {
+				CSC_Winning_the_Fight_for_America
+				CSC_Resistance
+			}
+		}
+	}
+}
+SOV_create_alaska_and_san_francisco_ocupation_zone = {
+	hidden_effect = {
+		ALS = {
+			transfer_state = 463
+			transfer_state = 1376
+			transfer_state = 1372
+			transfer_state = 739
+			transfer_state = 740
+
+			add_state_core = 463
+			add_state_core = 1376
+			add_state_core = 1372
+			add_state_core = 739
+			add_state_core = 740
+		}
+		SOV = { set_autonomy = { target = ALS autonomy_state = autonomy_autonomous_state } }
+		ALS = {
+			set_cosmetic_tag = ALS_pacific_fleet_operational_zone
+			set_politics = { ruling_party = communism }
+			set_popularities = {
+				communism = 100
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = ALS_supreme_command_of_the_ussr_navy_party_name_long
+				name = ALS_supreme_command_of_the_ussr_navy_party_name
+			}
+			add_country_leader_role = {
+    			character = CSC_Vladimir_Boldyrev
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = stratocratic_communism
+        			expire = "2100.1.1.1"
+    			}
+			}
+		}
+	}
+}
