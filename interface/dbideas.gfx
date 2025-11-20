@@ -50,4 +50,13 @@ spriteTypes = {
 		name = "GFX_idea_ENG_joint_authority_in_ni"
 		texturefile = "gfx/interface/ideas/GFX_idea_ENG_joint_authority_in_ni.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_America_Twilight_of_the_New_World"
+		textureFile = "gfx/interface/ideas/idea_America_Twilight_of_the_New_World.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FSC_Western_Border"
+		textureFile = "gfx/interface/ideas/idea_FSC_Western_Border.dds"
+	}
 }

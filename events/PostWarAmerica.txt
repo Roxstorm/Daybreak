@@ -1,0 +1,16 @@
+add_namespace = post_war_america
+
+# West Border War
+news_event = {
+    id = post_war_america.1
+    title = post_war_america.1.t
+    desc = post_war_america.1.desc
+    
+    is_triggered_only = yes
+	major = yes
+    
+    option = { 
+        name = post_war_america.1.a
+    }
+}
+

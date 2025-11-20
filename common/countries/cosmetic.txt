@@ -1691,3 +1691,8 @@ ALS_pacific_fleet_operational_zone = {
 	color = rgb { 124 43 51 }
 	color_ui = rgb { 124 43 51 }
 }
+
+FSC_communist_states_of_america = {
+	color = rgb { 186 104 104 }
+	color_ui = rgb { 186 104 104 }
+}

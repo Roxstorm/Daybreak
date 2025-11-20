@@ -1,3 +1,4 @@
+### Soviet Ocupation Zones ###
 SOV_create_pacific_northwest_ocupation_zone = {
 	hidden_effect = {
 		CSC = {
@@ -56,6 +57,7 @@ SOV_create_pacific_northwest_ocupation_zone = {
     			}
 			}
 			add_ideas = {
+				America_Twilight_of_the_New_World
 				CSC_Winning_the_Fight_for_America
 				CSC_Resistance
 			}
@@ -70,12 +72,18 @@ SOV_create_alaska_and_san_francisco_ocupation_zone = {
 			transfer_state = 1372
 			transfer_state = 739
 			transfer_state = 740
+			transfer_state = 864
+			transfer_state = 471
+			transfer_state = 473
 
 			add_state_core = 463
 			add_state_core = 1376
 			add_state_core = 1372
 			add_state_core = 739
 			add_state_core = 740
+			add_state_core = 864
+			add_state_core = 471
+			add_state_core = 473
 		}
 		SOV = { set_autonomy = { target = ALS autonomy_state = autonomy_autonomous_state } }
 		ALS = {
@@ -89,13 +97,123 @@ SOV_create_alaska_and_san_francisco_ocupation_zone = {
 				long_name = ALS_supreme_command_of_the_ussr_navy_party_name_long
 				name = ALS_supreme_command_of_the_ussr_navy_party_name
 			}
-			add_country_leader_role = {
-    			character = CSC_Vladimir_Boldyrev
-    			promote_leader = yes
-    			country_leader = {
-        			ideology = stratocratic_communism
-        			expire = "2100.1.1.1"
-    			}
+			#add_country_leader_role = {
+    		#	character = CSC_Vladimir_Boldyrev
+    		#	promote_leader = yes
+    		#	country_leader = {
+        	#		ideology = stratocratic_communism
+        	#		expire = "2100.1.1.1"
+    		#	}
+			#}
+			add_ideas = America_Twilight_of_the_New_World
+		}
+	}
+}
+SOV_create_socialist_california = {
+	hidden_effect = {
+		FSC = {
+			transfer_state = 1385
+			transfer_state = 1386
+			transfer_state = 1383
+			transfer_state = 1384
+			transfer_state = 1382
+			transfer_state = 378
+			transfer_state = 1377
+			transfer_state = 1378
+			transfer_state = 1380
+			transfer_state = 1379
+			transfer_state = 1381
+			transfer_state = 1375
+			transfer_state = 1373
+			transfer_state = 1374
+			transfer_state = 1371
+
+			add_state_core = 1385
+			add_state_core = 1386
+			add_state_core = 1383
+			add_state_core = 1384
+			add_state_core = 1382
+			add_state_core = 378
+			add_state_core = 1377
+			add_state_core = 1378
+			add_state_core = 1380
+			add_state_core = 1379
+			add_state_core = 1381
+			add_state_core = 1375
+			add_state_core = 1373
+			add_state_core = 1374
+			add_state_core = 1371
+		}
+		SOV = { set_autonomy = { target = FSC autonomy_state = autonomy_autonomous_state } }
+		FSC = {
+			set_cosmetic_tag = FSC_communist_states_of_america
+			set_politics = { ruling_party = communism }
+			set_popularities = {
+				communism = 58
+				democratic = 22
+				neutrality = 12
+				fascism = 8
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = FSC_labor_congress_of_the_west_party_name_long
+				name = FSC_labor_congress_of_the_west_party_name
+			}
+			#add_country_leader_role = {
+    		#	character = CSC_Vladimir_Boldyrev
+    		#	promote_leader = yes
+    		#	country_leader = {
+        	#		ideology = stratocratic_communism
+        	#		expire = "2100.1.1.1"
+    		#	}
+			#}
+			add_ideas = { 
+				America_Twilight_of_the_New_World
+				FSC_Young_Republic
+				FSC_Western_Border
+			}
+		}
+	}
+}
+### Independet States ###
+SOV_make_nevada_independent = {
+	hidden_effect = {
+		NVD = {
+			transfer_state = 1370
+			transfer_state = 1364
+			transfer_state = 1365
+			transfer_state = 1366
+			transfer_state = 1367
+			transfer_state = 1368
+			transfer_state = 1369
+			transfer_state = 379
+
+			add_state_core = 1370
+			add_state_core = 1364
+			add_state_core = 1365
+			add_state_core = 1366
+			add_state_core = 1367
+			add_state_core = 1368
+			add_state_core = 1369
+			add_state_core = 379
+
+			set_politics = { ruling_party = democratic }
+			set_popularities = {
+				democratic = 71
+				neutrality = 19
+				fascism = 10
+			}
+			add_ideas = America_Twilight_of_the_New_World
+			add_opinion_modifier = {
+				target = FSC
+				modifier = west_border_war_om
+			}	
+			news_event = { id = post_war_america.1 days = 7 random_hours = 24 }
+		}
+		FSC = {
+			add_opinion_modifier = {
+				target = NVD
+				modifier = west_border_war_om
 			}
 		}
 	}

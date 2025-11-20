@@ -361,7 +361,7 @@ PRS = "countries/Peoples Revolutionary Council of the South.txt"
 #UNITED STATES#
 ARI = "countries/Arizona.txt"
 TXS = "countries/Texas.txt"
-CAL = "countries/California.txt"
+#CAL = "countries/California.txt" # why do we have two californias ahh
 NVD = "countries/Nevada.txt"
 NMX = "countries/New Mexico.txt"
 UTH = "countries/Utah.txt"

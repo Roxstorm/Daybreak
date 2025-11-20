@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	west_border_war_om = {
+		value = -60
+	}
+}

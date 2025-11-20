@@ -1,0 +1,57 @@
+﻿l_english:
+######################## POST WW3 ########################
+### Events ###
+soviet_administration_zones.1.t: "Soviet Occupation in the USA"
+soviet_administration_zones.1.desc: "REPLACE_ME"
+soviet_administration_zones.1.a: "Make the West Red"
+soviet_administration_zones.1.b: "Pacific Northwest"
+soviet_administration_zones.1.c: "It's okay, I changed my mind."
+
+post_war_america.1.t: "West Border War"
+post_war_america.1.desc: "REPLACE_ME"
+post_war_america.1.a: "Americans do not give up."
+
+### Party Names ###
+CSC_soviet_military_administration_party_name: "SMA"
+CSC_soviet_military_administration_party_name_long: "Soviet Military Administration"
+CSC_red_army_party_name: "Red Army"
+CSC_red_army_party_name_long: "Red Army"
+
+ALS_supreme_command_of_the_ussr_navy_party_name: "SCN"
+ALS_supreme_command_of_the_ussr_navy_party_name_long: "Supreme Command of the USSR Navy"
+
+FSC_labor_congress_of_the_west_party_name: "LCW"
+FSC_labor_congress_of_the_west_party_name_long: "Labor Congress of the West"
+
+### Cosmetic Tags ###
+CSC_soviet_military_administration_northwest_pacific: "Soviet Military Administration in the Northwest Pacific"
+CSC_soviet_military_administration_northwest_pacific_DEF: "the Soviet Military Administration in the Northwest Pacific"
+CSC_soviet_military_administration_northwest_pacific_ADJ: "Soviet"
+
+ALS_pacific_fleet_operational_zone: "Pacific Fleet Operational Zone"
+ALS_pacific_fleet_operational_zone_DEF: "the Pacific Fleet Operational Zone"
+ALS_pacific_fleet_operational_zone_ADJ: "Soviet"
+
+FSC_communist_states_of_america: "People's Republic of California"
+FSC_communist_states_of_america_DEF: "the People's Republic of California"
+FSC_communist_states_of_america_ADJ: "Californian"
+
+### Ideas ###
+CSC_Winning_the_Fight_for_America: "Winning the Fight for America"
+CSC_Winning_the_Fight_for_America_desc: ""
+CSC_Resistance: "Resistance"
+CSC_Resistance_desc: ""
+
+FSC_Young_Republic: "Young Republic"
+FSC_Young_Republic_desc: ""
+FSC_Western_Border: "Western Border"
+FSC_Western_Border_desc: ""
+
+America_Twilight_of_the_New_World: "Twilight of the New World"
+America_Twilight_of_the_New_World_desc: ""
+
+### Characters ###
+CSC_Vladimir_Boldyrev: "Vladimir Boldyrev"
+
+### Opinion Modifiers ###
+west_border_war_om: "West Border War"

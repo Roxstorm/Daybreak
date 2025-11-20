@@ -1233,8 +1233,8 @@ IDH = {
 	color_ui = rgb { 94 95 164 }
 }
 NVD = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 137 102 60 }
+	color_ui = rgb { 137 102 60 }
 }
 ALS = {
 	color = rgb { 39 66 112 }

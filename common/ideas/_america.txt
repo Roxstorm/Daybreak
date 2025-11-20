@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		America_Twilight_of_the_New_World = {
+			picture = GFX_idea_America_Twilight_of_the_New_World
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			traits = { _blank_idea_trait }
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.05
+				democratic_drift = -0.03
+				communism_drift = 0.04
+				neutrality_drift = 0.01
+				fascism_drift = 0.01
+				political_power_factor = -0.1
+				army_morale_factor = -0.2
+			}
+		}
+	}
+}
