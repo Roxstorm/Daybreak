@@ -1,34 +1,11 @@
-
 state={
 	id=369
 	name="STATE_369"
-	manpower = 3685296
-	
-	state_category = large_city
-
-	history={
-		owner = USA
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 4
-		}
-		add_core_of = USA
-		victory_points = {
-			6696 10
-		}
-		
-		victory_points = {
-			1445 15
-		}
-		
-
-	}
-
 	provinces={
-		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+		1445 
 	}
-
-	local_supplies=0.0 
+	manpower=3685296
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

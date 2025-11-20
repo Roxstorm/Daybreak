@@ -2,33 +2,10 @@ state={
 	id=1083
 	name="STATE_1083"
 	provinces={
-		6823 6929 13576 6984 11892 9758 6892 13575
+		6823 6929 
 	}
-	history={
-		owner = USA
-		victory_points = {
-			6984 10 
-		}
-		
-		victory_points = {
-			11892 15 
-		}
-		
-		buildings = {
-			infrastructure = 4 #was: 7
-			industrial_complex = 5
-			dockyard = 1
-			air_base = 6
-			6984 = {
-				naval_base = 2
-				naval_facility = 1
-			}
-		}
-		add_core_of = USA
-
-	}
-	
-	manpower = 4781468 
-	state_category = large_city
-	local_supplies=0.0 
+	manpower=4781468
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }
