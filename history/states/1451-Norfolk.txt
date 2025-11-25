@@ -1,10 +1,29 @@
 state={
 	id=1451
 	name="STATE_1451"
+	manpower = 664234
+	state_category = city
+
+	history={
+		owner = USA
+		add_core_of = VZA
+		add_core_of = USA
+		victory_points = {
+			788 5 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			788 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
 	provinces={
 		788 11738 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -1,10 +1,31 @@
 state={
 	id=1459
 	name="STATE_1459"
+	manpower = 550725
+	
+	state_category = large_town
+	
+	resources={
+		aluminium=14 # was: 20
+	}
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		add_core_of = AZB
+		victory_points = {
+			5059 10
+		}
+
+	}
+
 	provinces={
 		4594 5059 10192 12803 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

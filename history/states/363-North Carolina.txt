@@ -1,11 +1,29 @@
 state={
 	id=363
 	name="STATE_363"
+	manpower = 964234
+	state_category = city
+
+	history={
+		owner = USA
+		add_core_of = NZC
+		add_core_of = USA
+		victory_points = {
+			4168 5 
+		}
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1163 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
 	provinces={
 		1077 1163 4168 6943 9876 11783 
 	}
-	manpower=6628637
-	buildings_max_level_factor=1.000
-	state_category=large_city
 	local_supplies=0.000
 }

@@ -1,10 +1,23 @@
 state={
 	id=1462
 	name="STATE_1462"
+	manpower = 120751
+	
+	state_category = city
+
+	history={
+		owner = USA
+		add_core_of = MZS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+
+	}
+
 	provinces={
 		1615 12429 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	local_supplies=0.000
 }

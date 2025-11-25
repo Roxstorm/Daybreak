@@ -1,10 +1,26 @@
 state={
 	id=1475
 	name="STATE_1475"
+	manpower = 622900
+	
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		victory_points = {
+			3957 40 
+		}
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+		}
+		add_core_of = USA
+		add_core_of = MZY
+	}
+
 	provinces={
 		6984 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	local_supplies=0.000
 }

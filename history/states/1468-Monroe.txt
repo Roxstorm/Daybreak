@@ -4,7 +4,22 @@ state={
 	provinces={
 		1559 4522 7555 7599 
 	}
-	manpower=0
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 7
+			arms_factory = 2
+			air_base = 2
+
+		}
+		
+		add_core_of = USA
+		add_core_of = LOU
+
+	}
+	manpower=662758
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	state_category = rural
+	local_supplies=0.0 
 }
+

@@ -1,10 +1,33 @@
 state={
 	id=1437
 	name="STATE_1437"
+	manpower = 594394
+	state_category = town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			11927 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = USA
+		add_core_of = SCA
+		victory_points = {
+			11927 5 
+		}
+		victory_points = {
+			7012 15 
+		}
+	}
+
 	provinces={
 		4491 7012 7134 10047 11927 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

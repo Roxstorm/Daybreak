@@ -4,7 +4,16 @@ state={
 	provinces={
 		1282 1338 1619 4287 10247 12221 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4 #was: 7
+			industrial_complex = 2
+			dockyard = 1
+		}
+		add_core_of = USA
+	}
+	manpower = 666168 
+	state_category = town
+	local_supplies=0.0 
 }

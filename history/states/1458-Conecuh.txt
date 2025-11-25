@@ -1,10 +1,37 @@
 state={
 	id=1458
 	name="STATE_1458"
+	manpower = 838165
+	resources={
+		oil=1 # was: 2
+	}
+	
+	state_category = town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			7480 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = USA
+		add_core_of = AZB
+		victory_points = {
+			7480 15 
+		}
+		victory_points = {
+			492 15 
+		}
+	}
+
 	provinces={
 		492 860 4756 7480 7640 10520 11942 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

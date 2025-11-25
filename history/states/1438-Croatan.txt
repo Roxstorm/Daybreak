@@ -1,10 +1,29 @@
 state={
 	id=1438
 	name="STATE_1438"
+	state_category=town
+	manpower = 594394
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			1132 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = USA
+		add_core_of = NZC
+		victory_points = {
+			1132 15 
+		}
+	}
+
 	provinces={
 		1132 12054 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

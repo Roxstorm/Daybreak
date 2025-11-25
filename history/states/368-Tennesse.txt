@@ -7,8 +7,22 @@ state={
 	provinces={
 		8083 10657 12670 
 	}
-	manpower=4877185
-	buildings_max_level_factor=1.000
-	state_category=large_city
+	manpower = 633333
+	state_category = metropolis
+	resources={
+		aluminium=14 # was: 20
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			12670 10
+		}
+	}
 	local_supplies=0.000
 }
+

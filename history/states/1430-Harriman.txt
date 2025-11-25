@@ -4,7 +4,23 @@ state={
 	provinces={
 		706 3894 6911 9774 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 1026212
+	state_category = town
+	resources={
+		aluminium=14 # was: 20
+		coal=11
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			3894 10
+		}
+	}
 	local_supplies=0.000
 }
+
