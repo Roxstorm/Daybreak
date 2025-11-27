@@ -4,7 +4,25 @@ state={
 	provinces={
 		4402 6974 10586 10727 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 1073232
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = USA
+		victory_points = {
+			10727 5
+		}
+		victory_points = {
+			6974 5
+		}
+
+	}
 	local_supplies=0.000
 }
+

@@ -4,7 +4,23 @@ state={
 	provinces={
 		6769 11656 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 982732
+	
+	state_category = large_town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4 
+			industrial_complex = 5
+		}
+		add_core_of = USA
+		victory_points = {
+			11656 15
+		}
+		victory_points = {
+			6769 5
+		}
+	}
 	local_supplies=0.000
 }

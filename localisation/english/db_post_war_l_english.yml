@@ -36,6 +36,111 @@ FSC_communist_states_of_america: "People's Republic of California"
 FSC_communist_states_of_america_DEF: "the People's Republic of California"
 FSC_communist_states_of_america_ADJ: "Californian"
 
+USA_federal_districts: "Federal Districts of America"
+USA_federal_districts_DEF: "the United States Emergency Command"
+USA_federal_districts_ADJ: "American"
+
+USA_communist_states_of_america: "Soviet Republic of America"
+USA_communist_states_of_america_DEF: "the Soviet Republic of America"
+USA_communist_states_of_america_ADJ: "American"
+
+### Country Names ###
+
+BSR: "Socialist Republic of the Midwest"
+BSR_DEF: "Socialist Republic of the Midwest"
+BSR_ADJ: "Midwest American"
+
+PRB: "Proud Boys"
+PRB_DEF: "Proud Boys"
+PRB_ADJ: "American"
+
+WSZ: "Western Allied States"
+WSZ_DEF: "Western Allied States"
+WSZ_ADJ: "American"
+
+MCH: "Michigander Republic"
+MCH_DEF: "The Michigander Republic"
+MCH_ADJ: "Michiganders"
+
+WCS: "Provisional Republic of Dixie"
+WCS_DEF: "The Second Confederate States"
+WCS_ADJ: "Confederate"
+
+NWA: "Northwest American Republic"
+NWA_DEF: "Northwest American Republic"
+NWA_ADJ: "American"
+
+NPA: "National Protection Agency"
+NPA_DEF: "National Protection Agency of America"
+NPA_ADJ: "American"
+
+UTH: "Republic of Utah"
+UTH_DEF: "Utahan Republic"
+UTH_ADJ: "Utahan"
+
+NAR: "New American Republic"
+NAR_DEF: "The New American Republic"
+NAR_ADJ: "American"
+
+NER: "Union of New England"
+NER_DEF: "New Englander Union"
+NER_ADJ: "New Englanders"
+
+ERC: "Eastern Revolutionary Command"
+ERC_DEF: "The People's Eastern Revolt"
+ERC_ADJ: "American"
+
+NYS: "State of New York"
+NYS_DEF: "New York State"
+NYS_ADJ: "New Yorker"
+
+NYC: "Long Island Republic"
+NYC_DEF: "Long Island"
+NYC_ADJ: "American"
+
+BFA: "Buffalo Anarchist Guard"
+BFA_DEF: "The Anarchist Guard of Buffalo"
+BFA_ADJ: "American"
+
+PPR: "People's Provisional Republic of Pennsylvania"
+PPR_DEF: "The People's Republic of Pennsylvania"
+PPR_ADJ: "American"
+
+OHO: "State of Ohio"
+OHO_DEF: "State of Ohio"
+OHO_ADJ: "Ohioan"
+
+VZA: "Confederate Virginia"
+VZA_DEF: "Confederate State of Virginia"
+VZA_ADJ: "Virginian"
+
+MHP: "Knoxville Free Republic"
+MHP_DEF: "Knoxville Anti Confederate Republic"
+MHP_ADJ: "American"
+
+NZC: "State of North Carolina"
+NZC_DEF: "North Carolinan Republic"
+NZC_ADJ: "Carolinan"
+
+SCA: "State of South Carolina"
+SCA_DEF: "State of South Carolina"
+SCA_ADJ: "Carolinan"
+
+GZR: "State of Georgia"
+GZR_DEF: "State of Georgia"
+GZR_ADJ: "Georgian"
+
+AZB: "State of Alabama"
+AZB_DEF: "State of Alabama"
+AZB_ADJ: "Alabaman"
+
+MZS: "State of Mississippi"
+MZS_DEF: "State of Mississippi"
+MZS_ADJ: "Mississippian"
+
+LOU: "State of Louisiana"
+LOU_DEF: "State of Louisiana"
+LOU_ADJ: "Louisianan"
 ### Ideas ###
 CSC_Winning_the_Fight_for_America: "Winning the Fight for America"
 CSC_Winning_the_Fight_for_America_desc: ""

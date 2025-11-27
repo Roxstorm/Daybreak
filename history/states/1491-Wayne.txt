@@ -4,7 +4,18 @@ state={
 	provinces={
 		827 971 3829 7528 9760 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 1093477
+	
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = USA
+	}
 	local_supplies=0.000
 }
+

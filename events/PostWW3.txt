@@ -1,0 +1,589 @@
+add_namespace = americancollapse
+add_namespace = collapseflavor
+
+country_event = {
+	id = americancollapse.1
+	title = americancollapse.1.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		release = TXS
+		release = NMX
+		release = ARI
+		release = NVD
+		release = IDH
+		set_country_flag = first_american_collapse
+			if = {
+				limit = {
+					owns_state = 388
+					owns_state = 1424
+					owns_state = 381
+					owns_state = 389
+					owns_state = 390
+					owns_state = 384
+					owns_state = 382
+					owns_state = 383
+				}
+				WSZ = {
+					transfer_state = 388
+					transfer_state = 1424
+					transfer_state = 381
+					transfer_state = 389
+					transfer_state = 390
+					transfer_state = 384
+					transfer_state = 382
+					transfer_state = 383
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 380
+				}
+				UTH = {
+					transfer_state = 380		
+				}
+			}
+		if = {
+			limit = {
+				WSZ = { exists = no }
+			}
+			WSZ = {
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = yes
+				}	
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.5
+				}
+				retire_ideology_leader = neutrality
+				create_country_leader = {
+					name = "Mitt Romney"
+					desc = ""
+					picture = "gfx/leaders/USCollapse/Mitt.Romney.png"
+					expire = "1966.1.1"
+					ideology = moderatism
+					traits = {
+						
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				USA = { exists = yes }
+			}
+			USA = {
+				set_cosmetic_tag = USA_federal_districts
+			}
+			USA = {
+				country_event = { id = americancollapse.2 days = 2 }
+				country_event = { id = americancollapse.3 days = 20 }
+				country_event = { id = collapseflavor.1 days = 3 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.2
+	title = americancollapse.2.t
+	desc = americancollapse.2.d
+	picture = GFX_news_event_moscowfire
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = americancollapse.2.a
+	}
+	option = {
+		name = americancollapse.2.b
+		WSZ = {
+			WSZ = { change_tag_from = USA }
+		}
+	}
+	option = {
+		name = americancollapse.2.c
+		TXS = {
+			TXS = { change_tag_from = USA }
+		}
+	}
+	option = {
+		name = americancollapse.2.e
+		ARI = {
+			ARI = { change_tag_from = USA }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.3
+	title = americancollapse.3.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				owns_state = 1409
+				owns_state = 1408
+				owns_state = 1806
+			}
+			WSZ = {
+				transfer_state = 1409
+				transfer_state = 1408
+				transfer_state = 1806
+			}
+		}
+		release = OKL
+		release = LOU
+		release = MZS
+		release = GZR
+		release = AZB
+		release = NZC
+		release = SCA
+		if = {
+			limit = {
+				owns_state = 1456
+			}
+			GZR = {
+				transfer_state = 1456
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1440
+				owns_state = 1441
+			}
+			NZC = {
+				transfer_state = 1440
+				transfer_state = 1441
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.4 days = 20 }
+			country_event = { id = collapseflavor.2 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.4
+	title = americancollapse.4.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				owns_state = 366
+				owns_state = 372
+				owns_state = 373
+				owns_state = 1444
+				owns_state = 1442
+				owns_state = 368
+				owns_state = 1443
+			}
+			USB = {
+				transfer_state = 366
+				transfer_state = 372
+				transfer_state = 373
+				transfer_state = 1444
+				transfer_state = 1442
+				transfer_state = 368
+				transfer_state = 1443
+			}
+		}
+		if = {
+			limit = {
+				owns_state = 1445
+				owns_state = 1447
+				owns_state = 1448
+				owns_state = 1446
+				owns_state = 369
+			}
+			WCS = {
+				transfer_state = 1445
+				transfer_state = 1447
+				transfer_state = 1448
+				transfer_state = 1446
+				transfer_state = 369
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}	
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
+				retire_ideology_leader = democratic
+				create_country_leader = {
+					name = "Nikki Haley"
+					desc = ""
+					picture = "gfx/leaders/USCollapse/Nikki.Haley.png"
+					expire = "1966.1.1"
+					ideology = populism
+					traits = {
+						
+					}
+				}
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.5 days = 20 }
+			country_event = { id = collapseflavor.3 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.5
+	title = americancollapse.5.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				owns_state = 392
+				owns_state = 391
+				owns_state = 1499
+				owns_state = 1502
+				owns_state = 395
+				owns_state = 394
+				owns_state = 1509
+			}
+			BSR = {
+				transfer_state = 392
+				transfer_state = 391
+				transfer_state = 1499
+				transfer_state = 1502
+				transfer_state = 395
+				transfer_state = 394
+				transfer_state = 1509
+			}
+		}
+		WCS = {
+           annex_country = {
+			target = USB
+			transfer_troops = yes
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.6 days = 20 }
+			country_event = { id = collapseflavor.4 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.6
+	title = americancollapse.6.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				owns_state = 1490
+				owns_state = 261
+				owns_state = 1491
+				owns_state = 1492
+				owns_state = 1493
+				owns_state = 1506
+				owns_state = 1505
+				owns_state = 393
+				owns_state = 1504
+				owns_state = 1507
+				owns_state = 1508
+				owns_state = 1431
+				owns_state = 358
+				owns_state = 1430
+				owns_state = 1432
+				owns_state = 1434
+				owns_state = 1433
+				owns_state = 1435
+				owns_state = 1436
+			}
+			OHO = {
+				transfer_state = 1490
+				transfer_state = 261
+				transfer_state = 1491
+				transfer_state = 1492
+				transfer_state = 1493
+			}
+			MCH = {
+				transfer_state = 1506
+				transfer_state = 1505
+				transfer_state = 393
+				transfer_state = 1504
+				transfer_state = 1507
+				transfer_state = 1508
+			}
+			NYS = {
+				transfer_state = 1431
+				transfer_state = 358
+				transfer_state = 1430
+				transfer_state = 1432
+				transfer_state = 1434
+				transfer_state = 1433
+				transfer_state = 1435
+				transfer_state = 1436
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.7 days = 20 }
+			country_event = { id = collapseflavor.5 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.7
+	title = americancollapse.7.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				OHO = {
+					owns_state = 1493
+					owns_state = 1492
+				}
+				MCH = {
+					owns_state = 1506
+				}
+				USA = {
+					owns_state = 1498
+					owns_state = 1500
+					owns_state = 1501
+					owns_state = 1503
+					owns_state = 1494
+					owns_state = 396
+					owns_state = 1495
+					owns_state = 1496
+					owns_state = 1497
+				}
+			}
+			NPA = {
+					transfer_state = 1493
+					transfer_state = 1492
+					transfer_state = 1498
+					transfer_state = 1500
+					transfer_state = 1501
+					transfer_state = 1503
+					transfer_state = 1506
+					transfer_state = 1494
+					transfer_state = 396
+					transfer_state = 1495
+					transfer_state = 1496
+					transfer_state = 1497
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.8 days = 20 }
+			country_event = { id = collapseflavor.6 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.8
+	title = americancollapse.8.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				owns_state = 1086
+				owns_state = 1488
+				owns_state = 1085
+				owns_state = 1486
+				owns_state = 357
+				owns_state = 1487
+				owns_state = 1088
+				owns_state = 1087
+				owns_state = 1084
+				owns_state = 1489
+			}
+			NER = {
+				transfer_state = 1086
+				transfer_state = 1488
+				transfer_state = 1085
+				transfer_state = 1486
+				transfer_state = 357
+				transfer_state = 1487
+				transfer_state = 1088
+				transfer_state = 1087
+				transfer_state = 1084
+				transfer_state = 1489
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.9 days = 35 }
+			country_event = { id = collapseflavor.7 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.9
+	title = americancollapse.9.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				IDH = {
+					owns_state = 1421
+				}
+				WSZ = {
+					owns_state = 1424
+				}
+				CSC = {
+					owns_state = 1416
+				}
+				USA = {
+					owns_state = 1483
+					owns_state = 1484
+					owns_state = 1482
+					owns_state = 1449
+					owns_state = 1452
+					owns_state = 1450
+					owns_state = 1451
+				}
+				NYS = {
+					owns_state = 1433
+					owns_state = 1435
+					owns_state = 1436
+					owns_state = 1431
+					owns_state = 1430
+					owns_state = 358
+				}
+				NER = {
+					owns_state = 1088
+					owns_state = 1084
+					owns_state = 1489
+					owns_state = 357
+				}
+			}
+			ERC = {
+				transfer_state = 357
+				transfer_state = 1489
+				transfer_state = 1430
+			}
+			NAR = {
+				transfer_state = 1088
+				transfer_state = 1084
+			}
+			PRB = {
+				transfer_state = 1435
+				transfer_state = 1436
+			}
+			BFA = {
+				transfer_state = 1433
+			}
+			NYC = {
+				transfer_state = 358
+				transfer_state = 1431
+			}
+			PPR = {
+				transfer_state = 1483
+				transfer_state = 1484
+				transfer_state = 1482
+			}
+			VZA = {
+				transfer_state = 1449
+				transfer_state = 1452
+				transfer_state = 1450
+				transfer_state = 1451
+			}
+			NWA = {
+				transfer_state = 1421
+				transfer_state = 1424
+				transfer_state = 1416
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.10 days = 15 }
+			country_event = { id = collapseflavor.8 days = 3 }
+		}
+	}
+}
+
+country_event = {
+	id = americancollapse.10
+	title = americancollapse.10.t
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				WCS = {
+					owns_state = 1443
+				}
+				AZB = {
+					owns_state = 1456
+				}
+				USA = {
+					owns_state = 1472
+					owns_state = 1473
+				}
+				NPA = {
+					owns_state = 1498
+					owns_state = 1494
+				}
+			}
+			MHP = {
+				transfer_state = 1443
+			}
+			WCS = {
+				transfer_state = 1498
+				transfer_state = 1494
+				transfer_state = 1472
+				transfer_state = 1473
+			}
+			GZR = {
+				transfer_state = 1456
+			}
+		}
+		USA = {
+			country_event = { id = americancollapse.11 days = 40 }
+			country_event = { id = collapseflavor.9 days = 3 }
+		}
+	}
+}

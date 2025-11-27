@@ -4,7 +4,17 @@ state={
 	provinces={
 		13578 13579 13580 13583 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	manpower = 4034558
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = USA
+	}
+	state_category = metropolis
+	local_supplies=0.0 
 }
