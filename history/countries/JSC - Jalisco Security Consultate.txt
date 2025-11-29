@@ -41,26 +41,32 @@ set_convoys = 40
 set_war_support = 0.27
 set_stability = 0.52
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "2012.4.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 50
-	neutrality = 30
-	oligarchism = 20
-}
-
-add_ideas = {
-}
-
-create_country_leader = {
-	name = "Aristóteles Sandoval"
-	desc = "POLITICS_ARISTOTELES_SANDOVAL_DESC"
-	picture = gfx/leaders/MEX/Aristoteles.Sandoval.png
-	expire = "9999.1.1"
-	ideology = moderatism
-	traits = { }
-}
+ set_politics = {
+  ruling_party = conserv
+  last_election = "2014.7.1"
+  election_frequency = 48
+  elections_allowed = yes
+ }
+ 
+ set_popularities = {
+  communism = 5
+  socialism = 10
+  democratic_socialism = 10
+  democratic = 20
+  liberal = 10
+  social_liberal = 10
+  conserv = 15
+  fascism = 5
+  ultranationalist = 5
+  monarchist = 5
+  militarist = 5
+  neutrality = 10
+ }
+ 
+ create_country_leader = {
+  name = "Aristóteles Sandoval"
+  picture = gfx/leaders/MEX/Aristoteles.Sandoval.png
+  expire = "9999.1.1"
+  ideology = conserv_0
+  traits = { }
+ }

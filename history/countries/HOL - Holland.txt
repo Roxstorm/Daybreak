@@ -49,30 +49,38 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "2013.11.3"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	fascism = 0
-	communism = 30
-	democratic = 70
-	neutrality = 0
-}
+ set_politics = {
+  ruling_party = liberal
+  last_election = "2013.11.3"
+  election_frequency = 48
+  elections_allowed = yes
+ }
+ 
+ set_popularities = {
+  communism = 10
+  socialism = 15
+  democratic_socialism = 10
+  democratic = 20
+  liberal = 25
+  social_liberal = 10
+  conserv = 5
+  fascism = 2
+  ultranationalist = 1
+  monarchist = 1
+  militarist = 1
+  neutrality = 1
+ }
+ 
+ create_country_leader = {
+  name = "Alexander Pechtold"
+  picture = gfx/leaders/HOL/Alexander.Pechtold.png
+  expire = "9999.1.1"
+  ideology = liberal_0
+  traits = {
+  
+  }
+ }
 
 add_ideas = {
 	EC_member
-}
-
-create_country_leader = {
-	name = "Alexander Pechtold"
-	desc = ""
-	picture = gfx/leaders/HOL/Alexander.Pechtold.png
-	expire = "1960.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
 }

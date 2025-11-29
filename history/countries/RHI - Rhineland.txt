@@ -50,27 +50,33 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2015.2.3"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = conserv
+    last_election = "2015.2.3"
+    election_frequency = 48
+    elections_allowed = yes
 }
+
 set_popularities = {
-	fascism = 30
-	communism = 20
-	democratic = 50
-	neutrality = 0
+    communism = 20
+    socialism = 10
+    democratic_socialism = 10
+    democratic = 10
+    liberal = 5
+    social_liberal = 5
+    conserv = 30
+    fascism = 10
+    ultranationalist = 0
+    monarchist = 0
+    militarist = 0
+    neutrality = 0
 }
 
 create_country_leader = {
-	name = "Björn Höcke"
-	desc = ""
-	picture = gfx/leaders/RHI/Bjorn.Hocke.png
-	expire = "1960.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
+    name = "Björn Höcke"
+    picture = gfx/leaders/RHI/Bjorn.Hocke.png
+    expire = "9999.1.1"
+    ideology = conserv_0
+    traits = { }
 }
 
 set_country_flag = rhineland_insurgency_ongoing

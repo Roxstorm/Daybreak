@@ -41,26 +41,32 @@ set_convoys = 60
 set_war_support = 0.33
 set_stability = 0.50
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "2014.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 60
-	socialism = 25
-	neutrality = 15
-}
-
-add_ideas = {
-}
-
-create_country_leader = {
-	name = "Miguel Ángel Mancera"
-	desc = "POLITICS_MIGUEL_MANCERA_DESC"
-	picture = gfx/leaders/MEX/Miguel.Angel.Mancera.png
-	expire = "9999.1.1"
-	ideology = socialism
-	traits = { }
-}
+ set_politics = {
+  ruling_party = socialism
+  last_election = "2014.7.1"
+  election_frequency = 48
+  elections_allowed = yes
+ }
+ 
+ set_popularities = {
+  communism = 10
+  socialism = 30
+  democratic_socialism = 20
+  democratic = 20
+  liberal = 10
+  social_liberal = 5
+  conserv = 3
+  fascism = 1
+  ultranationalist = 1
+  monarchist = 0
+  militarist = 0
+  neutrality = 0
+ }
+ 
+ create_country_leader = {
+  name = "Miguel Ángel Mancera"
+  picture = gfx/leaders/MEX/Miguel.Angel.Mancera.png
+  expire = "9999.1.1"
+  ideology = socialism_0
+  traits = { }
+ }

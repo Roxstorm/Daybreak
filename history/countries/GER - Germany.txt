@@ -108,15 +108,25 @@ set_war_support = 0.32
 set_stability = 0.61
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2012.1.1"
-	election_frequency = 48
-	elections_allowed = no
-
+    ruling_party = socialism
+    last_election = "2013.09.22"
+    election_frequency = 48
+    elections_allowed = yes
 }
+
 set_popularities = {
-	communism = 70
-	democratic = 30
+    communism = 12
+    socialism = 20
+    democratic_socialism = 15
+    democratic = 10
+    liberal = 8
+    social_liberal = 5
+    conserv = 15
+    fascism = 5
+    ultranationalist = 3
+    monarchist = 2
+    militarist = 3
+    neutrality = 2
 }
 
 add_ideas = {

@@ -49,30 +49,36 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1987.11.3"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	fascism = 10
-	communism = 30
-	democratic = 40
-	neutrality = 50
-}
-
 add_ideas = {
 	EC_member
 }
 
+set_politics = {
+    ruling_party = liberal
+    last_election = "1987.11.3"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 30
+    socialism = 10
+    democratic_socialism = 10
+    democratic = 10
+    liberal = 25
+    social_liberal = 5
+    conserv = 5
+    fascism = 5
+    ultranationalist = 0
+    monarchist = 0
+    militarist = 0
+    neutrality = 0
+}
+
 create_country_leader = {
-	name = "Alfredo Rubalcaba"
-	desc = ""
-	picture = gfx/leaders/SPR/Alfredo.Rubalcaba.png
-	expire = "1960.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
+    name = "Alfredo Rubalcaba"
+    picture = gfx/leaders/SPR/Alfredo.Rubalcaba.png
+    expire = "9999.1.1"
+    ideology = liberal_0
+    traits = { }
 }

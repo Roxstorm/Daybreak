@@ -108,13 +108,25 @@ set_war_support = 0.7
 recruit_character = PRC_xi_jinping
 
 set_politics = {
-	ruling_party = communism
-	last_election = "2012.1.1"
-	election_frequency = 48
-	elections_allowed = no
+    ruling_party = communism
+    last_election = "1949.10.1"
+    election_frequency = 0
+    elections_allowed = no
 }
+
 set_popularities = {
-	communism = 100
+    communism = 45
+    socialism = 10
+    democratic_socialism = 5
+    democratic = 2
+    liberal = 1
+    social_liberal = 1
+    conserv = 10
+    fascism = 5
+    ultranationalist = 8
+    monarchist = 5
+    militarist = 6
+    neutrality = 2
 }
 
 add_ideas = {

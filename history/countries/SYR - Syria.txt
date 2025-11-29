@@ -49,26 +49,31 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1987.11.3"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	fascism = 0
-	communism = 45
-	democratic = 45
-	neutrality = 30
-}
-
-create_country_leader = {
-	name = "Bashar Al Assad"
-	desc = ""
-	picture = gfx/leaders/SYR/Bashar.Al.Assad.png
-	expire = "1960.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+ set_politics = {
+  ruling_party = militarist
+  last_election = "1987.11.3"
+  election_frequency = 48
+  elections_allowed = no
+ }
+ 
+ set_popularities = {
+  communism = 20
+  socialism = 10
+  democratic_socialism = 5
+  democratic = 10
+  liberal = 5
+  social_liberal = 5
+  conserv = 10
+  fascism = 10
+  ultranationalism = 10
+  monarchist = 10
+  militarist = 10
+ }
+ 
+ create_country_leader = {
+  name = "Bashar Al Assad"
+  picture = gfx/leaders/SYR/Bashar.Al.Assad.png
+  expire = "9999.1.1"
+  ideology = controlled_democracy_militarist
+  traits = { }
+ }

@@ -41,25 +41,35 @@ set_convoys = 50
 set_war_support = 0.30
 set_stability = 0.55
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "2014.7.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 65
-	neutrality = 35
-}
+ set_politics = {
+  ruling_party = liberal
+  last_election = "2014.7.1"
+  election_frequency = 48
+  elections_allowed = yes
+ }
+ 
+ set_popularities = {
+  communism = 5
+  socialism = 10
+  democratic_socialism = 10
+  democratic = 20
+  liberal = 30
+  social_liberal = 15
+  conserv = 5
+  fascism = 2
+  ultranationalist = 1
+  monarchist = 1
+  militarist = 1
+  neutrality = 0
+ }
+ 
+ create_country_leader = {
+  name = "Claudia Pavlovich Arellano"
+  picture = gfx/leaders/MEX/Claudia.Pavlovich.png
+  expire = "9999.1.1"
+  ideology = liberal_0
+  traits = { }
+ }
 
 add_ideas = {
-}
-
-create_country_leader = {
-	name = "Claudia Pavlovich Arellano"
-	desc = "POLITICS_CLAUDIA_PAVLOVICH_DESC"
-	picture = gfx/leaders/MEX/Claudia.Pavlovich.png
-	expire = "9999.1.1"
-	ideology = liberalism
-	traits = { }
 }

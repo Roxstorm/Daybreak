@@ -49,26 +49,32 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1987.11.3"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	fascism = 10
-	communism = 30
-	democratic = 40
-	neutrality = 50
-}
-
-create_country_leader = {
-	name = "Saddam Hussein"
-	desc = ""
-	picture = gfx/leaders/IRQ/Saddam.Hussein.png
-	expire = "1960.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
+ set_politics = {
+  ruling_party = neutrality
+  last_election = "1987.11.3"
+  election_frequency = 48
+  elections_allowed = no
+ }
+ 
+ set_popularities = {
+  communism = 15
+  socialism = 10
+  democratic_socialism = 5
+  democratic = 10
+  liberal = 5
+  social_liberal = 5
+  conserv = 10
+  fascism = 10
+  ultranationalist = 10
+  monarchist = 10
+  militarist = 10
+  neutrality = 10
+ }
+ 
+ create_country_leader = {
+  name = "Saddam Hussein"
+  picture = gfx/leaders/IRQ/Saddam.Hussein.png
+  expire = "9999.1.1"
+  ideology = despotism
+  traits = { }
+ }

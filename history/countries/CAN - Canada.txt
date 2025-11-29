@@ -251,19 +251,28 @@ if = {
 		}
 	}
 }
-
 set_politics = {
-	ruling_party = conserv
-	last_election = "1935.10.14"
-	election_frequency = 60
-	elections_allowed = yes
+    ruling_party = democratic_socialism
+    last_election = "2011.05.2"
+    election_frequency = 48
+    elections_allowed = yes
 }
 
 set_popularities = {
-	conserv = 98
-	ultranat = 1
-	collect = 1
+    communism = 3
+    socialism = 12
+    democratic_socialism = 28
+    democratic = 15
+    liberal = 10
+    social_liberal = 5
+    conserv = 20
+    fascism = 2
+    ultranationalist = 1
+    monarchist = 2
+    militarist = 1
+    neutrality = 1
 }
+
 
 set_convoys = 100
 set_stability = 0.75

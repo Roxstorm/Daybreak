@@ -50,16 +50,25 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2014.11.3"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = monarchist
+    last_election = "2014.11.3"
+    election_frequency = 48
+    elections_allowed = yes
 }
+
 set_popularities = {
-	fascism = 10
-	communism = 20
-	democratic = 10
-	neutrality = 60
+    communism = 10
+    socialism = 10
+    democratic_socialism = 10
+    democratic = 10
+    liberal = 5
+    social_liberal = 5
+    conserv = 10
+    fascism = 10
+    ultranationalist = 0
+    monarchist = 20
+    militarist = 0
+    neutrality = 0
 }
 
 add_ideas = {
@@ -67,12 +76,10 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Henri"
-	desc = ""
-	picture = gfx/leaders/LUX/Henri.png
-	expire = "1960.1.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
+    name = "Henri I"
+    picture = gfx/leaders/LUX/Henri.png
+    expire = "9999.1.1"
+    ideology = constitutional_monarchy   # subtype under monarchist
+    traits = { }
 }
+

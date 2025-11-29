@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = reformed_communism
+			ideology = socialism_0
 			expire="2019.10.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = leninism
+			ideology = reformed_communism
 			expire="2019.10.1"
 			id=-1
 		}

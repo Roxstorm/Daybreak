@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = populism
+			ideology = moderate_liberalism
 			expire="2019.10.1"
 			id=-1
 		}
@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = conservatism
+			ideology = american_conservatism
 			expire="2019.10.1"
 			id=-1
 		}
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = liberalism
+			ideology = social_liberal_0
 			expire="2019.10.1"
 			id=-1
 		}

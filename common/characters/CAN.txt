@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = liberalism
+			ideology = democratic_socialism_0
 			expire="2019.10.1"
 			id=-1
 		}

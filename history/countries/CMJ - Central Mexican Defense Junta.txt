@@ -41,25 +41,35 @@ set_convoys = 45
 set_war_support = 0.25
 set_stability = 0.40
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "2010.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	despotism = 60
-	neutrality = 40
-}
+ set_politics = {
+  ruling_party = militarist
+  last_election = "2014.7.1"
+  election_frequency = 48
+  elections_allowed = no
+ }
+ 
+ set_popularities = {
+  communism = 5
+  socialism = 5
+  democratic_socialism = 5
+  democratic = 10
+  liberal = 5
+  social_liberal = 5
+  conserv = 10
+  fascism = 10
+  ultranationalist = 10
+  monarchist = 5
+  militarist = 20
+  neutrality = 10
+ }
+ 
+ create_country_leader = {
+  name = "Salvador Cienfuegos Zepeda"
+  picture = gfx/leaders/MEX/Salvador.Cienfuegos.png
+  expire = "9999.1.1"
+  ideology = military_junta
+  traits = { }
+ }
 
 add_ideas = {
-}
-
-create_country_leader = {
-	name = "Salvador Cienfuegos Zepeda"
-	desc = "POLITICS_SALVADOR_ZEPEDA_DESC"
-	picture = gfx/leaders/MEX/Salvador.Cienfuegos.png
-	expire = "9999.1.1"
-	ideology = despotism
-	traits = { }
 }

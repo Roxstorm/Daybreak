@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = liberalism
+			ideology = social_liberal_0
 			expire="2019.10.1"
 			id=-1
 		}
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = fascism_ideology
+			ideology = white_nationalism
 			expire="2019.10.1"
 			id=-1
 		}
@@ -49,7 +49,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = oligarchism
+			ideology = socialism_0
 			expire="2019.10.1"
 			id=-1
 		}

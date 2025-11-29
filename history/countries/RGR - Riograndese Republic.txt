@@ -42,18 +42,26 @@ set_war_support = 0.29
 set_stability = 0.53
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "2012.9.1"
-	election_frequency = 48
-	elections_allowed = yes
+  ruling_party = neutrality
+  last_election = "2014.7.1"
+  election_frequency = 48
+  elections_allowed = yes
 }
+ 
 set_popularities = {
-	neutrality = 60
-	oligarchism = 40
-}
-
-add_ideas = {
-}
+  communism = 5
+  socialism = 10
+  democratic_socialism = 5
+  democratic = 20
+  liberal = 15
+  social_liberal = 10
+  conserv = 25
+  fascism = 5
+  ultranationalist = 2
+  monarchist = 2
+  militarist = 1
+  neutrality = 0
+ }
 
 create_country_leader = {
 	name = "Rodrigo Medina de la Cruz"
@@ -62,4 +70,7 @@ create_country_leader = {
 	expire = "9999.1.1"
 	ideology = oligarchism
 	traits = { }
+}
+
+add_ideas = {
 }

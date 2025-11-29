@@ -217,17 +217,26 @@ recruit_character = USA_barack_obama
 set_convoys = 700
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2012.11.8"
+	ruling_party = liberal
+	last_election = "2012.11.3"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 99
-	communism = 1
+    communism = 4
+    socialism = 8
+    democratic_socialism = 11
+    democratic = 10
+    liberal = 22
+    social_liberal = 1
+	conserv = 14
+    fascism = 7
+    ultranationalist = 5
+    monarchist = 9
+    militarist = 6
+    neutrality = 3
 }
-
-
 
 if = {
 	limit = { has_dlc = "La Resistance" }

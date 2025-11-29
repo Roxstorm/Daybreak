@@ -55,16 +55,24 @@ set_autonomy = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1987.11.3"
-	election_frequency = 48
-	elections_allowed = yes
+    ruling_party = liberal
+    last_election = "1987.11.3"
+    election_frequency = 48
+    elections_allowed = yes
 }
 set_popularities = {
-	fascism = 0
-	communism = 40
-	democratic = 50
-	neutrality = 40
+    communism = 40
+    socialism = 10
+    democratic_socialism = 10
+    democratic = 10
+    liberal = 20
+    social_liberal = 5
+    conserv = 5
+    fascism = 0
+    ultranationalist = 0
+    monarchist = 0
+    militarist = 0
+    neutrality = 0
 }
 
 add_ideas = {
@@ -73,12 +81,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Simon Harris"
-	desc = ""
-	picture = gfx/leaders/IRE/Simon.Harris.png
-	expire = "1960.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
+    name = "Simon Harris"
+    picture = gfx/leaders/IRE/Simon.Harris.png
+    expire = "9999.1.1"
+    ideology = liberal_0
+    traits = { }
 }

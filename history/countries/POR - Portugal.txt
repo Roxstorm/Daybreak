@@ -49,30 +49,36 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1987.11.3"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	fascism = 0
-	communism = 20
-	democratic = 80
-	neutrality = 0
-}
-
 add_ideas = {
 	EC_member
 }
 
+set_politics = {
+    ruling_party = socialism
+    last_election = "1987.11.3"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 20
+    socialism = 40
+    democratic_socialism = 20
+    democratic = 10
+    liberal = 5
+    social_liberal = 3
+    conserv = 2
+    fascism = 0
+    ultranationalist = 0
+    monarchist = 0
+    militarist = 0
+    neutrality = 0
+}
+
 create_country_leader = {
-	name = "Anibal Silva"
-	desc = ""
-	picture = gfx/leaders/POR/Anibal.Silva.png
-	expire = "1960.1.1"
-	ideology = socialism
-	traits = {
-		
-	}
+    name = "Anibal Silva"
+    picture = gfx/leaders/POR/Anibal.Silva.png
+    expire = "9999.1.1"
+    ideology = socialism_0
+    traits = { }
 }
