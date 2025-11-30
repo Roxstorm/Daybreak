@@ -1098,6 +1098,10 @@ technologies = {
 				factor = 3
 			}
 			modifier = {
+				tag = SOV
+				factor = 5
+			}
+			modifier = {
 				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
@@ -1175,6 +1179,10 @@ technologies = {
 				date > "1944.1.1"
 			}
 			modifier = {
+				tag = SOV
+				factor = 5
+			}
+			modifier = {
 				factor = 5.0
 				tag = GER
 				has_completed_focus = GER_expand_kummersdorfs_capacity
@@ -1242,6 +1250,10 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				date > "1946.1.1"
+			}
+			modifier = {
+				tag = SOV
+				factor = 5
 			}
 
 			modifier = {
@@ -1330,6 +1342,35 @@ technologies = {
 				}
 			}
 
+			IF = { #Japanese templates
+				limit = {
+					original_tag = JAP
+					has_completed_focus = JAP_the_ultimate_tank
+				}
+				#O-I
+				create_equipment_variant = {
+					name = "O-I"
+					type = super_heavy_tank_chassis_1
+					parent_version = 0
+					design_team = mio:JAP_mitsubishi_heavy_industries_organization
+					modules = {
+						main_armament_slot = tank_super_heavy_cannon
+						turret_type_slot = tank_super_heavy_four_man_tank_turret
+						suspension_type_slot = tank_christie_suspension
+						armor_type_slot = tank_cast_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = secondary_turret_hmg
+						special_type_slot_2 = additional_machine_guns
+						special_type_slot_3 = squeezebore_adaptor
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 5
+						tank_nsb_armor_upgrade = 8
+					}
+					icon = "GFX_JAP_improved_heavy_tank_medium"
+				}
+			}
+
 			if = {
 				limit = {
 					has_dlc = "Gotterdammerung"
@@ -1345,14 +1386,15 @@ technologies = {
 			base = 0
 			modifier = {
 				add = 1
-				date > 1943.6.1
+				date > 1943.9.1
 				NOT = { has_government = democratic }
 				num_of_military_factories > 150
 			}
 			modifier = {
 				add = 2
 				original_tag = GER
-				date > 1943.9.1
+				date > 1944.5.1
+				surrender_progress < 0.1
 				has_government = fascism
 				has_war_with = SOV
 			}

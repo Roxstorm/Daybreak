@@ -23,44 +23,56 @@ country_event = {
 		ai_chance = {
 			factor = 20
 		}
-		if = {
 			limit = {
 				USA = { exists = yes }
 			}
 			USA = {
-			set_party_name = { ideology = democratic long_name = "Republican Party" name = "GOP" }
+			set_politics = {
+				ruling_party = conserv
+				elections_allowed = yes
+			}	
+			add_popularity = {
+				ideology = conserv
+				popularity = 0.5
+			}
+			retire_ideology_leader = conserv
 			load_focus_tree = { tree = usa_trump_first}
 			news_event = { id = america.1 days = 1 }
 				retire_country_leader = yes
 				promote_character = {
 				character = USA_trump
-   				ideology = democratic
+   				ideology = conserv
 				}
 			}
 		}
-	}	
 	
 	option = {
 		name = usa_election_events.1.b
 		ai_chance = {
 			factor = 20
 		}
-		if = {
-			limit = {
+		limit = {
 				USA = { exists = yes }
 			}
 			USA = {
-			set_party_name = { ideology = democratic long_name = "Democrat Party" name = "Democrats" }
+			set_politics = {
+				ruling_party = social_liberal
+				elections_allowed = yes
+			}	
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.5
+			}
+			retire_ideology_leader = social_liberal
 			load_focus_tree = { tree = USA_obama_first}
 			news_event = { id = america.3 days = 1 }
 				retire_country_leader = yes
 				promote_character = {
 				character = USA_barack_obama
-   				ideology = democratic
+   				ideology = social_liberal
 				}
 			}
 		}
-	}
 	option = {
 		name = usa_election_events.1.c
 		ai_chance = {
