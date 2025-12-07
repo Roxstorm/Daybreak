@@ -461,16 +461,16 @@ ideologies = {
 
 		types = {
 
-			nazism = {
+			anocracy = {
 			}
 
-			gen_nazism = {
+			ethnocractic = {
 			}
 
-			fascism_ideology = {
+			islamic_republic = {
 			}
 
-			falangism = {
+			semi_democractic = {
 			}
 
 			rexism = {
@@ -581,6 +581,8 @@ ideologies = {
 			neo_egyptian_kingdom = {}
 			
 			imperial_theocracy = {}
+			
+			semi_constitutional_monarchy = {}
 			
 		}
 

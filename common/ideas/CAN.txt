@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+	
+		CAN_albertan_fields = {
+			picture = CAN_albertan_oil
+			removal_cost = -1
+	
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				local_resources_factor = 0.2
+				fuel_gain_factor = 0.15
+				army_fuel_capacity_factor = 0.5
+				political_power_gain = 0.05
+				custom_modifier_tooltip = can_albertan_fields_tt
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		CAN_republican_spirit = {
+			picture = CAN_republican_spirit
+			removal_cost = -1
+	
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				weekly_manpower = 5
+				conscription = 0.03
+				war_support_factor = 0.05
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
