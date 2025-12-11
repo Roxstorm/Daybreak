@@ -80,3 +80,7 @@ if = {
   
   }
  }
+
+add_ideas = {
+	EC_member
+}

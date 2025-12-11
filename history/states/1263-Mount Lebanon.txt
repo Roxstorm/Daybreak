@@ -11,11 +11,6 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 		}
-		
-		FPN= {
-		set_province_controller = 14009
-		
-		}
 
 		add_core_of = LEB
 		add_core_of = FPN

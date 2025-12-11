@@ -71,6 +71,12 @@ set_popularities = {
     neutrality = 0
 }
 
+add_ideas = {
+	RHI_hohenzollern_exiled
+	RHI_partially_recognized_government
+	RHI_fight_against_communism
+}
+
 create_country_leader = {
     name = "Björn Höcke"
     picture = gfx/leaders/RHI/Bjorn.Hocke.png

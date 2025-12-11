@@ -6,7 +6,7 @@ state={
 	}
 	manpower = 900822
 	
-	state_category = small_town
+	state_category = town
 
 	history={
 		owner = USA
