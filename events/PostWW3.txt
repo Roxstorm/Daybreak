@@ -14,7 +14,7 @@ country_event = {
 		release = TXS
 		release = NMX
 		release = ARI
-		release = NVD
+		SOV_make_nevada_independent = yes # already made 
 		release = IDH
 		set_country_flag = first_american_collapse
 			if = {
@@ -79,8 +79,6 @@ country_event = {
 			}
 			USA = {
 				set_cosmetic_tag = USA_federal_districts
-			}
-			USA = {
 				country_event = { id = americancollapse.2 days = 2 }
 				country_event = { id = americancollapse.3 days = 20 }
 				country_event = { id = collapseflavor.1 days = 3 }
@@ -470,9 +468,6 @@ country_event = {
 				WSZ = {
 					owns_state = 1424
 				}
-				CSC = {
-					owns_state = 1416
-				}
 				USA = {
 					owns_state = 1483
 					owns_state = 1484
@@ -531,7 +526,6 @@ country_event = {
 			NWA = {
 				transfer_state = 1421
 				transfer_state = 1424
-				transfer_state = 1416
 			}
 		}
 		USA = {

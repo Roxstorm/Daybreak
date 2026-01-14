@@ -26,7 +26,6 @@ country_event = {
 
 	option = { # nothing :(
 		name = soviet_administration_zones.1.c
-       
 	}
 }
 

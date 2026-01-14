@@ -4136,7 +4136,7 @@
 4135;47;132;78;land;true;plains;1
 4136;47;132;183;land;true;mountain;5
 4137;47;135;43;land;true;plains;6
-4138;47;135;98;land;false;desert;5
+4138;47;135;98;land;true;desert;5
 4139;47;135;148;land;false;plains;5
 4140;47;138;8;land;false;hills;6
 4141;47;138;63;land;false;mountain;6
@@ -4365,7 +4365,7 @@
 4364;48;138;18;land;true;jungle;6
 4365;48;138;168;land;false;plains;6
 4366;48;138;223;land;false;plains;6
-4367;48;141;83;land;false;hills;6
+4367;48;141;83;land;true;hills;6
 4368;48;141;133;land;true;mountain;6
 4369;48;141;188;land;false;plains;6
 4370;48;143;205;sea;true;ocean;0
@@ -13797,7 +13797,7 @@
 13796;202;222;201;land;true;urban;1
 13797;58;94;57;land;false;urban;1
 13798;37;57;36;land;false;urban;1
-13799;135;252;176;land;false;desert;5
+13799;135;252;176;land;true;desert;5
 13800;112;33;88;land;false;mountain;1
 13801;149;253;242;land;false;urban;1
 13802;102;60;49;land;true;plains;1
@@ -13817,7 +13817,7 @@
 13816;69;10;57;land;true;plains;1
 13817;116;16;96;land;true;plains;1
 13818;54;39;105;land;false;mountain;1
-13819;64;71;83;land;false;hills;5
+13819;64;71;83;land;true;hills;5
 13820;47;26;29;land;false;mountain;5
 13821;58;82;18;land;false;mountain;5
 13822;64;47;102;land;true;mountain;5
@@ -14058,7 +14058,7 @@
 14057;17;37;16;land;true;hills;1
 14058;188;225;187;land;false;hills;1
 14059;107;41;124;land;true;plains;1
-14060;211;160;224;land;false;hills;1
+14060;211;160;224;land;true;hills;1
 14061;201;139;216;land;true;plains;1
 14062;3;124;113;land;false;urban;1
 14063;112;152;109;land;false;plains;1
@@ -14168,9 +14168,9 @@
 14167;183;219;147;land;true;urban;1
 14168;72;108;36;land;true;urban;1
 14169;250;158;114;land;true;plains;1
-14170;241;158;141;land;false;hills;1
-14171;233;198;75;land;false;hills;1
-14172;211;239;146;land;false;hills;1
+14170;241;158;141;land;true;hills;1
+14171;233;198;75;land;true;hills;1
+14172;211;239;146;land;true;hills;1
 14173;50;137;129;land;false;desert;2
 14174;100;137;133;land;false;desert;2
 14175;196;174;109;land;false;urban;2
