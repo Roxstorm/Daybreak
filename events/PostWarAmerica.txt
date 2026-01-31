@@ -14,3 +14,19 @@ news_event = {
     }
 }
 
+
+# America has lost ww3
+news_event = {
+    id = post_war_america.2
+    title = post_war_america.2.t
+    desc = post_war_america.2.desc
+	picture = GFX_news_event_022
+    
+    is_triggered_only = yes
+	major = yes
+    
+    option = { 
+        name = post_war_america.2.a
+    }
+}
+

@@ -16,7 +16,9 @@ USA_empire_of_mind_desc:0 "Our soldiers come home, our movies go out. That is th
 ### traits ###
 
 ### events ###
-
+post_war_america.2.t: "America has lost World War Three."
+post_war_america.2.desc: "After California, Washington, Oregon, and Alaska was taken by Soviet Forces, the United States Government, in order to stop the Soviets from seizing more states, decided to unilaterally surrender to the Soviet Union. Immediately after surrendering, violence and protests have flared across the nation. The federal government being ridiculed by their defeat was too much for many Americans. Now we must deal with the fallout of our defeat. The Soviets seemingly have won the Cold War."
+post_war_america.2.a: "It's Over?"
 ### parties ###
  USA_communism_party:0 "CPUSA"
  USA_communism_party_long:0 "Communist Party of America"
